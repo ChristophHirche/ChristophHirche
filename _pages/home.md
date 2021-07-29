@@ -20,9 +20,10 @@ Previously, I was a postdoctoral reseracher in [QMATH](https://qmath.ku.dk) at t
 
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-twitter-square"></a>
 <a href="#" class="ai ai-google-scholar-square ai-3x"></a>
 <a href="#" class="ai ai-scirate-square ai-3x"></a>
+<a href="#" class="ai ai-arxiv-square ai-3x"></a>
 
 <!-- <figure class="fourth">  -->
 <!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px"> -->
