@@ -19,11 +19,11 @@ Previously, I was a postdoctoral reseracher in [QMATH](https://qmath.ku.dk) at t
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <!-- Add font awesome icons -->
-<a href="https://twitter.com/ChristophHirche" class="fa fa-twitter-square fa-3x"  style="color:black"></a>
-<a href="https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en" class="ai ai-google-scholar-square ai-3x"  style="color:grey"></a>
+<a href="https://twitter.com/ChristophHirche" class="fa fa-twitter-square fa-2x"></a>
+<a href="https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en" class="ai ai-google-scholar-square ai-2x"></a>
 <a href="https://scirate.com/436" class="ai ai-scirate-square ai-2x"></a>
-<a href="http://arxiv.org/a/hirche_c_1" class="ai ai-arxiv-square ai-3x"></a>
-<a href="https://orcid.org/0000-0001-9265-827X" class="ai ai-orcid-square ai-3x"></a>
+<a href="http://arxiv.org/a/hirche_c_1" class="ai ai-arxiv-square ai-2x"></a>
+<a href="https://orcid.org/0000-0001-9265-827X" class="ai ai-orcid-square ai-2x"></a>
 
 <!-- <figure class="fourth">  -->
 <!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px"> -->
