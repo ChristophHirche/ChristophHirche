@@ -20,8 +20,8 @@ Previously, I was a postdoctoral reseracher in [QMATH](https://qmath.ku.dk) at t
 
 <!-- Add font awesome icons -->
 <a href="https://twitter.com/ChristophHirche" class="fa fa-twitter-square fa-3x"  style="color:black"></a>
-<a href="#" class="ai ai-google-scholar-square ai-3x"></a>
-<a href="#" class="ai ai-scirate-square ai-3x"></a>
+<a href="#" class="ai ai-google-scholar-square ai-3x"  style="color:white"></a>
+<a href="#" class="ai ai-scirate-square ai-2x"></a>
 <a href="#" class="ai ai-arxiv-square ai-3x"></a>
 
 <!-- <figure class="fourth">  -->
