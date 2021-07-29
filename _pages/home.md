@@ -6,17 +6,17 @@ sitemap: false
 permalink: /
 ---
 
-<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/Auswahl_6356.jpg"  width="130">
-I am a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
+<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/Auswahl_6356.jpg"  width="133">
+I am a postdoctoral researcher, currently carrying out a [Marie Skłodowska-Curie Global Fellowship](https://ec.europa.eu/research/mariecurieactions/) with [Robert König](https://www.professoren.tum.de/en/koenig-robert-t) at [TU Münich](https://www.tum.de) and [Marco Tomamichel](https://marcotom.info) at [CQT](https://www.quantumlah.org) [NUS](https://www.nus.edu.sg). 
 
-To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
+My reserach area is information theory, with a focus on quantum communication and quantum information processing. I'm interested in exploring the theoretical limitations of these tasks to better understand the potential impact of using quantum information. A particular focus of my work is on entropic quantities, i.e. entropy inequalities and their applications. 
 
-We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
+Previously, I was a postdoctoral reseracher in [QMATH](https://qmath.ku.dk) at the [University of Copenhagen](https://www.ku.dk/english/), where I worked with [Matthias Christandl](https://www.math.ku.dk/english/staff/?pure=en/persons/475476). I obtained my PhD degree from the [Universitat Autonoma de Barcelona](https://grupsderecerca.uab.cat/giq/) under the supervision of [John Calsamiglia](https://grupsderecerca.uab.cat/giq/people/john-calsamiglia).  
 
 
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
-</figure>
+<!-- <figure class="fourth">  -->
+<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px"> -->
+<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px"> -->
+<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px"> -->
+<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px"> -->
+<!--  </figure> -->
