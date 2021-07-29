@@ -6,9 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-<div style="float:left;margin:0 10px 10px 0" markdown="1">
-    ![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg)
-</div>
+<img style="float: left;" src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg">
 I am a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
 
 To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
