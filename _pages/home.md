@@ -16,10 +16,12 @@ Previously, I was a postdoctoral reseracher in [QMATH](https://qmath.ku.dk) at t
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <!-- Add font awesome icons -->
 <a href="#" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
+<a href="#" class="ai ai-google-scholar-square ai-3x"></a>
 
 <!-- <figure class="fourth">  -->
 <!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px"> -->
