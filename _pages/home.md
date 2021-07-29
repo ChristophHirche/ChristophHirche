@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Christoph Hirche website."
 sitemap: false
 permalink: /
 ---
@@ -11,21 +11,20 @@ I am a dynamic research group at the [Leiden Institute of Physics](http://www.ph
 
 To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
 
-[//]: # (
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-    </ol>
+<!--<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >-->
+<!--    <!-- Menu -->  -->
+<!--    <ol class="carousel-indicators">  -->
+<!--        <li data-target="#carousel" data-slide-to="0" class="active"></li>  -->
+<!--        <li data-target="#carousel" data-slide-to="1"></li>  -->
+<!--        <li data-target="#carousel" data-slide-to="2"></li>  -->
+<!--        <li data-target="#carousel" data-slide-to="3"></li>  -->
+<!--        <li data-target="#carousel" data-slide-to="4"></li>  -->
+<!--        <li data-target="#carousel" data-slide-to="5"></li>  -->
+<!--        <li data-target="#carousel" data-slide-to="6"></li>  -->
+<!--    </ol>  -->
 
     <!-- Items -->
-    <div class="carousel-inner" markdown="0">
+<!--    <div class="carousel-inner" markdown="0">
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
         </div>
@@ -53,9 +52,8 @@ To this end, we develop novel spectroscopic-imaging scanning tunneling microscop
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div>   -->
 
-)
 
 
 We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
