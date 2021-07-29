@@ -19,12 +19,11 @@ Previously, I was a postdoctoral reseracher in [QMATH](https://qmath.ku.dk) at t
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <!-- Add font awesome icons -->
-<span style="font-size: 3em; color: Tomato;">
-<a href="https://twitter.com/ChristophHirche" class="fa fa-twitter-square fa-3x"></a>
+<a href="https://twitter.com/ChristophHirche" class="fa fa-twitter-square fa-3x"  style="color:black"></a>
 <a href="#" class="ai ai-google-scholar-square ai-3x"></a>
 <a href="#" class="ai ai-scirate-square ai-3x"></a>
 <a href="#" class="ai ai-arxiv-square ai-3x"></a>
-</span>
+
 <!-- <figure class="fourth">  -->
 <!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px"> -->
 <!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px"> -->
