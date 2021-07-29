@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+img.float-left {display:inline; float:left; margin:5px 15px 5px 0; max-width: 47%;}
+
 ![]({{ site.url }}{{ site.baseurl }}/images/slider7001400/SaphireSTM2.jpg?classes=float-left)
 I am a dynamic research group at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl). Our aim is to explore and understand [quantum materials](http://condensedconcepts.blogspot.nl/2013/05/what-is-quantum-matter.html), including strange metals, high-temperature superconductors, and quantum critical electron matter.
 
