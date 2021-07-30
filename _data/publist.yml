@@ -1,10 +1,10 @@
 - title: "On Composite Quantum Hypothesis Testing"
   image: TBG_SL.png
-  description: Presenting a Steins Lemma for asymptotically discriminating between sets of quantum states. 
-  authors: Berta, M. and Brandao, F. G. S. L., Hirche, C.
+  description: We extend quantum Stein's lemma in asymmetric quantum hypothesis testing to composite null and alternative hypotheses. As our main result, we show that the asymptotic error exponent for testing convex combinations of quantum states against convex combinations of quantum states can be written as a regularized quantum relative entropy formula. We prove that in general such a regularization is needed but also discuss various settings where our formula as well as extensions thereof become single-letter. 
+  authors:  M.Berta, F. G. S. L. Brandao, C. Hirche 
   link1: 
-    urlA: https://arxiv.org/abs/1709.07268
-    displayA:  arXiv:1709.07268 
+    url: https://arxiv.org/abs/1709.07268
+    display:  arXiv:1709.07268 
   link2:
     url: https://doi.org/10.1007/s00220-021-04133-8
     display:  Communications in Mathematical Physics 385, 55–77 (2021)
@@ -13,8 +13,8 @@
 
 - title: "Quantum Sequential Hypothesis Testing"
   image: TiNHigh.png
-  description: We introduce sequential analysis in quantum information processing, by focusing on the fundamental task of quantum hypothesis testing. In particular our goal is to discriminate between two arbitrary quantum states with a prescribed error threshold, ϵ, when copies of the states can be required on demand. We obtain ultimate lower bounds on the average number of copies needed to accomplish the task. We give a block-sampling strategy that allows to achieve the lower bound for some classes of states. The bound is optimal in both the symmetric as well as the asymmetric setting in the sense that it requires the least mean number of copies out of all other procedures, including the ones that fix the number of copies ahead of time. For qubit states we derive explicit expressions for the minimum average number of copies and show that a sequential strategy based on fixed local measurements outperforms the best collective measurement on a predetermined number of copies. Whereas for general states the number of copies increases as log1/ϵ, for pure states sequential strategies require a finite average number of samples even in the case of perfect discrimination, i.e., ϵ=0.
-  authors: KM Bastiaans, D Chatzopoulos, J-F Ge, D Cho, WO Tromp, JM van Ruitenbeek, MH Fischer, PJ de Visser, DJ Thoen, EFC Driessen, TM Klapwijk, MP Allan
+  description: We introduce sequential analysis in quantum information processing, by focusing on the fundamental task of quantum hypothesis testing. Our goal is to discriminate between two arbitrary quantum states with a prescribed error threshold, ϵ, when copies of the states can be required on demand. We obtain ultimate lower bounds on the average number of copies needed to accomplish the task. We give a block-sampling strategy that allows to achieve the lower bound for some classes of states. The bound is optimal in both the symmetric as well as the asymmetric setting in the sense that it requires the least mean number of copies out of all other procedures.
+  authors: E. Martínez-Vargas, C. Hirche, G. Sentís, M. Skotiniotis, M. Carrizo, R. Muñoz-Tapia, J. Calsamiglia
   link1:
     url: https://arxiv.org/abs/2011.10773
     display: arXiv:2011.10773
@@ -23,21 +23,15 @@
     display: Physical Review Letters 126 (18), 180502 (2021)
   highlight: 1
 
-- title: "Spatially dispersing Yu-Shiba-Rusinov states in the unconventional superconductor FeTe0.55Se0.45"
+- title: "Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination"
   image: YSR.png
-  description: We report on a peculiar, spatially dispersing YSR state in Fe(Se,Te) that can be tuned by the tip.
-  authors: D Chatzopoulos, Doohee Cho, KM Bastiaans, GO Steffensen, D Bouwmeester, A Akbari, Genda Gu, J Paaske, BM Andersen, MP Allan
+  description: First, we establish the strong Stein's lemma for classical-quantum channels by showing that asymptotically the exponential error rate for classical-quantum channel discrimination is not improved by adaptive strategies. Second, we recover many other classes of channels for which adaptive strategies do not lead to an asymptotic advantage. Third, we give various converse bounds on the power of adaptive protocols for general asymptotic quantum channel discrimination.
+  authors: M. M. Wilde, M. Berta, C. Hirche, E. Kaur
   link1:
-    url: https://www.nature.com/articles/s41467-020-20529-x
-    display:  Nature Communications 12, 298 (2021)
+    url: https://arxiv.org/abs/1808.01498
+    display: arXiv:1808.01498
+  link2:
+    url: https://doi.org/10.1007/s11005-020-01297-7
+    display:  Letters in Mathematical Physics 100, 2277-2336 (2020)
   highlight: 1
 
-- title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
-  image: TBG_ARPES.png
-  description:
-  authors: R Sharma, A Kreisel, MA Sulangi, J Böker, A Kostin, MP Allan, H Eisaki, AE Böhmer, PC Canfield, I Eremin, JC Davis, PJ Hirschfeld, PO Sprau
-  link1:
-    url: https://dx.doi.org/10.1038/s41535-020-00303-4
-    display: npj Quantum Materials 6, 7 (2021)
-  highlight: 0
-  news2:
