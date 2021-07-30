@@ -32,7 +32,7 @@
     display: arXiv:1808.01498
   link2:
     url: https://doi.org/10.1007/s11005-020-01297-7
-    display:  Letters in Mathematical Physics 100, 2277-2336 (2020)
+    display:  "Letters in Mathematical Physics 100, 2277-2336 (2020)"
   highlight: 1
   
   - title: "Convexity and Operational Interpretation of the Quantum Information Bottleneck Function"
