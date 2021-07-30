@@ -1,5 +1,5 @@
 - title: "On Composite Quantum Hypothesis Testing"
-  image: TBG_SL.png
+  image: compHT.png
   description: "We extend quantum Stein's lemma in asymmetric quantum hypothesis testing to composite null and alternative hypotheses. As our main result, we show that the asymptotic error exponent for testing convex combinations of quantum states against convex combinations of quantum states can be written as a regularized quantum relative entropy formula. We prove that in general such a regularization is needed but also discuss various settings where our formula as well as extensions thereof become single-letter."
   authors:  M.Berta, F. G. S. L. Brandao, C. Hirche 
   link1: 
@@ -12,7 +12,7 @@
   news2:
 
 - title: "Quantum Sequential Hypothesis Testing"
-  image: TiNHigh.png
+  image: seqHT.png
   description: "We introduce sequential analysis in quantum information processing, by focusing on the fundamental task of quantum hypothesis testing. Our goal is to discriminate between two arbitrary quantum states with a prescribed error threshold, ϵ, when copies of the states can be required on demand. We obtain ultimate lower bounds on the average number of copies needed to accomplish the task. We give a block-sampling strategy that allows to achieve the lower bound for some classes of states. The bound is optimal in both the symmetric as well as the asymmetric setting in the sense that it requires the least mean number of copies out of all other procedures."
   authors: E. Martínez-Vargas, C. Hirche, G. Sentís, M. Skotiniotis, M. Carrizo, R. Muñoz-Tapia, J. Calsamiglia
   link1:
@@ -48,7 +48,7 @@
   highlight: 1
   
 - title: "Bounds on Information Combining With Quantum Side Information"
-  image: YSR.png
+  image: IC.png
   description: Bounds on information combining are entropic inequalities that determine how the information (entropy) of a set of random variables can change when these are combined in certain prescribed ways. Such bounds play an important role in classical information theory, particularly in coding and Shannon theory; entropy power inequalities are special instances of them. The arguably most elementary kind of information combining is the addition of two binary random variables (a CNOT gate), and the resulting quantities play an important role in Belief propagation and Polar coding. We investigate this problem in the setting where quantum side information is available.
   authors: D. Reeb, C. Hirche
   link1:
@@ -60,7 +60,7 @@
   highlight: 1
 
 - title: "Efficient unitary designs with nearly time-independent Hamiltonian"
-  image: YSR.png
+  image: tdes.png
   description: We provide new constructions of unitary t-designs for general t on one qudit and N qubits, and propose a design Hamiltonian, a random Hamiltonian of which dynamics always forms a unitary design after a threshold time, as a basic framework to investigate randomising time evolution in quantum many-body systems. The new constructions are based on recently proposed schemes of repeating random unitaires diagonal in mutually unbiased bases. 
   authors: Y. Nakata, C. Hirche, M. Koashi, A. Winter
   link1:
