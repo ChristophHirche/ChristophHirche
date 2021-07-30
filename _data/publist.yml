@@ -23,18 +23,7 @@
     display: Physical Review Letters 126 (18), 180502 (2021)
   highlight: 1
 
-- title: "Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination"
-  image: YSR.png
-  description: "First, we establish the strong Stein's lemma for classical-quantum channels by showing that asymptotically the exponential error rate for classical-quantum channel discrimination is not improved by adaptive strategies. Second, we recover many other classes of channels for which adaptive strategies do not lead to an asymptotic advantage. Third, we give various converse bounds on the power of adaptive protocols for general asymptotic quantum channel discrimination."
-  authors: M. M. Wilde, M. Berta, C. Hirche, E. Kaur
-  link1:
-    url: https://arxiv.org/abs/1808.01498
-    display: arXiv:1808.01498
-  link2:
-    url: https://doi.org/10.1007/s11005-020-01297-7
-    display:  "Letters in Mathematical Physics 100, 2277-2336 (2020)"
-  highlight: 1
-  
+ 
   - title: "Convexity and Operational Interpretation of the Quantum Information Bottleneck Function"
   image: YSR.png
   description: In classical information theory, the information bottleneck method (IBM) can be regarded as a method of lossy data compression which focusses on preserving meaningful (or relevant) information. As such it has recently gained a lot of attention, primarily for its applications in machine learning and neural networks. We prove the convexity of the quantum IB function, and then giving an alternative operational interpretation of it as the optimal rate of a bona fide information-theoretic task,
