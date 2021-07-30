@@ -35,9 +35,19 @@
     display:  "Letters in Mathematical Physics 100, 2277-2336 (2020)"
   highlight: 1
  
-
+- title: "Convexity and Operational Interpretation of the Quantum Information Bottleneck Function"
+  image: YSR.png
+  description: In classical information theory, the information bottleneck method (IBM) can be regarded as a method of lossy data compression which focusses on preserving meaningful (or relevant) information. As such it has recently gained a lot of attention, primarily for its applications in machine learning and neural networks. We prove the convexity of the quantum IB function, and then giving an alternative operational interpretation of it as the optimal rate of a bona fide information-theoretic task,
+  authors: M. M. Wilde, M. Berta, C. Hirche, E. Kaur
+  link1:
+    url: https://arxiv.org/abs/1808.01498
+    display: arXiv:1808.01498
+  link2:
+    url: https://doi.org/10.1007/s11005-020-01297-7
+    display: Letters in Mathematical Physics 100, 2277-2336 (2020)
+  highlight: 1
   
-  - title: "Bounds on Information Combining With Quantum Side Information"
+- title: "Bounds on Information Combining With Quantum Side Information"
   image: YSR.png
   description: Bounds on information combining are entropic inequalities that determine how the information (entropy) of a set of random variables can change when these are combined in certain prescribed ways. Such bounds play an important role in classical information theory, particularly in coding and Shannon theory; entropy power inequalities are special instances of them. The arguably most elementary kind of information combining is the addition of two binary random variables (a CNOT gate), and the resulting quantities play an important role in Belief propagation and Polar coding. We investigate this problem in the setting where quantum side information is available.
   authors: D. Reeb, C. Hirche
@@ -49,7 +59,7 @@
     display: Proc. ISIT 2019, 7-12 July 2019, Paris, pp. 1157-1161
   highlight: 1
 
-  - title: "Efficient unitary designs with nearly time-independent Hamiltonian"
+- title: "Efficient unitary designs with nearly time-independent Hamiltonian"
   image: YSR.png
   description: We provide new constructions of unitary t-designs for general t on one qudit and N qubits, and propose a design Hamiltonian, a random Hamiltonian of which dynamics always forms a unitary design after a threshold time, as a basic framework to investigate randomising time evolution in quantum many-body systems. The new constructions are based on recently proposed schemes of repeating random unitaires diagonal in mutually unbiased bases. 
   authors: Y. Nakata, C. Hirche, M. Koashi, A. Winter
