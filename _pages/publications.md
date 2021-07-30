@@ -11,7 +11,8 @@ permalink: /publications/
 
 ## Highlights
 
-(For a full list of publications see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en))
+<!-- (For a full list of publications see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en))  -->
+For a full list of publications see [Google Scholar](https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en)
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -53,11 +54,11 @@ permalink: /publications/
 <p> &nbsp; </p>
  
 
-## Full List of publications
+<!-- ## Full List of publications  -->
 
-{% for publi in site.data.publist %}
+<!-- {% for publi in site.data.publist %}  -->
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+<!--  {{ publi.title }} <br />  -->
+<!--  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>  -->
 
-{% endfor %}
+<!-- {% endfor %}  -->
