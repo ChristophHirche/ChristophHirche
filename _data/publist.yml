@@ -52,8 +52,8 @@
   description: Bounds on information combining are entropic inequalities that determine how the information (entropy) of a set of random variables can change when these are combined in certain prescribed ways. Such bounds play an important role in classical information theory, particularly in coding and Shannon theory; entropy power inequalities are special instances of them. The arguably most elementary kind of information combining is the addition of two binary random variables (a CNOT gate), and the resulting quantities play an important role in Belief propagation and Polar coding. We investigate this problem in the setting where quantum side information is available.
   authors: D. Reeb, C. Hirche
   link1:
-    url: https://arxiv.org/abs/1810.03644
-    display: arXiv:1810.03644
+    url: https://arxiv.org/abs/1706.09752
+    display: arXiv:1706.09752
   link2:
     url: https://doi.org/	10.1109/TIT.2018.2842180
     display: 	IEEE Trans. Inf. Theory 64, 4739-4757 (2018)
