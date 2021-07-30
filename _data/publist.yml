@@ -43,8 +43,8 @@
     url: https://arxiv.org/abs/1808.01498
     display: arXiv:1808.01498
   link2:
-    url: https://doi.org/10.1007/s11005-020-01297-7
-    display: Letters in Mathematical Physics 100, 2277-2336 (2020)
+    url: https://doi.org/10.1109/ISIT.2019.8849518
+    display: 	Proc. ISIT 2019, 7-12 July 2019, Paris, pp. 1157-1161
   highlight: 1
   
 - title: "Bounds on Information Combining With Quantum Side Information"
@@ -55,8 +55,8 @@
     url: https://arxiv.org/abs/1810.03644
     display: arXiv:1810.03644
   link2:
-    url: https://doi.org/10.1109/ISIT.2019.8849518
-    display: Proc. ISIT 2019, 7-12 July 2019, Paris, pp. 1157-1161
+    url: https://doi.org/	10.1109/TIT.2018.2842180
+    display: 	IEEE Trans. Inf. Theory 64, 4739-4757 (2018)
   highlight: 1
 
 - title: "Efficient unitary designs with nearly time-independent Hamiltonian"
