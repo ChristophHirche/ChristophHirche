@@ -38,7 +38,7 @@
 - title: "Convexity and Operational Interpretation of the Quantum Information Bottleneck Function"
   image: QIBM.png
   description: In classical information theory, the information bottleneck method (IBM) can be regarded as a method of lossy data compression which focusses on preserving meaningful (or relevant) information. As such it has recently gained a lot of attention, primarily for its applications in machine learning and neural networks. We prove the convexity of the quantum IB function, and then giving an alternative operational interpretation of it as the optimal rate of a bona fide information-theoretic task,
-  authors: M. M. Wilde, M. Berta, C. Hirche, E. Kaur
+  authors: N. Datta, C. Hirche, A. Winter
   link1:
     url: https://arxiv.org/abs/1808.01498
     display: arXiv:1808.01498
