@@ -24,7 +24,7 @@
   highlight: 1
 
 - title: "Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination"
-  image: YSR.png
+  image: adap.png
   description: "First, we establish the strong Stein's lemma for classical-quantum channels by showing that asymptotically the exponential error rate for classical-quantum channel discrimination is not improved by adaptive strategies. Second, we recover many other classes of channels for which adaptive strategies do not lead to an asymptotic advantage. Third, we give various converse bounds on the power of adaptive protocols for general asymptotic quantum channel discrimination."
   authors: M. M. Wilde, M. Berta, C. Hirche, E. Kaur
   link1:
