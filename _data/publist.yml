@@ -1,6 +1,6 @@
 - title: "On Composite Quantum Hypothesis Testing"
   image: TBG_SL.png
-  description: We extend quantum Stein's lemma in asymmetric quantum hypothesis testing to composite null and alternative hypotheses. As our main result, we show that the asymptotic error exponent for testing convex combinations of quantum states against convex combinations of quantum states can be written as a regularized quantum relative entropy formula. We prove that in general such a regularization is needed but also discuss various settings where our formula as well as extensions thereof become single-letter. 
+  description: "We extend quantum Stein's lemma in asymmetric quantum hypothesis testing to composite null and alternative hypotheses. As our main result, we show that the asymptotic error exponent for testing convex combinations of quantum states against convex combinations of quantum states can be written as a regularized quantum relative entropy formula. We prove that in general such a regularization is needed but also discuss various settings where our formula as well as extensions thereof become single-letter."
   authors:  M.Berta, F. G. S. L. Brandao, C. Hirche 
   link1: 
     url: https://arxiv.org/abs/1709.07268
@@ -13,7 +13,7 @@
 
 - title: "Quantum Sequential Hypothesis Testing"
   image: TiNHigh.png
-  description: We introduce sequential analysis in quantum information processing, by focusing on the fundamental task of quantum hypothesis testing. Our goal is to discriminate between two arbitrary quantum states with a prescribed error threshold, ϵ, when copies of the states can be required on demand. We obtain ultimate lower bounds on the average number of copies needed to accomplish the task. We give a block-sampling strategy that allows to achieve the lower bound for some classes of states. The bound is optimal in both the symmetric as well as the asymmetric setting in the sense that it requires the least mean number of copies out of all other procedures.
+  description: "We introduce sequential analysis in quantum information processing, by focusing on the fundamental task of quantum hypothesis testing. Our goal is to discriminate between two arbitrary quantum states with a prescribed error threshold, ϵ, when copies of the states can be required on demand. We obtain ultimate lower bounds on the average number of copies needed to accomplish the task. We give a block-sampling strategy that allows to achieve the lower bound for some classes of states. The bound is optimal in both the symmetric as well as the asymmetric setting in the sense that it requires the least mean number of copies out of all other procedures."
   authors: E. Martínez-Vargas, C. Hirche, G. Sentís, M. Skotiniotis, M. Carrizo, R. Muñoz-Tapia, J. Calsamiglia
   link1:
     url: https://arxiv.org/abs/2011.10773
@@ -23,6 +23,17 @@
     display: Physical Review Letters 126 (18), 180502 (2021)
   highlight: 1
 
+- title: "Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination"
+  image: YSR.png
+  description: "First, we establish the strong Stein's lemma for classical-quantum channels by showing that asymptotically the exponential error rate for classical-quantum channel discrimination is not improved by adaptive strategies. Second, we recover many other classes of channels for which adaptive strategies do not lead to an asymptotic advantage. Third, we give various converse bounds on the power of adaptive protocols for general asymptotic quantum channel discrimination."
+  authors: M. M. Wilde, M. Berta, C. Hirche, E. Kaur
+  link1:
+    url: https://arxiv.org/abs/1808.01498
+    display: arXiv:1808.01498
+  link2:
+    url: https://doi.org/10.1007/s11005-020-01297-7
+    display:  "Letters in Mathematical Physics 100, 2277-2336 (2020)"
+  highlight: 1
  
   - title: "Convexity and Operational Interpretation of the Quantum Information Bottleneck Function"
   image: YSR.png
