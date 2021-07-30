@@ -51,7 +51,7 @@ permalink: /publications/
 {% endif %}
 
 <p> &nbsp; </p>
-
+ 
 
 ## Full List of publications
 
