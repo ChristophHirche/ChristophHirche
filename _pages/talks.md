@@ -9,10 +9,8 @@ permalink: /talks/
 # Research
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/cloud-christoph-hirche.png){: style="width: 500px"}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CEZcoNMTeBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
- <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/STMHead.png){: style="width: 250px; float: right; margin: 0px 10px"} -->
 
 
 ### ... more coming.
