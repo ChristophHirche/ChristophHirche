@@ -9,7 +9,17 @@
 <link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico">
 
 {% if jekyll.environment == 'production' %}
-{% include analytics.html %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N71H8YPM4R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N71H8YPM4R');
+</script> 
+  
 {% endif %}
 
 </head>
