@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Christoph Hirche"
 layout: homelay
 excerpt: "Christoph Hirche website."
 sitemap: false
