@@ -1,5 +1,5 @@
 ---
-title: "CH - Publications"
+title: "Christoph Hirche - Publications"
 layout: gridlay
 excerpt: "CH -- Publications."
 sitemap: false
