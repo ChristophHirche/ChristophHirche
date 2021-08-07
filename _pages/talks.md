@@ -1,5 +1,5 @@
 ---
-title: "CH - Talks"
+title: "Christoph Hirche - Talks"
 layout: textlay
 excerpt: "CH -- Talks"
 sitemap: false
