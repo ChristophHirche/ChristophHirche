@@ -1,5 +1,5 @@
 ---
-title: "CH - Research"
+title: "Christoph Hirche - Research"
 layout: textlay
 excerpt: "CH -- Research"
 sitemap: false
