@@ -25,7 +25,7 @@ joint work with N. Datta and A. Winter,
 
 #### Discrimination of Quantum Networks (online at NCTS Annual Theory Meeting 2021) 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LKvV9kGjzIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gt8sYDp1IoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br />
 
 #### Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination (at QTurn 2018)
