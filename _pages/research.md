@@ -22,7 +22,7 @@ Results from this project will be presented here once available. <br />
 
 #### Other topics:
 
-Here some keywords from my past research. Let me know if you want to know more!
+Here some keywords from my past research. Contact me if you would like to know more!
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cloud-christoph-hirche.png){: style="width: 500px"}
 
