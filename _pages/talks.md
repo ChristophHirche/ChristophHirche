@@ -8,6 +8,8 @@ permalink: /talks/
 
 # Talks
 
+Here some of my past talks that have video recordings available. 
+
 #### An Alphabet-Size Bound for the Information Bottleneck Function (online at ISIT 2020)
 joint work with A. Winter, 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CEZcoNMTeBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

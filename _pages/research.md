@@ -17,13 +17,14 @@ For more, check out my <a href="{{ site.url }}{{ site.baseurl }}/publications">p
 
 <img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/EUflag.jpg"  width="90"> 
 This is the title of my <a href="https://cordis.europa.eu/project/id/101025848">Marie Skłodowska-Curie  project</a>. Thanks to a Global Fellowship I will work at [TU Munich](https://www.tum.de) and [CQT](https://www.quantumlah.org) [NUS](https://www.nus.edu.sg) with [Robert König](https://www.professoren.tum.de/en/koenig-robert-t) and [Marco Tomamichel](https://marcotom.info) to better understand how entropic quantities can be used to investigate quantum networks. <br />
-<br />
+Results from this project will be presented here once available. <br />
 <br />
 
 #### Other topics:
+
+Here some keywords from my past research. Let me know if you want to know more!
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cloud-christoph-hirche.png){: style="width: 500px"}
 
 
 
-##### ... more coming.
