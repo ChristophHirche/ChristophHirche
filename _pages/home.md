@@ -14,6 +14,12 @@ My reserach area is information theory, with a focus on quantum communication an
 Previously, I was a postdoctoral reseracher in [QMATH](https://qmath.ku.dk) at the [University of Copenhagen](https://www.ku.dk/english/), where I worked with [Matthias Christandl](https://www.math.ku.dk/english/staff/?pure=en/persons/475476). I obtained my PhD degree from the [Universitat Autonoma de Barcelona](https://grupsderecerca.uab.cat/giq/) under the supervision of [John Calsamiglia](https://grupsderecerca.uab.cat/giq/people/john-calsamiglia).  
 
 
+#### Latest papers
+- <a href="https://arxiv.org/abs/2103.02404">Quantum Network Discrimination</a>
+- <a href="https://arxiv.org/abs/2011.10773">Quantum Network Discrimination</a> (with Esteban Martínez-Vargas, Gael Sentís, Michalis Skotiniotis, Marta Carrizo, Ramon Muñoz-Tapia, John Calsamiglia)
+- <a href="https://arxiv.org/abs/2011.05949">Quantum Network Discrimination</a> (with Cambyse Rouzé, Daniel Stilck França)
+
+
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
