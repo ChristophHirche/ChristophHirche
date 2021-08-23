@@ -3,7 +3,6 @@ title: "Christoph Hirche"
 layout: homelay
 excerpt: "Christoph Hirche website."
 sitemap: false
-image: /images/EUflag.jpg
 permalink: /
 ---
 
