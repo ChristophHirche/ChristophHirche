@@ -3,7 +3,7 @@ title: "Christoph Hirche"
 layout: homelay
 excerpt: "Christoph Hirche website."
 sitemap: false
-image: "{{ site.url }}{{ site.baseurl }}/images/Auswahl_6356.jpg"
+image: /images/Auswahl_6356.jpg
 permalink: /
 ---
 
