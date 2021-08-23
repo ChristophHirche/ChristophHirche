@@ -4,6 +4,12 @@ layout: homelay
 excerpt: "Christoph Hirche website."
 sitemap: false
 permalink: /
+tags:
+ - quantum
+ - information
+ - entropy
+ - theory
+ - postdoc
 ---
 
 <img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/Auswahl_6356.jpg"  width="133">
