@@ -3,6 +3,7 @@ title: "Christoph Hirche"
 layout: homelay
 excerpt: "Christoph Hirche website."
 sitemap: false
+image: /images/Auswahl_6356.jpg
 permalink: /
 ---
 
