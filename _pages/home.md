@@ -21,6 +21,8 @@ Previously, I was a postdoctoral researcher in [QMATH](https://qmath.ku.dk) at t
 <br>
 
 #### Latest papers
+- <a href="https://arxiv.org/abs/2202.11688">Bounding quantum capacities via partial orders and complementarity</a> (with Felix Leditzky)
+- <a href="https://arxiv.org/abs/2202.10717">Quantum Differential Privacy: An Information Theory Perspective</a> (with Cambyse Rouzé, Daniel Stilck França)
 - <a href="https://arxiv.org/abs/2103.02404">Quantum Network Discrimination</a>
 - <a href="https://arxiv.org/abs/2011.10773">Quantum Sequential Hypothesis Testing</a> (with Esteban Martínez-Vargas, Gael Sentís, Michalis Skotiniotis, Marta Carrizo, Ramon Muñoz-Tapia, John Calsamiglia)
 - <a href="https://arxiv.org/abs/2011.05949">On contraction coefficients, partial orders and approximation of capacities for quantum channels</a> (with Cambyse Rouzé, Daniel Stilck França)
