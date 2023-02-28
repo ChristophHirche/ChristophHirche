@@ -21,14 +21,14 @@ Information on social events will be added later.
 TBC
 
 ### Organizers
-Omar Fawzi <br />
-Daniel Stilck Franca <br />
+[Omar Fawzi](https://perso.ens-lyon.fr/omar.fawzi/) <br />
+[Daniel Stilck Franca](http://www.ens-lyon.fr/lecole/nous-connaitre/annuaire/daniel-stilck-franca) <br />
 [Christoph Hirche](https://christophhirche.github.io/ChristophHirche/) <br />
-Marco Tomamichel
+[Marco Tomamichel](https://marcotom.info)
 
 ### Funding
 
-<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/Merlion.png"  width="90"> 
+<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/Merlion.png"  width="120"> 
 This workshop is supported within the [MERLION PROGRAMME 2023](https://www.campusfrance.org/en/merlion), co-funded in France by the Ministry of Europe and Foreign Affairs (MEAE) and in Singapore by the National University of Singapore (NUS). <br />
 
 
