@@ -1,7 +1,7 @@
 ---
-title: "Christoph Hirche - Lyon-Sinapore Quantum Informaton Meeting"
+title: "Lyon-Sinapore Quantum Informaton Meeting"
 layout: textlay
-excerpt: "Christoph Hirche -- Lyon-Sinapore Quantum Informaton Meeting"
+excerpt: "Lyon-Sinapore Quantum Informaton Meeting"
 sitemap: false
 permalink: /lyon-singapore/
 ---
@@ -23,8 +23,13 @@ TBC
 ### Organizers
 Omar Fawzi <br />
 Daniel Stilck Franca <br />
-Christoph Hirche <br />
+[Christoph Hirche](https://christophhirche.github.io/ChristophHirche/) <br />
 Marco Tomamichel
+
+### Funding
+
+<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/Merlion.png"  width="90"> 
+This workshop is supported within the [MERLION PROGRAMME 2023](https://www.campusfrance.org/en/merlion), co-funded in France by the Ministry of Europe and Foreign Affairs (MEAE) and in Singapore by the National University of Singapore (NUS). <br />
 
 
 
