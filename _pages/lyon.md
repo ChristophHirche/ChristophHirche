@@ -22,7 +22,7 @@ TBC
 
 ### Organizers
 [Omar Fawzi](https://perso.ens-lyon.fr/omar.fawzi/) <br />
-[Daniel Stilck Franca](http://www.ens-lyon.fr/lecole/nous-connaitre/annuaire/daniel-stilck-franca) <br />
+[Daniel Stilck Franca](https://danielstilckfranca.eu) <br />
 [Christoph Hirche](https://christophhirche.github.io/ChristophHirche/) <br />
 [Marco Tomamichel](https://marcotom.info)
 
