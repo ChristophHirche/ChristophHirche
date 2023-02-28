@@ -40,9 +40,4 @@ Previously, I was a postdoctoral researcher in [QMATH](https://qmath.ku.dk) at t
 <a href="http://arxiv.org/a/hirche_c_1" class="ai ai-arxiv-square ai-2x"></a>
 <a href="https://orcid.org/0000-0001-9265-827X" class="ai ai-orcid-square ai-2x"></a>
 
-<!-- <figure class="fourth">  -->
-<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px"> -->
-<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px"> -->
-<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px"> -->
-<!--  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px"> -->
-<!--  </figure> -->
+
