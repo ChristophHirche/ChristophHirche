@@ -21,12 +21,9 @@ Information on social events will be added later.
 TBC
 
 ### Organizers
-Omar Fawzi
-
-Daniel Stilck Franca
-
-Christoph Hirche
-
+Omar Fawzi <br />
+Daniel Stilck Franca <br />
+Christoph Hirche <br />
 Marco Tomamichel
 
 
