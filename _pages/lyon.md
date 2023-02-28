@@ -28,9 +28,10 @@ TBC
 
 ### Funding
 
+<p style="margin-bottom:3cm;">
 <img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/Merlion.png"  width="120"> 
 This workshop is supported within the [MERLION PROGRAMME 2023](https://www.campusfrance.org/en/merlion), co-funded in France by the Ministry of Europe and Foreign Affairs (MEAE) and in Singapore by the National University of Singapore (NUS). <br />
-
+</p>
 
 
 
