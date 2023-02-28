@@ -14,6 +14,7 @@ The workshop will be held at CQT and aims to foster collaborations between the q
 
 ### Program 
 Roughly: 2 long talks per day, plenty of time for discussions. 
+
 Information on social events will be added later. 
 
 ### Participants
@@ -21,8 +22,11 @@ TBC
 
 ### Organizers
 Omar Fawzi
+
 Daniel Stilck Franca
+
 Christoph Hirche
+
 Marco Tomamichel
 
 
