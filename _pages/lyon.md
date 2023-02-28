@@ -3,7 +3,7 @@ title: "Christoph Hirche - Lyon-Singapore workshop"
 layout: textlay
 excerpt: "Christoph Hirche -- Lyon-Singapore workshop"
 sitemap: false
-permalink: /research/
+permalink: /lyon/
 ---
 
 # Lyon-Singapore workshop
