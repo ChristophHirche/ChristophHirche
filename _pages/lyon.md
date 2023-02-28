@@ -1,26 +1,21 @@
 ---
-title: "Christoph Hirche - Lyon-Singapore workshop"
+title: "Christoph Hirche - Lyon-Sinapore Quantum Informaton Meeting"
 layout: textlay
-excerpt: "Christoph Hirche -- Lyon-Singapore workshop"
+excerpt: "Christoph Hirche -- Lyon-Sinapore Quantum Informaton Meeting"
 sitemap: false
-permalink: /lyon/
+permalink: /lyon-singapore/
 ---
 
-# Lyon-Singapore workshop
+# Lyon-Sinapore Quantum Informaton Meeting
+#### 05.-09. June 2023
 
-
-
+### General Information
 
 ### Program 
 
-### Funding
+### Participants
 
-<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/EUflag.jpg"  width="90"> 
-This is the title of my <a href="https://cordis.europa.eu/project/id/101025848">Marie Skłodowska-Curie  project</a>. Thanks to a Global Fellowship I will work at [TU Munich](https://www.tum.de) and [CQT](https://www.quantumlah.org) [NUS](https://www.nus.edu.sg) with [Robert König](https://www.professoren.tum.de/en/koenig-robert-t) and [Marco Tomamichel](https://marcotom.info) to better understand how entropic quantities can be used to investigate quantum networks. <br />
-Results from this project will be presented here once available. <br />
-<br />
 
-#### Other topics
 
 
 
