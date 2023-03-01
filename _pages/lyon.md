@@ -6,7 +6,7 @@ sitemap: false
 permalink: /lyon-singapore/
 ---
 
-# Lyon-Sinapore Quantum Informaton Meeting
+# Lyon-Singapore Quantum Informaton Meeting
 #### 05.-09. June 2023
 
 ### General Information
