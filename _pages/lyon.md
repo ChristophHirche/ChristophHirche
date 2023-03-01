@@ -1,12 +1,12 @@
 ---
-title: "Lyon-Sinapore Quantum Informaton Meeting"
+title: "Lyon-Sinapore Quantum Information Meeting"
 layout: textlay
 excerpt: "Lyon-Sinapore Quantum Information Meeting"
 sitemap: false
 permalink: /lyon-singapore/
 ---
 
-# Lyon-Singapore Quantum Informaton Meeting
+# Lyon-Singapore Quantum Information Meeting
 #### 05.-09. June 2023
 
 ### General Information
