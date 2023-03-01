@@ -1,7 +1,7 @@
 ---
 title: "Lyon-Sinapore Quantum Informaton Meeting"
 layout: textlay
-excerpt: "Lyon-Sinapore Quantum Informaton Meeting"
+excerpt: "Lyon-Sinapore Quantum Information Meeting"
 sitemap: false
 permalink: /lyon-singapore/
 ---
