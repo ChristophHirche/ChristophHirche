@@ -16,19 +16,27 @@ The workshop will be held at CQT and aims to foster collaborations between the q
 Roughly: 2 long talks per day, plenty of time for discussions. 
 
 
-<table>
-  <caption>Price List</caption>
+<table  border=1>
+  <caption>Schedule</caption>
   <tr>
-    <th>Fruit</th>
-    <th>Price</th>
+	 <th>Time</th>
+   	 <th>Monday</th>
+   	 <th>Tuesday</th>
+	 <th>Wednesday</th>
+	 <th>Thursday</th>
+	 <th>Friday</th>
   </tr>
   <tr>
-    <td>Apple</td>
-    <td>$0.50</td>
+    <td>10.00</td>
+    <td rowspan="5">Coffee break</td>
   </tr>
   <tr>
-    <td>Orange</td>
-    <td>$0.65</td>
+    <td>10.30</td>
+    <td>Talk 1</td>
+  </tr>
+  <tr>
+    <td>12.30</td>
+    <td rowspan="5">Lunch</td>
   </tr>
 </table>
 
