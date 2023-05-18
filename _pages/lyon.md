@@ -65,6 +65,14 @@ Roughly: 2 long talks per day, plenty of time for discussions.
     	<td>15.00</td>
    	<td align="center" colspan="5">Coffee break</td>
   </tr>
+  <tr>
+    	<td>19.00</td>
+    	<td>Welcome drinks</td>
+	<td> </td>
+	<td> </td>
+	<td> Workshop dinner </td>
+	<td> </td>
+  </tr>
 </tbody>
 </table>
 
