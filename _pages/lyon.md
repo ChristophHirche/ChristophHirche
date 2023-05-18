@@ -18,7 +18,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 
 <table>
   <caption>Schedule</caption>
-	<colgroup>
+	<colgroup span="6">
 	<col width="10%" >
 	<col width="20%" >
 	<col width="20%" >
