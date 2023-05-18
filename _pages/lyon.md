@@ -37,6 +37,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 	</tr>
 	</thead>
   <tr>
+<tbody>
     <td>10.00</td>
     <td align="center" rowspan="5">Coffee break</td>
   </tr>
@@ -64,6 +65,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
     <td>15.00</td>
     <td rowspan="5">Coffee break</td>
   </tr>
+</tbody>
 </table>
 
 <table>
