@@ -33,6 +33,10 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   <tr>
     <td>10.30</td>
     <td>Talk 1</td>
+	<td>Talk 1</td>
+	<td>Talk 1</td>
+	<td>Talk 1</td>
+	<td>Talk 1</td>
   </tr>
   <tr>
     <td>12.30</td>
@@ -41,6 +45,10 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   <tr>
     <td>14.00</td>
     <td>Talk 2</td>
+	<td>Talk 1</td>
+	<td>Talk 1</td>
+	<td>Talk 1</td>
+	<td>Talk 1</td>
   </tr>
   <tr>
     <td>15.00</td>
