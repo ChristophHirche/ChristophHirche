@@ -19,12 +19,12 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 <table>
   <caption>Schedule</caption>
 	<colgroup>
-	<col width="12%" />
-	<col width="22%" />
-	<col width="22%" />
-	<col width="22%" />
-	<col width="22%" />
-	<col width="22%" />
+	<col width="10%" />
+	<col width="18%" />
+	<col width="18%" />
+	<col width="18%" />
+	<col width="18%" />
+	<col width="18%" />
 	</colgroup>
   <thead>
 	<tr class="header">
