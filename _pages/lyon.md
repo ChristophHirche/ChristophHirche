@@ -19,12 +19,12 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 <table>
   <caption>Schedule</caption>
 	<colgroup>
-	<col width="10%" />
-	<col width="18%" />
-	<col width="18%" />
-	<col width="18%" />
-	<col width="18%" />
-	<col width="18%" />
+	<col width="15%" />
+	<col width="22%" />
+	<col width="22%" />
+	<col width="22%" />
+	<col width="22%" />
+	<col width="22%" />
 	</colgroup>
 <thead>
 	<tr class="header">
@@ -44,26 +44,26 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   <tr>
         <td align="left">10.30</td>
         <td align="left">Talk 1</td>
-	<td align="left">Talk 1</td>
-	<td align="left">Talk 1</td>
-	<td align="left">Talk 1</td>
-	<td align="left">Talk 1</td>
+	<td align="left">Talk 3</td>
+	<td align="left">Talk 5</td>
+	<td align="left">Talk 7</td>
+	<td align="left">Talk 9</td>
   </tr>
   <tr>
     <td>12.30</td>
-    <td colspan="5">Lunch</td>
+    <td align="center" colspan="5">Lunch</td>
   </tr>
   <tr>
     	<td>14.00</td>
     	<td>Talk 2</td>
-	<td>Talk 1</td>
-	<td>Talk 1</td>
-	<td>Talk 1</td>
-	<td>Talk 1</td>
+	<td>Talk 4</td>
+	<td>Talk 6</td>
+	<td>Talk 8</td>
+	<td>Talk 10</td>
   </tr>
   <tr>
     	<td>15.00</td>
-   	<td colspan="5">Coffee break</td>
+   	<td align="center" colspan="5">Coffee break</td>
   </tr>
 </tbody>
 </table>
