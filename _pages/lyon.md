@@ -19,7 +19,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 <table  border=1>
   <caption>Schedule</caption>
   <tr>
-	 <th>Time</th>
+	 <th align="left" width="12%">Time</th>
    	 <th align="left" width="22%">Monday</th>
    	 <th align="left" width="22%">Tuesday</th>
 	 <th align="left" width="22%">Wednesday</th>
@@ -28,7 +28,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   </tr>
   <tr>
     <td>10.00</td>
-    <td rowspan="5">Coffee break</td>
+    <td align="center" rowspan="5">Coffee break</td>
   </tr>
   <tr>
     <td>10.30</td>
