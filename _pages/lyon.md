@@ -20,11 +20,11 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   <caption>Schedule</caption>
   <tr>
 	 <th>Time</th>
-   	 <th>Monday</th>
-   	 <th>Tuesday</th>
-	 <th>Wednesday</th>
-	 <th>Thursday</th>
-	 <th>Friday</th>
+   	 <th align="left" width="22%">Monday</th>
+   	 <th align="left" width="22%">Tuesday</th>
+	 <th align="left" width="22%">Wednesday</th>
+	 <th align="left" width="22%">Thursday</th>
+	 <th align="left" width="22%">Friday</th>
   </tr>
   <tr>
     <td>10.00</td>
