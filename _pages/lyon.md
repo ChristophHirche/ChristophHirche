@@ -26,7 +26,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 	<col width="18%" />
 	<col width="18%" />
 	</colgroup>
-  <thead>
+<thead>
 	<tr class="header">
 	 <th align="left">Time</th>
    	 <th align="left">Monday</th>
@@ -35,9 +35,9 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 	 <th align="left">Thursday</th>
 	 <th align="left">Friday</th>
 	</tr>
-	</thead>
-  <tr>
+</thead>
 <tbody>
+  <tr>
     <td>10.00</td>
     <td align="center" rowspan="5">Coffee break</td>
   </tr>
