@@ -93,9 +93,9 @@ firstp {
 
 /* Tables */
 
-tr:hover {background-color: #D6EEEE;}
+tr:hover {background-color: rgba(150, 212, 212, 0.5);}
 
 tr:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
+  background-color: rgba(150, 212, 212, 0.3);
 }
 
