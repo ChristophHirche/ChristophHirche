@@ -16,7 +16,7 @@ The workshop will be held at CQT and aims to foster collaborations between the q
 Roughly: 2 long talks per day, plenty of time for discussions. 
 
 
-<table  border=1>
+<table>
   <caption>Schedule</caption>
   <tr>
 	 <th align="left" width="12%">Time</th>
@@ -31,8 +31,8 @@ Roughly: 2 long talks per day, plenty of time for discussions.
     <td align="center" rowspan="5">Coffee break</td>
   </tr>
   <tr>
-    <td>10.30</td>
-    <td>Talk 1</td>
+        <td>10.30</td>
+        <td>Talk 1</td>
 	<td>Talk 1</td>
 	<td>Talk 1</td>
 	<td>Talk 1</td>
@@ -56,6 +56,29 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   </tr>
 </table>
 
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">First column **fields**</td>
+<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+</tr>
+<tr>
+<td markdown="span">Second column **fields**</td>
+<td markdown="span">Some more descriptive text.
+</td>
+</tr>
+</tbody>
+</table>
 
 Information on social events will be added later. 
 
