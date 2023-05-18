@@ -39,58 +39,35 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 <tbody>
   <tr>
     <td>10.00</td>
-    <td align="center" rowspan="5">Coffee break</td>
+    <td align="center" colspan="5">Coffee break</td>
   </tr>
   <tr>
-        <td>10.30</td>
-        <td>Talk 1</td>
-	<td>Talk 1</td>
-	<td>Talk 1</td>
-	<td>Talk 1</td>
-	<td>Talk 1</td>
+        <td align="left">10.30</td>
+        <td align="left">Talk 1</td>
+	<td align="left">Talk 1</td>
+	<td align="left">Talk 1</td>
+	<td align="left">Talk 1</td>
+	<td align="left">Talk 1</td>
   </tr>
   <tr>
     <td>12.30</td>
-    <td rowspan="5">Lunch</td>
+    <td colspan="5">Lunch</td>
   </tr>
   <tr>
-    <td>14.00</td>
-    <td>Talk 2</td>
+    	<td>14.00</td>
+    	<td>Talk 2</td>
 	<td>Talk 1</td>
 	<td>Talk 1</td>
 	<td>Talk 1</td>
 	<td>Talk 1</td>
   </tr>
   <tr>
-    <td>15.00</td>
-    <td rowspan="5">Coffee break</td>
+    	<td>15.00</td>
+   	<td colspan="5">Coffee break</td>
   </tr>
 </tbody>
 </table>
 
-<table>
-<colgroup>
-<col width="30%" />
-<col width="70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-</tr>
-<tr>
-<td markdown="span">Second column **fields**</td>
-<td markdown="span">Some more descriptive text.
-</td>
-</tr>
-</tbody>
-</table>
 
 Information on social events will be added later. 
 
