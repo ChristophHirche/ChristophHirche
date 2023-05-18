@@ -91,5 +91,11 @@ firstp {
     margin-right: 30px;
 }
 
+/* Tables */
 
+tr:hover {background-color: #D6EEEE;}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
 
