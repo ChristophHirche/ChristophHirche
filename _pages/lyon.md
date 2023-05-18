@@ -18,14 +18,24 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 
 <table>
   <caption>Schedule</caption>
-  <tr>
-	 <th align="left" width="12%">Time</th>
-   	 <th align="left" width="22%">Monday</th>
-   	 <th align="left" width="22%">Tuesday</th>
-	 <th align="left" width="22%">Wednesday</th>
-	 <th align="left" width="22%">Thursday</th>
-	 <th align="left" width="22%">Friday</th>
-  </tr>
+	<colgroup>
+	<col width="12%" />
+	<col width="22%" />
+	<col width="22%" />
+	<col width="22%" />
+	<col width="22%" />
+	<col width="22%" />
+	</colgroup>
+  <thead>
+	<tr class="header">
+	 <th align="left">Time</th>
+   	 <th align="left">Monday</th>
+   	 <th align="left">Tuesday</th>
+	 <th align="left">Wednesday</th>
+	 <th align="left">Thursday</th>
+	 <th align="left">Friday</th>
+	</tr>
+	</thead>
   <tr>
     <td>10.00</td>
     <td align="center" rowspan="5">Coffee break</td>
