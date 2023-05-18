@@ -38,6 +38,14 @@ Roughly: 2 long talks per day, plenty of time for discussions.
     <td>12.30</td>
     <td rowspan="5">Lunch</td>
   </tr>
+  <tr>
+    <td>14.00</td>
+    <td>Talk 2</td>
+  </tr>
+  <tr>
+    <td>15.00</td>
+    <td rowspan="5">Coffee break</td>
+  </tr>
 </table>
 
 
