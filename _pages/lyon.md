@@ -44,7 +44,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   <tr>
         <td align="left">10.30</td>
         <td align="left">Daniel Stilck Franca</td>
-	<td align="left">Roberto Rubboli</td>
+	<td align="left">Enrique Cervero</td>
 	<td align="left">Salman Beigi</td>
 	<td align="left">Erkka Happasalo</td>
 	<td align="left">Omar Fawzi</td>
@@ -55,7 +55,7 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   </tr>
   <tr>
     	<td>14.00</td>
-    	<td>Enrique Cervero</td>
+    	<td>Roberto Rubboli</td>
 	<td>Mischa Woods</td>
 	<td>Yonglong Li</td>
 	<td>Aadil Oufkir</td>
