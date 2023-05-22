@@ -16,7 +16,7 @@ The workshop will be held at CQT and aims to foster collaborations between the q
 Roughly: 2 long talks per day, plenty of time for discussions. 
 
 
-<table border="2" cellpadding="15">
+<table border="2" cellpadding="30">
   <caption>Schedule</caption>
 	<colgroup span="6">
 	<col width="10%" >
