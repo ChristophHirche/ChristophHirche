@@ -19,8 +19,8 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 <table border=2 cellpadding=30 cellspacing=10>
   <caption>Schedule</caption>
 	<colgroup span="6">
-	<col width="10%" >
-	<col width="18%" >
+	<col width="9%" >
+	<col width="19%" >
 	<col width="18%" >
 	<col width="18%" >
 	<col width="18%" >
