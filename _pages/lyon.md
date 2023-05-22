@@ -43,11 +43,11 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   </tr>
   <tr>
         <td align="left">10.30</td>
-        <td align="left">Talk 1</td>
-	<td align="left">Talk 3</td>
-	<td align="left">Talk 5</td>
-	<td align="left">Talk 7</td>
-	<td align="left">Talk 9</td>
+        <td align="left">Daniel Stilck Franca</td>
+	<td align="left">Roberto Rubboli</td>
+	<td align="left">Salman Beigi</td>
+	<td align="left">Erkka Happasalo</td>
+	<td align="left">Omar Fawzi</td>
   </tr>
   <tr>
     <td>12.30</td>
@@ -55,11 +55,11 @@ Roughly: 2 long talks per day, plenty of time for discussions.
   </tr>
   <tr>
     	<td>14.00</td>
-    	<td>Talk 2</td>
-	<td>Talk 4</td>
-	<td>Talk 6</td>
-	<td>Talk 8</td>
-	<td>Talk 10</td>
+    	<td>Enrique Cervero</td>
+	<td>Mischa Woods</td>
+	<td>Yonglong Li</td>
+	<td>Aadil Oufkir</td>
+	<td>Josep Lumbreras</td>
   </tr>
   <tr>
     	<td>15.00</td>
