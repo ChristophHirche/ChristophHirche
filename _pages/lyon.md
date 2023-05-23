@@ -13,8 +13,8 @@ permalink: /lyon-singapore/
 The workshop will be held at CQT and aims to foster collaborations between the quantum information groups in Lyon and Singapore. 
 
 ### Program 
-Roughly: 2 long talks per day, plenty of time for discussions. 
 
+All talks will take place at CQT ([map](https://goo.gl/maps/1wL9FvoHugySieH48)) on the 6th floor. 
 
 <table border=2 cellpadding=30 cellspacing=10>
   <caption>Schedule</caption>
@@ -88,15 +88,15 @@ Buffet style dinner. Dress code: Smart Casual.
 
 ### Talks
 Daniel Stilck Franca - "TBC"	<br />
-Enrique Cervero	<br />
-Salman Beigi	<br />
-Erkka Happasalo	<br />
-Omar Fawzi 	<br />
-Roberto Rubboli	<br />
-Mischa Woods	<br />
-Yonglong Li	<br />
-Aadil Oufkir	<br />
-Josep Lumbreras
+Enrique Cervero - "TBC"	<br />
+Salman Beigi - "TBC"	<br />
+Erkka Happasalo - "TBC"	<br />
+Omar Fawzi - "TBC" 	<br />
+Roberto Rubboli - "TBC"	<br />
+Mischa Woods - "TBC"	<br />
+Yonglong Li - "TBC"	<br />
+Aadil Oufkir - "TBC"	<br />
+Josep Lumbreras - "TBC"
 
 ### Organizers
 [Omar Fawzi](https://perso.ens-lyon.fr/omar.fawzi/) <br />
