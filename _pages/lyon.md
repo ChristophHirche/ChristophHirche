@@ -82,12 +82,21 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 Casual drinks and snacks. <br />
 
 
-<b>Thursday:</b>v Workshop dinner at [Colony](https://www.ritzcarlton.com/en/hotels/singapore/dining/colony/menu) ([Map](https://goo.gl/maps/gsbyhV6APN4kfWZu9)) <br />
+<b>Thursday:</b> Workshop dinner at [Colony](https://www.ritzcarlton.com/en/hotels/singapore/dining/colony/menu) ([Map](https://goo.gl/maps/gsbyhV6APN4kfWZu9)) <br />
 Buffet style dinner. Dress code: Smart Casual.
 
 
-### Participants
-TBC
+### Talks
+Daniel Stilck Franca - "TBC"	<br />
+Enrique Cervero	<br />
+Salman Beigi	<br />
+Erkka Happasalo	<br />
+Omar Fawzi 	<br />
+Roberto Rubboli	<br />
+Mischa Woods	<br />
+Yonglong Li	<br />
+Aadil Oufkir	<br />
+Josep Lumbreras
 
 ### Organizers
 [Omar Fawzi](https://perso.ens-lyon.fr/omar.fawzi/) <br />
