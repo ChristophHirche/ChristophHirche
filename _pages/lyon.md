@@ -77,7 +77,10 @@ Roughly: 2 long talks per day, plenty of time for discussions.
 </table>
 
 
-Information on social events will be added later. 
+#### Social events: 
+Moday: Welcome drinks at [RedDot Brewhouse](https://reddotbrewhouse.com.sg/pages/menu) ([Map](https://goo.gl/maps/4mvNbwfei1dazjtr7)) <br />
+
+Thursday: Workshop dinner at [Colony](https://www.ritzcarlton.com/en/hotels/singapore/dining/colony/menu) ([Map](https://goo.gl/maps/gsbyhV6APN4kfWZu9)) <br />
 
 ### Participants
 TBC
