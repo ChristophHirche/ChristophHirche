@@ -105,7 +105,7 @@ In addition, our sample complexity applies to the worse case setting whereas pre
 To prove our results, we develop new tools of independent interest, such as robust shadow tomography algorithms for ground and Gibbs states, Gibbs approximations of locally indistinguishable ground states, and generalisations of transportation cost inequalities for Gibbs states of non-commuting Hamiltonians.
 
 This is based on joint work with Emilio Onorati, Cambyse Rouzé and James D. Watson
-
+</p>
 </details>
 Enrique Cervero - "TBC"	<br />
 Salman Beigi - "TBC"	<br />
