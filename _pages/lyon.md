@@ -87,6 +87,9 @@ Buffet style dinner. Dress code: Smart Casual.
 
 
 ### Talks
+
+(Click on a talk to show/hide abstract)
+
 <details markdown=block>
 <summary markdown=span>
             <b>Daniel Stilck Franca</b> - "Efficient learning of ground & thermal states within phases of matter"           
