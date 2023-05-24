@@ -99,3 +99,8 @@ tr:nth-child(even) {
   background-color: rgba(150, 212, 212, 0.3);
 }
 
+
+details[open] {
+    background: rgba(150, 212, 212, 0.3);
+    padding: 0px 8px 8px 8px;
+}
