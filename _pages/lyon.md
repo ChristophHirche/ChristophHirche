@@ -87,12 +87,12 @@ Buffet style dinner. Dress code: Smart Casual.
 
 
 ### Talks
-<details>
-      <summary>
+<details markdown=block>
+<summary markdown=span>
             <b>Daniel Stilck Franca</b> - "Efficient learning of ground & thermal states within phases of matter"           
-      </summary>
-	<p>
-      Abstract: We consider two related tasks: (a) estimating a parameterisation of an unknown Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision.
+</summary>
+<p>
+Abstract: We consider two related tasks: (a) estimating a parameterisation of an unknown Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision.
 
 For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians under the condition of exponential decay of correlations and the approximate Markov property, thus improving on work by \cite{rouze2021learning}. We show that it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality --- an exponential improvement over state-of-the-art  --- hence partially answering conjectures stated in \cite{rouze2021learning} and \cite{anshu2021sample} in the positive. This class of properties includes expected values of quasi-local observables and entropic quantities of the state.
 
