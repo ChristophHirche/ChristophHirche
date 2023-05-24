@@ -43,10 +43,10 @@ All talks will take place at CQT ([map](https://goo.gl/maps/1wL9FvoHugySieH48)) 
   </tr>
   <tr>
         <td align="left">10.30</td>
-        <td align="left">Daniel Stilck Franca</td>
+        <td align="left">Erkka Happasalo</td>
 	<td align="left">Enrique Cervero</td>
 	<td align="left">Salman Beigi</td>
-	<td align="left">Erkka Happasalo</td>
+	<td align="left">Daniel Stilck Franca</td>
 	<td align="left">Omar Fawzi</td>
   </tr>
   <tr>
@@ -87,7 +87,26 @@ Buffet style dinner. Dress code: Smart Casual.
 
 
 ### Talks
-Daniel Stilck Franca - "TBC"	<br />
+<details>
+      <summary>
+            <b>Daniel Stilck Franca</b> - "Efficient learning of ground & thermal states within phases of matter"           
+      </summary>
+	<p>
+      Abstract: We consider two related tasks: (a) estimating a parameterisation of an unknown Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision.
+
+For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians under the condition of exponential decay of correlations and the approximate Markov property, thus improving on work by \cite{rouze2021learning}. We show that it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality --- an exponential improvement over state-of-the-art  --- hence partially answering conjectures stated in \cite{rouze2021learning} and \cite{anshu2021sample} in the positive. This class of properties includes expected values of quasi-local observables and entropic quantities of the state.
+
+For the second task, we turn our tomography tools into efficient algorithms for learning observables in a phase of matter of a quantum system.
+By exploiting the locality of the Hamiltonian, we show that $M$ local observables can be learned with probability $1-\delta$ and up to precision $\epsilon$ with access to only $N=\mathcal{O}\big(\log\big(\frac{M}{\delta}\big)e^{\operatorname{polylog}(\epsilon^{-1})}\big)$ samples ---
+again an exponential improvement in the precision over the best previously known bounds \cite{huang2021provably}.
+Our results apply to both thermal phases of matter displaying exponential decay of correlations and families of ground states of Hamiltonians satisfying a similar condition.
+In addition, our sample complexity applies to the worse case setting whereas previous results only applied to the average case setting.
+
+To prove our results, we develop new tools of independent interest, such as robust shadow tomography algorithms for ground and Gibbs states, Gibbs approximations of locally indistinguishable ground states, and generalisations of transportation cost inequalities for Gibbs states of non-commuting Hamiltonians.
+
+This is based on joint work with Emilio Onorati, Cambyse Rouzé and James D. Watson
+
+</details>
 Enrique Cervero - "TBC"	<br />
 Salman Beigi - "TBC"	<br />
 Erkka Happasalo - "TBC"	<br />
