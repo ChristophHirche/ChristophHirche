@@ -108,6 +108,14 @@ To prove our results, we develop new tools of independent interest, such as robu
 
 This is based on joint work with Emilio Onorati, Cambyse Rouzé and James D. Watson
 </details>
+<details markdown=block>
+<summary markdown=span>
+            <b>Enrique Cervero</b> - "From magic squares to quantum key distribution"           
+</summary>
+We explore the three player version of the magic square game, an instance of a non-local game, and show that the best possible three player quantum strategy does not outperform the best possible three player classical strategy.
+Inspired by this, we design a general Device Independent Quantum Key Distribution protocol based on arbitrary Non-Local Games (NLG-DIQKD) and exemplify it with the magic square game.
+We prove the security of the NLG-DIQKD in the finite key regime via the generalised entropy accumulation theorem, a recent result which bounds the smooth min-entropy of a classical-quantum state resulting from a sequence of completely positive and trace preserving maps.
+</details>
 Enrique Cervero - "TBC"	<br />
 Salman Beigi - "TBC"	<br />
 Erkka Happasalo - "TBC"	<br />
