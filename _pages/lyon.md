@@ -116,7 +116,6 @@ We explore the three player version of the magic square game, an instance of a n
 Inspired by this, we design a general Device Independent Quantum Key Distribution protocol based on arbitrary Non-Local Games (NLG-DIQKD) and exemplify it with the magic square game.
 We prove the security of the NLG-DIQKD in the finite key regime via the generalised entropy accumulation theorem, a recent result which bounds the smooth min-entropy of a classical-quantum state resulting from a sequence of completely positive and trace preserving maps.
 </details>
-Enrique Cervero - "TBC"	<br />
 Salman Beigi - "TBC"	<br />
 Erkka Happasalo - "TBC"	<br />
 Omar Fawzi - "TBC" 	<br />
