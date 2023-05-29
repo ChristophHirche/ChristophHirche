@@ -132,7 +132,7 @@ Omar Fawzi - "TBC" 	<br />
 Roberto Rubboli - "TBC"	<br />
 Mischa Woods - "TBC"	<br />
 Yonglong Li - "TBC"	<br />
-Aadil Oufkir - "TBC"	<br />
+Aadil Oufkir - "TBC"	
 <details markdown=block>
 <summary markdown=span>
             <b>Josep Lumbreras</b> - "Online learning of quantum pure states without regret"           
