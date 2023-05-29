@@ -116,14 +116,29 @@ We explore the three player version of the magic square game, an instance of a n
 Inspired by this, we design a general Device Independent Quantum Key Distribution protocol based on arbitrary Non-Local Games (NLG-DIQKD) and exemplify it with the magic square game.
 We prove the security of the NLG-DIQKD in the finite key regime via the generalised entropy accumulation theorem, a recent result which bounds the smooth min-entropy of a classical-quantum state resulting from a sequence of completely positive and trace preserving maps.
 </details>
-Salman Beigi - "TBC"	<br />
-Erkka Happasalo - "TBC"	<br />
+<details markdown=block>
+<summary markdown=span>
+            <b>Salman Beigi</b> - "Optimal Convergence Rates in the Quantum Central Limit Theorem"           
+</summary>
+Central limit theorem (CLT) states that the normalized sum of $n$ iid random variables converges to a Gaussian distribution. The measure of distance and the rate of convergence under which CLT holds have been the subject of study for decades. While the rate of convergence in $L_1$ distance has been known since the 60's, the optimal convergence rate in relative entropy is derived only in the last decade. In this talk I discuss the optimal convergence rates in the quantum central limit theorem.  I show that when measured in $L_1$ distance the optimal rate of convergence in quantum CLT is $O(1/\sqrt{n})$, and when measured in relative entropy, under some extra assumptions, the optimal convergence rate is $O(1/n)$. This talk is based on a joint work with Hami Mehrabi.
+</details>
+<details markdown=block>
+<summary markdown=span>
+            <b>Erkka Happasalo</b> - "Asymptotic and catalytic matrix majorization"           
+</summary>
+The matrix majorization problem asks, given two tuples of probability vectors, whether there exists a single stochastic matrix transforming one tuple into the other. Solving an open problem due to Mu et al, we show that if certain monotones - namely multivariate extensions of Renyi divergences - are strictly ordered between the two tuples, then for sufficiently large n, there exists a stochastic matrix taking n copies of each input distribution to n copies of the corresponding output distribution. The same conditions, with non-strict ordering for the monotones, are also necessary for such asymptotic matrix majorization. Our result also yields a map that approximately converts a single copy of each input distribution to the corresponding output distribution with the help of a catalyst that is returned unchanged. Allowing for transformation with arbitrarily small error, we find conditions that are both necessary and sufficient for such catalytic matrix majorization. We derive our results by building on a general algebraic theory of preordered semirings recently developed by one of the authors. This also allows us to recover various existing results on asymptotic and catalytic majorization as well as relative majorization in a unified manner. This talk is based on a joint work with Muhammad Usman Farooq, Tobias Fritz, and Marco Tomamichel.
+</details>
 Omar Fawzi - "TBC" 	<br />
 Roberto Rubboli - "TBC"	<br />
 Mischa Woods - "TBC"	<br />
 Yonglong Li - "TBC"	<br />
 Aadil Oufkir - "TBC"	<br />
-Josep Lumbreras - "TBC"
+<details markdown=block>
+<summary markdown=span>
+            <b>Josep Lumbreras</b> - "Online learning of quantum pure states without regret"           
+</summary>
+We present a novel way of learning pure quantum states using online learning techniques from stochastic bandit theory. In this setting, the learner interacts sequentially with an unknown pure quantum state (the environment) performing single-copy rank-1 projectors measurements (the action).  The learner's goal is to reduce the expected cumulative regret, which is minimized by selecting the measurements with maximum overlap with the unknown state. In previous work, it was observed that the regret scales as square root the number of rounds if we apply directly the bandit algorithm LinUCB. It was an open question if this strategy was optimal. We answer this question by presenting a modified version of LinUCB that uses a weighted least square estimator and gives a logarithmic scaling of the regret under a geometrical assumption. We do numerical studies that show logarithmic scaling and we check that the assumption is satisfied. We also derive information-theoretic lower bounds on the regret connecting quantum state tomography with bandit protocols and show a logarithmic lower bound that is almost optimal.  Finally, we study a classical quantum-inspired stochastic linear bandit that shows that contrary to a common belief in classical bandit theory, the square root regret barrier is not only due to the fact that the action set is continuous, it is also because the variances of the reward probabilities distributions have non-zero variance.
+</details>
 
 ### Organizers
 [Omar Fawzi](https://perso.ens-lyon.fr/omar.fawzi/) <br />
