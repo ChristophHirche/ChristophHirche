@@ -128,8 +128,15 @@ Central limit theorem (CLT) states that the normalized sum of $n$ iid random var
 </summary>
 The matrix majorization problem asks, given two tuples of probability vectors, whether there exists a single stochastic matrix transforming one tuple into the other. Solving an open problem due to Mu et al, we show that if certain monotones - namely multivariate extensions of Renyi divergences - are strictly ordered between the two tuples, then for sufficiently large n, there exists a stochastic matrix taking n copies of each input distribution to n copies of the corresponding output distribution. The same conditions, with non-strict ordering for the monotones, are also necessary for such asymptotic matrix majorization. Our result also yields a map that approximately converts a single copy of each input distribution to the corresponding output distribution with the help of a catalyst that is returned unchanged. Allowing for transformation with arbitrarily small error, we find conditions that are both necessary and sufficient for such catalytic matrix majorization. We derive our results by building on a general algebraic theory of preordered semirings recently developed by one of the authors. This also allows us to recover various existing results on asymptotic and catalytic majorization as well as relative majorization in a unified manner. This talk is based on a joint work with Muhammad Usman Farooq, Tobias Fritz, and Marco Tomamichel.
 </details>
-Omar Fawzi - "TBC" 	<br />
-Roberto Rubboli - "TBC"	<br />
+Omar Fawzi - "TBC" 	
+<details markdown=block>
+<summary markdown=span>
+            <b>Roberto Rubboli</b> - "Additivity properties of resource monotones based on a quantum relative entropy"           
+</summary>
+We discuss how to recast the additivity problem of resource monotones based on quantum relative entropies into a simpler linear one. Our results rely on deriving necessary and sufficient conditions for the minimum of these monotones.  We recover independently results in resource theory of coherence, conditional entropies, and find new results in entanglement theory and resource theory of magic. 
+
+Talk based on: https://arxiv.org/abs/2211.12804
+</details>
 Mischa Woods - "TBC"	<br />
 Yonglong Li - "TBC"	<br />
 Aadil Oufkir - "TBC"	
