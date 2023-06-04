@@ -128,7 +128,14 @@ Central limit theorem (CLT) states that the normalized sum of $n$ iid random var
 </summary>
 The matrix majorization problem asks, given two tuples of probability vectors, whether there exists a single stochastic matrix transforming one tuple into the other. Solving an open problem due to Mu et al, we show that if certain monotones - namely multivariate extensions of Renyi divergences - are strictly ordered between the two tuples, then for sufficiently large n, there exists a stochastic matrix taking n copies of each input distribution to n copies of the corresponding output distribution. The same conditions, with non-strict ordering for the monotones, are also necessary for such asymptotic matrix majorization. Our result also yields a map that approximately converts a single copy of each input distribution to the corresponding output distribution with the help of a catalyst that is returned unchanged. Allowing for transformation with arbitrarily small error, we find conditions that are both necessary and sufficient for such catalytic matrix majorization. We derive our results by building on a general algebraic theory of preordered semirings recently developed by one of the authors. This also allows us to recover various existing results on asymptotic and catalytic majorization as well as relative majorization in a unified manner. This talk is based on a joint work with Muhammad Usman Farooq, Tobias Fritz, and Marco Tomamichel.
 </details>
-Omar Fawzi - "TBC" 	
+<details markdown=block>
+<summary markdown=span>
+            <b>Omar Fawzi</b> - "Lower bounds on the overhead of a quantum memory"           
+</summary>
+A quantum memory is a procedure to store quantum information in a way that is robust to local noise for some fixed time. I will discuss two lower bounds on the number of additional physical registers required for a quantum memory. For the first one, I will focus on the dependence on time and allow very general operations. For the second one, I will require the operations to be geometrically local and focus on the dependence on the desired logical error rate. An important feature of these bounds is that they hold even if error-free classical computation is allowed.
+
+Based on joint works with Nouédyn Baspin, Alexander Müller-Hermes and Ala Shayeghi available at https://arxiv.org/abs/2202.00119 and https://arxiv.org/abs/2302.04317.
+</details>	
 <details markdown=block>
 <summary markdown=span>
             <b>Roberto Rubboli</b> - "Additivity properties of resource monotones based on a quantum relative entropy"           
@@ -137,7 +144,12 @@ We discuss how to recast the additivity problem of resource monotones based on q
 
 Talk based on: https://arxiv.org/abs/2211.12804
 </details>
-Mischa Woods - "TBC"	<br />
+<details markdown=block>
+<summary markdown=span>
+            <b>Mischa Woods</b> - "A general framework for consistent logical reasoning in Wigner's friend scenarios: subjective perspectives of agents within a single quantum circuit "           
+</summary>
+ It is natural to expect a complete physical theory to have the ability to consistently model agents also as physical systems of the theory. In [Nat. Comms. 9, 3711 (2018)], Frauchiger and Renner (FR) claim to show that when agents model each other as quantum systems while reasoning about each other's knowledge in a certain Wigner's friend scenario, they arrive at a logical contradiction. In light of this, Renner often poses the challenge: provide a set of reasoning rules that can be used to program future quantum computers that may act as agents, which are (a) logically consistent (b) generalise to arbitrary Wigner's friend scenarios (c) efficiently programmable and (d) consistent with the temporal order of the protocol. Here we develop a general framework where we show that every logical Wigner's friend scenario (LWFS) can be mapped to a single temporally ordered quantum circuit, which allows agents in any LWFS to reason in a way that meets all four criteria of the challenge. Importantly, our framework achieves this general resolution without modifying classical logic or unitary quantum evolution or the Born rule, while allowing agents' perspectives to be fundamentally subjective. We analyse the FR protocol in detail, showing how the apparent paradox is resolved there. We show that apparent logical contradictions in any LWFS only arise when ignoring the choice of Heisenberg cut in scenarios where this choice does matter, and taking this dependence into account will always resolve the apparent paradox. What is more, in the special case of conventional quantum experiments, our formalism reduces to conventional quantum theory. Our results establish that universal applicability of quantum theory does not pose any threat to multi-agent logical reasoning and we discuss the implications of these results for FR's no-go theorem. Moreover, our formalism suggests the possibility of a truly relational and operational description of Wigner's friend scenarios that is consistent with quantum theory as well as probability theory applied to measurement outcomes.
+</details>	
 Yonglong Li - "TBC"	<br />
 Aadil Oufkir - "TBC"	
 <details markdown=block>
