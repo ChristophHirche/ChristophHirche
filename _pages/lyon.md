@@ -43,7 +43,7 @@ All talks will take place at CQT ([map](https://goo.gl/maps/1wL9FvoHugySieH48)) 
   </tr>
   <tr>
         <td align="left">10.30</td>
-        <td align="left">Erkka Happasalo</td>
+        <td align="left">Erkka Haapasalo</td>
 	<td align="left">Enrique Cervero</td>
 	<td align="left">Salman Beigi</td>
 	<td align="left">Daniel Stilck Franca</td>
@@ -58,7 +58,7 @@ All talks will take place at CQT ([map](https://goo.gl/maps/1wL9FvoHugySieH48)) 
     	<td>Roberto Rubboli</td>
 	<td>Mischa Woods</td>
 	<td>Yonglong Li</td>
-	<td>Aadil Oufkir</td>
+	<td>Christoph Hirche</td>
 	<td>Josep Lumbreras</td>
   </tr>
   <tr>
@@ -151,7 +151,12 @@ Talk based on: https://arxiv.org/abs/2211.12804
  It is natural to expect a complete physical theory to have the ability to consistently model agents also as physical systems of the theory. In [Nat. Comms. 9, 3711 (2018)], Frauchiger and Renner (FR) claim to show that when agents model each other as quantum systems while reasoning about each other's knowledge in a certain Wigner's friend scenario, they arrive at a logical contradiction. In light of this, Renner often poses the challenge: provide a set of reasoning rules that can be used to program future quantum computers that may act as agents, which are (a) logically consistent (b) generalise to arbitrary Wigner's friend scenarios (c) efficiently programmable and (d) consistent with the temporal order of the protocol. Here we develop a general framework where we show that every logical Wigner's friend scenario (LWFS) can be mapped to a single temporally ordered quantum circuit, which allows agents in any LWFS to reason in a way that meets all four criteria of the challenge. Importantly, our framework achieves this general resolution without modifying classical logic or unitary quantum evolution or the Born rule, while allowing agents' perspectives to be fundamentally subjective. We analyse the FR protocol in detail, showing how the apparent paradox is resolved there. We show that apparent logical contradictions in any LWFS only arise when ignoring the choice of Heisenberg cut in scenarios where this choice does matter, and taking this dependence into account will always resolve the apparent paradox. What is more, in the special case of conventional quantum experiments, our formalism reduces to conventional quantum theory. Our results establish that universal applicability of quantum theory does not pose any threat to multi-agent logical reasoning and we discuss the implications of these results for FR's no-go theorem. Moreover, our formalism suggests the possibility of a truly relational and operational description of Wigner's friend scenarios that is consistent with quantum theory as well as probability theory applied to measurement outcomes.
 </details>	
 Yonglong Li - "TBC"	<br />
-Aadil Oufkir - "TBC"	
+<details markdown=block>
+<summary markdown=span>
+            <b>Christoph Hirche</b> - "Renyi and f-divergences from integral representations"           
+</summary>
+I present some ongoing work on a new f-divergence. This is joint work with Marco Tomamichel.  
+</details>
 <details markdown=block>
 <summary markdown=span>
             <b>Josep Lumbreras</b> - "Online learning of quantum pure states without regret"           
