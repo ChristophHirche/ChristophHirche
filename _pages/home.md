@@ -21,6 +21,8 @@ Previously, I was a postdoctoral researcher in [QMATH](https://qmath.ku.dk) at t
 <br>
 
 #### Latest papers
+- <a href="https://arxiv.org/abs/2306.12343">Quantum Rényi and f-divergences from integral representations</a> (with Marco Tomamichel)
+- <a href="https://arxiv.org/abs/2305.02589">Chain Rules for Renyi Information Combining</a> (with Xinyue Guan, Marco Tomamichel)
 - <a href="https://arxiv.org/abs/2202.11688">Bounding Quantum Capacities via Partial Orders and Complementarity</a> (with Felix Leditzky)
 - <a href="https://arxiv.org/abs/2202.10717">Quantum Differential Privacy: An Information Theory Perspective</a> (with Cambyse Rouzé, Daniel Stilck França)
 - <a href="https://arxiv.org/abs/2103.02404">Quantum Network Discrimination</a>
