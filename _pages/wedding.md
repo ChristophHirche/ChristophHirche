@@ -9,17 +9,14 @@ permalink: /CJwedding/
 # Christoph and Jamie's wedding
 #### Saturday, 14. September 2024
 
-### General Information
-The workshop will be held at CQT and aims to foster collaborations between the quantum information groups in Lyon and Singapore. 
 
 <p style="margin-bottom:3cm;">
-<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/savethedate.png"  width="120"> 
-This workshop is supported within the [MERLION PROGRAMME 2023](https://www.campusfrance.org/en/merlion), co-funded in France by the Ministry of Europe and Foreign Affairs (MEAE) and in Singapore by the National University of Singapore (NUS). <br />
+<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/savethedate.png"  width="1200"> 
 </p>
 
 
 
-### Program 
+### Agenda
 
 
 
