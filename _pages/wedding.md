@@ -1,13 +1,13 @@
 ---
-title: "Lyon-Sinapore Quantum Information Meeting"
+title: "Christoph Jamie wedding"
 layout: textlay
-excerpt: "Lyon-Sinapore Quantum Information Meeting"
+excerpt: "Christoph Jamie wedding"
 sitemap: false
-permalink: /lyon-singapore/
+permalink: /CJwedding/
 ---
 
-# Lyon-Singapore Quantum Information Meeting
-#### 05.-09. June 2023
+# Christoph Jamie wedding
+#### 14. September 2024
 
 ### General Information
 The workshop will be held at CQT and aims to foster collaborations between the quantum information groups in Lyon and Singapore. 
