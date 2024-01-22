@@ -10,7 +10,7 @@ permalink: /CJwedding/
 #### Saturday, 14. September 2024
 
 
-<p style="margin-bottom:3cm;">
+<p style="margin-bottom:1cm;">
 <img style="text-align: center;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/savethedate.png"  width="700"> 
 <br />
 </p>
