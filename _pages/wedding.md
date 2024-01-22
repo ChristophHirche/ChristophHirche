@@ -32,7 +32,7 @@ Details TBC
 <b>12:00</b> Tea ceremony <br />
 </p>
 
-#### Evening session at [The St. Regis Kuala Lumpur](https://g.co/kgs/DaKYdCk)
+#### Evening session at [Astor Ballroom, The St. Regis Kuala Lumpur](https://g.co/kgs/DaKYdCk)
 
 <p style="margin-bottom:6cm;">
 <b>18:00</b> Reception <br />
