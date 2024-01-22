@@ -11,7 +11,7 @@ permalink: /CJwedding/
 
 
 <p style="margin-bottom:3cm;">
-<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/savethedate.png"  width="700"> 
+<img style="text-align: center;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/savethedate.png"  width="700"> 
 <br />
 </p>
 
