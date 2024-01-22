@@ -18,14 +18,11 @@ permalink: /CJwedding/
 
 ### Agenda
 
-
-
-#### Social events: 
-<b>Moday:</b> Welcome drinks at [RedDot Brewhouse](https://reddotbrewhouse.com.sg/pages/menu) ([Map](https://goo.gl/maps/4mvNbwfei1dazjtr7)) <br />
+<b>9:00</b> Welcome drinks at [RedDot Brewhouse](https://reddotbrewhouse.com.sg/pages/menu) ([Map](https://goo.gl/maps/4mvNbwfei1dazjtr7)) <br />
 Casual drinks and snacks. <br />
 
 
-<b>Thursday:</b> Workshop dinner at [Colony](https://www.ritzcarlton.com/en/hotels/singapore/dining/colony/menu) ([Map](https://goo.gl/maps/gsbyhV6APN4kfWZu9)) <br />
+<b>12:00</b> Workshop dinner at [Colony](https://www.ritzcarlton.com/en/hotels/singapore/dining/colony/menu) ([Map](https://goo.gl/maps/gsbyhV6APN4kfWZu9)) <br />
 Buffet style dinner. Dress code: Smart Casual.
 
 
@@ -53,11 +50,6 @@ This is based on joint work with Emilio Onorati, Cambyse Rouzé and James D. Wat
 </details>
 
 
-### Organizers
-[Omar Fawzi](https://perso.ens-lyon.fr/omar.fawzi/) <br />
-[Daniel Stilck Franca](https://danielstilckfranca.eu) <br />
-[Christoph Hirche](https://christophhirche.github.io/ChristophHirche/) <br />
-[Marco Tomamichel](https://marcotom.info)
 
 ### Funding
 
