@@ -1,11 +1,11 @@
-# example slider
 - selector: slider1
+  bullets: false
   captions: false
   images:
     - src: /images/picpic/Gallery/pic1.jpg
       alt: image one
-    - src: /images/picpic/Gallery/pic2.jpg
+    - data-src: /images/picpic/Gallery/pic2.jpg
       alt: Use data-src for on-demand loading
   settings:
-    height: "'auto'"
+    height: 400
     effect: "'fade'"
