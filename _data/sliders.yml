@@ -8,3 +8,4 @@
       alt: Use data-src for on-demand loading
   settings:
     height: 1000
+    effect: "'fade'"
