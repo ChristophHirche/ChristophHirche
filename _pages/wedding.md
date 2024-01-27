@@ -22,8 +22,8 @@ We are so excited to have you! Please RSVP by 01. May 2024:
 
 ### Agenda
 
-#### Morning session at [Glenmarie Hotel & Golf Resort](https://g.co/kgs/drnuFi8) (Free parking)
-Dress code: Smart Casual
+#### Morning session at [Glenmarie Hotel & Golf Resort](https://g.co/kgs/drnuFi8) 
+Dress code: Smart Casual (Free parking)
 <p style="margin-bottom:1cm;">
 <b>09:30</b> Full Gospel Wedding  <br /> 
 <b>11:00</b> Lunch <br />
@@ -38,7 +38,7 @@ Dress code: Formal
 
 </p>
 
-#### Gallery
+#### Photo Gallery
 {% assign number_printed = 0 %}
 {% for pic in site.data.pictures_wedding %}
 
