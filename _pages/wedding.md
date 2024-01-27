@@ -34,7 +34,6 @@ Dress code: Smart Casual
 Dress code: Formal
 <p style="margin-bottom:6cm;">
 <b>18:00</b> Reception (Cocktails & Canapes) <br />
-
 <b>19:00</b> Dinner <br />
 
 </p>
