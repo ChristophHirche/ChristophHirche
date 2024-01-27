@@ -2,7 +2,7 @@
 - selector: slider1
   captions: true
   images:
-    - src: /imgages/picpic/Gallery/pic1.jpg
+    - src: /images/picpic/Gallery/pic1.jpg
       alt: image one
   settings:
     height: "'auto'"
