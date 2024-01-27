@@ -6,7 +6,7 @@ sitemap: false
 permalink: /CJwedding/
 ---
 
-# Christoph & Jamie's wedding
+
 #### Saturday, 14. September 2024
 
 
