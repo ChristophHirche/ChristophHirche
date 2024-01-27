@@ -4,6 +4,8 @@ layout: wedding
 excerpt: "Christoph and Jamies wedding"
 sitemap: false
 permalink: /CJwedding/
+image_sliders:
+  - slider1
 ---
 
 
