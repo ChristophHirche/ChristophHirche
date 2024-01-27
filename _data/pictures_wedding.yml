@@ -1,8 +1,24 @@
 - title: pic1_description
   image: pic1.jpg
 - title: pic2_description
-  image: pic2.jpg
+  image: pic2.HEIC
 - title: pic3_description
-  image: pic1.jpg
+  image: pic3.HEIC
 - title: pic4_description
-  image: pic1.jpg
+  image: pic4.jpg
+- title: pic4_description
+  image: pic5.jpg
+- title: pic4_description
+  image: pic6.jpg
+- title: pic4_description
+  image: pic7.jpg
+- title: pic4_description
+  image: pic8.jpg
+- title: pic4_description
+  image: pic9.jpg
+- title: pic4_description
+  image: pic10.jpg
+- title: pic4_description
+  image: pic11.jpg
+- title: pic4_description
+  image: pic12.jpg
