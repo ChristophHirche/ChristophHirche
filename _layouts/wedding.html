@@ -46,6 +46,9 @@
 <meta name="twitter:image" content="https://christophhirche.github.io/ChristophHirche/images/savethedate.png">
 {% endif %}
 <!-- end of Twitter cards -->
+
+	<link rel="stylesheet" href="/ImageSlider/ideal-image-slider.css">
+	<link rel="stylesheet" href="/ImageSlider/themes/default/default.css">
   
 
 </head>
@@ -84,9 +87,15 @@
       </div>
     </div>
 
-  {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+<script src="/path/to/ideal-image-slider.js"></script>
 
-  {% include carousel.html height="50" unit="%" duration="7" number="2" %}
+<div id="slider">
+	<img src="imgages/picpic/Gallery/pic1.jpg" alt="Minimum required attributes">
+	<img data-src="img/2.jpg" src="" alt="Use data-src for on-demand loading">
+	<img data-src="img/3.jpg" data-src-2x="img/3@2x.jpg" src="" alt="Use data-src-2x for HiDPI devices">
+	<a href="http://example.com"><img data-src="img/4.jpg" src="" alt="Links work too"></a>
+	...
+</div>
 
  <!--      {% include footer.html %}  -->
 
