@@ -17,12 +17,13 @@ permalink: /CJwedding/
 
 
 
-we are so excited to have you! Please RSVP by 01. May 2024:  
+We are so excited to have you! Please RSVP by 01. May 2024:  
 ## [RSVP](https://forms.gle/NpjWY5iNtojtxxXS8)
 
 ### Agenda
 
 #### Morning session at [Glenmarie Hotel & Golf Resort](https://g.co/kgs/drnuFi8)
+Dress code: Smart Casual
 <p style="margin-bottom:1cm;">
 <b>09:30</b> Full Gospel Wedding  <br /> 
 <b>11:00</b> Lunch <br />
@@ -30,7 +31,7 @@ we are so excited to have you! Please RSVP by 01. May 2024:
 </p>
 
 #### Evening session at [Astor Ballroom, The St. Regis Kuala Lumpur](https://g.co/kgs/DaKYdCk)
-
+Dress code: Formal
 <p style="margin-bottom:6cm;">
 <b>18:00</b> Reception <br />
 
