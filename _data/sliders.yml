@@ -2,7 +2,7 @@
 - selector: example_slider
   captions: true
   images:
-    - src: /imgages/picpic-Gallery/pic1.jpg
+    - src: /imgages/picpic/Gallery/pic1.jpg
       alt: image one
     - src: /img/2.jpg
       alt: image two
