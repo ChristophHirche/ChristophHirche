@@ -17,11 +17,10 @@ permalink: /CJwedding/
 
 
 
-Please let us know by tomorrow if you can make it: 
+we are so excited to have you! Please RSVP by 01. May 2024:  
 ## [RSVP](https://forms.gle/NpjWY5iNtojtxxXS8)
 
 ### Agenda
-Details TBC
 
 #### Morning session at [Glenmarie Hotel & Golf Resort](https://g.co/kgs/drnuFi8)
 <p style="margin-bottom:1cm;">
