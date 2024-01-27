@@ -33,7 +33,7 @@ Dress code: Smart Casual
 #### Evening session at [Astor Ballroom, The St. Regis Kuala Lumpur](https://g.co/kgs/DaKYdCk)
 Dress code: Formal
 <p style="margin-bottom:6cm;">
-<b>18:00</b> Reception <br />
+<b>18:00</b> Reception (Cocktails & Canapes) <br />
 
 <b>19:00</b> Dinner <br />
 
