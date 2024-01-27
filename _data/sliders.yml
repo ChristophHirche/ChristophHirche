@@ -1,6 +1,6 @@
 # example slider
 - selector: slider1
-  captions: false
+  captions: true
   images:
     - src: /images/picpic/Gallery/pic1.jpg
       alt: image one
