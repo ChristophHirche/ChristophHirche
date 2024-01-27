@@ -24,9 +24,9 @@ we are so excited to have you! Please RSVP by 01. May 2024:
 
 #### Morning session at [Glenmarie Hotel & Golf Resort](https://g.co/kgs/drnuFi8)
 <p style="margin-bottom:1cm;">
-<b>09:30</b> Full Gospel wedding  <br /> 
+<b>09:30</b> Full Gospel Wedding  <br /> 
 <b>11:00</b> Lunch <br />
-<b>12:00</b> Tea ceremony <br />
+<b>12:00</b> Chinese Tea Ceremony <br />
 </p>
 
 #### Evening session at [Astor Ballroom, The St. Regis Kuala Lumpur](https://g.co/kgs/DaKYdCk)
