@@ -7,7 +7,7 @@ permalink: /CJwedding/
 ---
 
 
-#### Saturday, 14. September 2024
+
 
 
 <p style="margin-bottom:1cm;">
