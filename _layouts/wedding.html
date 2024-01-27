@@ -47,8 +47,8 @@
 {% endif %}
 <!-- end of Twitter cards -->
 
-	<link rel="stylesheet" href="/ImageSlider/ideal-image-slider.css">
-	<link rel="stylesheet" href="/ImageSlider/themes/default/default.css">
+
+{% include slider_styles.html %}
   
 
 </head>
@@ -87,16 +87,8 @@
       </div>
     </div>
 
-<script src="/ImageSlider/ideal-image-slider.js"></script>
 
-<div id="slider">
-	<img src="images/picpic/Gallery/pic1.jpg" alt="Minimum required attributes">
-	<img data-src="images/picpic/Gallery/pic2.jpg" src="" alt="Use data-src for on-demand loading">
-<!--	<img data-src="img/3.jpg" data-src-2x="img/3@2x.jpg" src="" alt="Use data-src-2x for HiDPI devices">    -->
-<!--	<a href="http://example.com"><img data-src="img/4.jpg" src="" alt="Links work too"></a>    -->
-</div>
-
-new IdealImageSlider.Slider('#slider');
+{% include slider_scripts.html %}
 
  <!--      {% include footer.html %}  -->
 
