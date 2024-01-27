@@ -4,10 +4,6 @@
   images:
     - src: /imgages/picpic/Gallery/pic1.jpg
       alt: image one
-    - src: /img/2.jpg
-      alt: image two
-    - src: /img/3.jpg
-      alt: image three
   settings:
     height: "'auto'"
     effect: "'fade'"
