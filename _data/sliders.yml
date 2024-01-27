@@ -7,5 +7,5 @@
     - data-src: /images/picpic/Gallery/pic2.jpg
       alt: Use data-src for on-demand loading
   settings:
-    maxheight: 200
+    height: 200
     effect: "'fade'"
