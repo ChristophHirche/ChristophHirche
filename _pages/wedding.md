@@ -82,9 +82,6 @@ Details TBC
 <p> &nbsp; </p>
 
 
-{% include slider.html selector="slider1" %}
-
-
 
 
 
