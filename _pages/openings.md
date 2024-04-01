@@ -22,14 +22,15 @@ Possible research topics include:
 
 Applicants for a PhD position are expected to have
 
-a MSc in physics, mathematics, or computer science (or something equivalent)
-good verbal and written english skills
-interest in quantum information processing (in particular mathematical aspects).
-
+<ul>
+<li> A MSc in physics, mathematics, or computer science (or something equivalent)</li>
+<li> Good verbal and written english skills </li>
+<li> Interest in quantum information processing (in particular mathematical aspects).
+</ul>
 
 The starting date is flexible, with the goal to fill the position as soon as possible. There is no fixed deadline. 
 
-To apply for the position, please send the following documents to ramona.wolf@uni-siegen.de:
+To apply for the position, please send me the following documents via email:
 
 <ul>
 <li> Short letter of motivation </li>
