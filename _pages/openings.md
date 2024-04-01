@@ -34,5 +34,6 @@ To apply for the position, please send the following documents to ramona.wolf@un
 <ul>
 <li> Short letter of motivation </li>
 <li> CV </li>
-<li> others optional: Transcript of records, Contacts of Recommendations </li>
+<li> Transcript of records </li>
+<li> A scientific document you wrote </li>
 </ul>
