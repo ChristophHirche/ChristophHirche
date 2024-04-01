@@ -25,7 +25,7 @@ Applicants for a PhD position are expected to have
 <ul>
 <li> A MSc in physics, mathematics, or computer science (or something equivalent)</li>
 <li> Good verbal and written english skills </li>
-<li> Interest in quantum information processing (in particular mathematical aspects).
+<li> Interest in quantum information processing (in particular mathematical aspects).</li>
 </ul>
 
 The starting date is flexible, with the goal to fill the position as soon as possible. There is no fixed deadline. 
@@ -38,7 +38,7 @@ To apply for the position, please send me the following documents via email:
 <li> Transcript of records </li>
 <li> A scientific document you wrote </li>
 </ul>
-
-</br>
-</br>
+ 
+</br> 
+</br> 
 </br>
