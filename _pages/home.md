@@ -21,6 +21,8 @@ Previously, I was a postdoctoral researcher in [QMATH](https://qmath.ku.dk) at t
 <br>
 
 **I am currently looking for a PhD student for my new group at the University of Hannover, [for more information click here](https://christophhirche.github.io/ChristophHirche/vacancies)**
+<br>
+
 
 #### Latest publications
 - <a href="https://arxiv.org/abs/2402.02866">Quantum Normalizing Flows for Anomaly Detection</a> (with Bodo Rosenhahn)
