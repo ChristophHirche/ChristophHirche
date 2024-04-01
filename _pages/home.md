@@ -20,6 +20,8 @@ My research area is information theory, with a focus on quantum communication an
 Previously, I was a postdoctoral researcher in [QMATH](https://qmath.ku.dk) at the [University of Copenhagen](https://www.ku.dk/english/), where I worked with [Matthias Christandl](https://www.math.ku.dk/english/staff/?pure=en/persons/475476). I obtained my PhD degree from the [Universitat Autonoma de Barcelona](https://grupsderecerca.uab.cat/giq/) under the supervision of [John Calsamiglia](https://grupsderecerca.uab.cat/giq/people/john-calsamiglia).  
 <br>
 
+** I am currently looking for a PhD student for my new group at the University of Hannover, [for more information click here](https://christophhirche.github.io/ChristophHirche/vacancies) **
+
 #### Latest publications
 - <a href="https://arxiv.org/abs/2402.02866">Quantum Normalizing Flows for Anomaly Detection</a> (with Bodo Rosenhahn)
 - <a href="https://arxiv.org/abs/2306.12343">Quantum Rényi and f-divergences from integral representations</a> (with Marco Tomamichel)
