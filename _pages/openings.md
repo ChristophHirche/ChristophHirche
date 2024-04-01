@@ -11,7 +11,7 @@ permalink: /vacancies
 **I am currently looking for a PhD student. Further details below.**
 
 
-For my recently established research group on quantum information and learning at the University of Hannover (Germany), I am looking for a motivated PhD student.
+For my recently established research group on quantum information and learning at the University of Hannover (Germany), I am looking for a motivated PhD student. The position will be based at the <a href="https://www.tnt.uni-hannover.de/en/">Insititute for Information Processing</a>.
 
 Possible research topics include:
 <ul>
@@ -38,7 +38,9 @@ To apply for the position, please send me the following documents via email:
 <li> Transcript of records </li>
 <li> A scientific document you wrote </li>
 </ul>
- 
+
+We aim at building a diverse team. All applications are welcome; those from members of underrepresented groups are especially encouraged.
+
 <br> 
 <br> 
 <br>
