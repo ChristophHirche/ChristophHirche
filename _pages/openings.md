@@ -8,7 +8,13 @@ permalink: /vacancies
 
 # Open positions
 
-**I am currently looking for a PhD student. Further details below.**
+There are currently no open positions. <br> 
+
+Please do however get in touch if you're interested in joining the group or simply working on a common research project.
+There are also topics for Bachelor and Master theses available. 
+
+
+<!-- **I am currently looking for a PhD student. Further details below.**
 
 
 For my recently established research group on quantum information and learning at the University of Hannover (Germany), I am looking for a motivated PhD student. The position will be based at the <a href="https://www.tnt.uni-hannover.de/en/">Insititute for Information Processing</a>.
@@ -40,7 +46,7 @@ To apply for the position, please send me the following documents via email:
 </ul>
 
 We aim at building a diverse team. All applications are welcome; those from members of underrepresented groups are especially encouraged.
-
+//-->
 <br> 
 <br> 
-<br>
+<br> 
