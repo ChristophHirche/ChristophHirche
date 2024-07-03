@@ -21,8 +21,7 @@ Previously, I was a postdoctoral researcher, carrying out a [Marie Skłodowska-C
 Before that, I was a postdoctoral researcher in [QMATH](https://qmath.ku.dk) at the [University of Copenhagen](https://www.ku.dk/english/), where I worked with [Matthias Christandl](https://www.math.ku.dk/english/staff/?pure=en/persons/475476). I obtained my PhD degree from the [Universitat Autonoma de Barcelona](https://grupsderecerca.uab.cat/giq/) under the supervision of [John Calsamiglia](https://grupsderecerca.uab.cat/giq/people/john-calsamiglia).  
 <br>
 
-**I am currently looking for a PhD student for my new group at the University of Hannover, [for more information click here](https://christophhirche.github.io/ChristophHirche/vacancies)**
-<br>
+
 
 
 #### Latest publications
