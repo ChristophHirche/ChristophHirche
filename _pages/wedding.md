@@ -17,7 +17,7 @@ permalink: /CJwedding/
 
 
 
-We are so excited to have you! Please RSVP by 01. July 2024:  
+We are so excited to have you! Please RSVP at your earliest convenience:  
 ## [RSVP](https://forms.gle/NpjWY5iNtojtxxXS8)
 
 ### Agenda
