@@ -10,7 +10,8 @@ permalink: /talks/
 
 Here some of my past talks that have video recordings available. 
 
-#### Bounding quantum capacities via partial orders and complementarity (online at the Foxconn Quantum Computing Center, 2022)
+#### Contraction coefficients: A toolbox (Banff, Fundamental Limitations to Quantum Computation, 2024)
+This talk collects several topics and publications and is meant as an overview talk. 
 <iframe src="http://www.birs.ca/events/2024/5-day-workshops/24w5259/videos/embed/202403071405-Hirche.mp4" width="832"  height="480" frameborder="0"  scrolling="auto" itemprop="video" />
 <br />
   
