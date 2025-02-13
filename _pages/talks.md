@@ -11,7 +11,7 @@ permalink: /talks/
 Here some of my past talks that have video recordings available. 
 
 #### Contraction coefficients: A toolbox (Banff, Fundamental Limitations to Quantum Computation, 2024)
-This talk collects several topics and publications and is meant as an overview talk. 
+This talk collects several topics and publications and is meant as an overview talk. <br />
 <a href="http://www.birs.ca/events/2024/5-day-workshops/24w5259/videos/watch/202403071405-Hirche.html">Link</a>
 <br />
   
