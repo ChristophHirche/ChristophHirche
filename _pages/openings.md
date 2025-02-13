@@ -8,13 +8,13 @@ permalink: /vacancies
 
 # Open positions
 
-There are currently no open positions. <br> 
+<!--There are currently no open positions. <br> 
 
 Please do however get in touch if you're interested in joining the group or simply working on a common research project.
 There are also topics for Bachelor and Master theses available. 
 
-
-<!-- **I am currently looking for a PhD student. Further details below.**
+//-->
+ **I am currently looking for a PhD student. Further details below.**
 
 
 For my recently established research group on quantum information and learning at the University of Hannover (Germany), I am looking for a motivated PhD student. The position will be based at the <a href="https://www.tnt.uni-hannover.de/en/">Insititute for Information Processing</a>.
@@ -34,7 +34,7 @@ Applicants for a PhD position are expected to have
 <li> Interest in quantum information processing (in particular mathematical aspects).</li>
 </ul>
 
-The starting date is flexible, with the goal to fill the position as soon as possible. There is no fixed deadline. 
+The starting date is flexible, with the goal to fill the position this summer. There is no fixed deadline. 
 
 To apply for the position, please send me the following documents via email:
 
@@ -46,7 +46,7 @@ To apply for the position, please send me the following documents via email:
 </ul>
 
 We aim at building a diverse team. All applications are welcome; those from members of underrepresented groups are especially encouraged.
-//-->
+
 <br> 
 <br> 
 <br> 
