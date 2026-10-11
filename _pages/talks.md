@@ -7,7 +7,7 @@ talk_players: true
 
 # Talks
 
-Recorded talks on quantum information theory. Choose **Play here** to load a recording,
-or follow the link to watch it on the host's website. Players load only when you choose to play.
+Recorded talks on quantum information theory. Choose **Play here** for YouTube and YPetz recordings,
+or **Watch on BIRS** to open the BIRS player. Recordings load only when you choose to watch.
 
 {% include talks.html %}

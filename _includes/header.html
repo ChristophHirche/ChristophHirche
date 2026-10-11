@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="site-name" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true"><span class="brand-bracket">|</span><span class="brand-initials">CH</span><span class="brand-bracket">⟩</span></span><span>{{ site.title }}</span></a>
     <nav aria-label="Main navigation">
       <ul class="nav-list">
         {% for item in site.data.navigation %}

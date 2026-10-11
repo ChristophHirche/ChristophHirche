@@ -4,42 +4,32 @@
     const button = container.querySelector('button');
     const status = container.parentElement.querySelector('.player-status');
     const {provider, video, title} = container.dataset;
-    let source;
-    if (provider === 'youtube' && /^[\w-]{11}$/.test(video || '')) {
-      source = 'https://www.youtube-nocookie.com/embed/' + video + '?autoplay=1&rel=0';
-    } else if (provider === 'birs') {
-      try {
-        const url = new URL(video);
-        if (url.origin === 'https://videos.birs.ca' && !url.username && !url.password && url.pathname.endsWith('.mp4')) source = url.href;
-      } catch (_) { /* The original recording link remains available. */ }
-    }
-    if (!source || !button) return;
+    const youtube = provider === 'youtube' && /^[\w-]{11}$/.test(video || '');
+    const ypetz = provider === 'ypetz' && /^https:\/\/ypetz\.filippo\.info\/talks\/[a-z-]+\/[a-z-]+\.mp4$/.test(video || '');
+    if ((!youtube && !ypetz) || !button) return;
     button.hidden = false;
     button.addEventListener('click', () => {
-      const player = document.createElement(provider === 'youtube' ? 'iframe' : 'video');
+      const player = document.createElement(youtube ? 'iframe' : 'video');
       player.className = 'recording-player';
       player.tabIndex = 0;
-      if (provider === 'youtube') {
-        player.title = title;
+      player.title = title;
+      if (youtube) {
         player.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
         player.allowFullscreen = true;
         player.referrerPolicy = 'strict-origin-when-cross-origin';
+        player.src = 'https://www.youtube-nocookie.com/embed/' + video + '?autoplay=1&rel=0';
       } else {
+        player.setAttribute('aria-label', title);
         player.controls = true;
         player.playsInline = true;
         player.preload = 'none';
-        player.setAttribute('aria-label', title);
-        player.addEventListener('error', () => {
-          status.textContent = 'The recording could not load here. Use the link to watch on BIRS.';
-        });
+        player.autoplay = true;
+        player.src = video;
       }
-      player.src = source;
       container.replaceChildren(player);
-      status.textContent = 'Recording loaded from ' + (provider === 'youtube' ? 'YouTube' : 'BIRS') + '.';
+      const host = youtube ? 'YouTube' : 'YPetz';
+      status.textContent = 'Recording loaded from ' + host + '. If playback is unavailable, use the Watch on ' + host + ' link.';
       player.focus();
-      if (provider === 'birs') player.play().catch(() => {
-        status.textContent = 'If playback does not start, use the video controls or the link to watch on BIRS.';
-      });
     }, {once: true});
   });
 })();

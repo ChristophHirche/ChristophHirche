@@ -84,14 +84,17 @@ Scholar reconciliation and citation corrections.
 
 Edit `_data/talks.yml`; keep existing `anchor` values when changing titles. `url`
 is the permanent recording page. For `provider: YouTube`, `video` is the 11-character
-video ID; for `provider: BIRS`, it is the MP4 URL exposed by the official BIRS player.
+video ID. For `provider: BIRS`, omit `video` and link to the official recording page.
+For `provider: YPetz`, `video` is the MP4 linked from the workshop programme.
 Dates are optional when only the event year has been verified.
 
 Talk cards use local styling rather than remote thumbnails. No video, iframe, or
 third-party player request is made before the visitor chooses **Play here**. YouTube
-uses its privacy-enhanced embed domain; BIRS uses a native video player. Once loaded,
-the provider receives the playback request. The recording-page link remains usable
-if scripting, playback, or embedding is unavailable. No third-party player library is needed.
+uses its privacy-enhanced embed domain; YPetz uses the browser's native video controls.
+Once loaded, the host receives the playback request. BIRS prevents its video files
+from playing on other websites, so those cards
+offer **Watch on BIRS** instead. Recording-page links remain usable if scripting,
+playback, or embedding is unavailable. No third-party player library is needed.
 
 ## Analytics and social links
 

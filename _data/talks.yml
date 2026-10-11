@@ -7,15 +7,43 @@
   duration: 40 min
   provider: BIRS
   url: https://www.birs.ca/events/2026/5-day-workshops/26w5621/videos/watch/202607171033-Hirche.html
-  video: https://videos.birs.ca/2026/26w5621/202607171033-Hirche.mp4
+- title: New Frontiers for Contraction Coefficients
+  anchor: new-frontiers-for-contraction-coefficients-ypetz-2026
+  description: ''
+  event: YPetz · Pisa
+  year: 2026
+  date: '2026-06-11'
+  provider: YPetz
+  video: https://ypetz.filippo.info/talks/hirche/hirche.mp4
+  url: https://ypetz.filippo.info/schedule.php#hirche
+- title: 'Quantum Differential Privacy: Where are we at?'
+  anchor: quantum-differential-privacy-where-are-we-at-ffcs-2026
+  description: ''
+  event: Foundations of Future Communication Systems (FFCS 2026) · Braunschweig
+  year: 2026
+  date: '2026-02-26'
+  duration: 32 min
+  provider: YouTube
+  video: py121nXbkzw
+  url: https://www.youtube.com/watch?v=py121nXbkzw
 - title: 'Contraction coefficients: A toolbox'
   anchor: contraction-coefficients-a-toolbox-banff-fundamental-limitations-to-quantum-computation-2024
   description: This talk collects several topics and publications and is meant as an overview talk.
   url: https://www.birs.ca/events/2024/5-day-workshops/24w5259/videos/watch/202403071405-Hirche.html
   event: Fundamental Limitations to Quantum Computation · Banff
   year: 2024
+  date: '2024-03-07'
   provider: BIRS
-  video: https://videos.birs.ca/2024/24w5259/202403071405-Hirche.mp4
+- title: Quantum Rényi and f-divergences from integral representations
+  anchor: quantum-renyi-and-f-divergences-from-integral-representations-qip-2024
+  description: Joint work with Marco Tomamichel.
+  event: QIP 2024 · Taipei
+  year: 2024
+  date: '2024-01-17'
+  duration: 26 min
+  provider: YouTube
+  video: x0TIUxX5rz4
+  url: https://www.youtube.com/watch?v=x0TIUxX5rz4
 - title: Bounding quantum capacities via partial orders and complementarity
   anchor: bounding-quantum-capacities-via-partial-orders-and-complementarity-online-at-the-foxconn-quantum-computing-center-2022
   description: joint work with F. Leditzky

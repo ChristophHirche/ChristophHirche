@@ -139,19 +139,37 @@ vacancy wording; the link does not imply a newly advertised funded position.
 
 Added [Conditional contraction coefficients and their applications to quantum networks](https://www.birs.ca/events/2026/5-day-workshops/26w5621/videos/watch/202607171033-Hirche.html),
 17 July 2026, at the BIRS workshop *Additivity Problems in Quantum and Classical
-Information Theory*. Title, date, 40-minute slot, and MP4 source were checked on
-the official recording page. The existing 2024 BIRS MP4 was checked there as well.
+Information Theory*. Title, date, and 40-minute slot were checked on
+the official recording page. The existing BIRS talk was confirmed as 7 March 2024.
 All eight existing recording links and fragment identifiers are preserved.
+
+The follow-up recording search added three more talks:
+
+| Talk date | Recording | Verification |
+| --- | --- | --- |
+| 17 January 2024 | [Quantum Rényi and f-divergences from integral representations](https://www.youtube.com/watch?v=x0TIUxX5rz4) | QIP2024's official YouTube channel and the [IAQI conference archive](https://quantumdb.iaqi.org/conferences/QIP2024); jointly with Marco Tomamichel. This predates the March 2024 BIRS talk, but was explicitly requested. |
+| 26 February 2026 | [Quantum Differential Privacy: Where are we at?](https://www.youtube.com/watch?v=py121nXbkzw) | Organizer's PSQI channel; identity/title confirmed in the recording's opening slide. The [FFCS programme](https://www.tu-braunschweig.de/ifn/forschung/veranstaltungen/2026-ffcs/schedule) places Hirche on day 4 in Braunschweig, under the provisional title “Quantum Information Theory”. Use the event date, not the August upload date. |
+| 11 June 2026 | [New Frontiers for Contraction Coefficients](https://ypetz.filippo.info/schedule.php#hirche) | The official YPetz programme links the MP4 and confirms the title, speaker, and date; [workshop homepage](https://ypetz.filippo.info/) confirms Pisa, 2026. |
+
+The [official QIP 2026 programme](https://app.onlineexpo.com/events/qip-2026/en/schedules/9f9349c5-a18a-45be-a1cd-aa3e1f890414)
+confirms *Representations of f-Divergences and their role in Quantum Hypothesis
+Testing*, 29 January 2026, in a merged 11:00–12:00 plenary slot. No public recording
+was located on the programme, IAQI archive, or the video searches checked on
+12 October 2026. This is not evidence that no recording exists. Do not add a guessed
+video URL or present the programme link as a recording.
 
 The owner chose click-to-load players. Cards use local CSS previews, YouTube's
 [privacy-enhanced embed domain](https://support.google.com/youtube/answer/171780?hl=en),
-and native video for BIRS. Sources are attached only after a click. Original host
+native video for the YPetz recording, and a **Watch on BIRS** link for BIRS recordings. BIRS video files return HTTP 403
+when requested with a localhost or the live site's referrer, while playback on the
+official BIRS page works. Do not embed those direct MP4 URLs or bypass that restriction.
+YouTube and YPetz sources are attached only after a click. Original host
 links remain available for blocked/unsupported playback and visitors without
 JavaScript. Controls have labels, keyboard focus, responsive dimensions, and live
 status messages. Captions and third-party player behavior depend on the recordings
 provided by their hosts. No remote thumbnails, feed service, or player library was added.
 
-The second visual pass adds subtle teal/copper accents, a small geometric name mark,
+The second visual pass adds subtle teal/copper accents, an owner-selected **|CH⟩** monogram,
 rounded cards and profile links, and clearer bibliography/talk metadata. System fonts
 and lightweight CSS remain. The research-page body is intentionally unchanged in
 this follow-up: the owner wants ideas first, aimed at researchers with an accessible

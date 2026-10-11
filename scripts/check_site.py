@@ -17,7 +17,7 @@ class Page(HTMLParser):
         self.links, self.ids, self.errors = [], set(), []
         self.main = self.h1 = self.title = 0
         self.analytics = []
-        self.recordings = self.bibliography_entries = 0
+        self.recordings = self.recording_cards = self.bibliography_entries = 0
         self.media_sources = []
         self.lang = None
         self.feed(text)
@@ -26,6 +26,7 @@ class Page(HTMLParser):
         attrs = dict(pairs)
         classes = attrs.get('class', '').split()
         if 'talk-player' in classes: self.recordings += 1
+        if 'talk' in classes: self.recording_cards += 1
         if 'bibliography-item' in classes: self.bibliography_entries += 1
         if tag in ('iframe', 'video', 'audio', 'source') and attrs.get('src'):
             self.media_sources.append(attrs['src'])
@@ -99,7 +100,7 @@ def check(destination, baseurl, contract, analytics='absent'):
         raise SystemExit('\n'.join(errors))
     print(f'PASS: {len(pages)} pages; preserved URLs, internal links/assets, anchors, and basic HTML semantics ({baseurl or "/"}).')
     print(f'Analytics loaders: {sum(len(page.analytics) for page in pages.values())}; mode: {analytics}.')
-    print(f'Bibliography entries: {sum(page.bibliography_entries for page in pages.values())}; click-to-load recordings: {sum(page.recordings for page in pages.values())}.')
+    print(f'Bibliography entries: {sum(page.bibliography_entries for page in pages.values())}; recording cards: {sum(page.recording_cards for page in pages.values())}; click-to-load players: {sum(page.recordings for page in pages.values())}.')
 
 
 if __name__ == '__main__':

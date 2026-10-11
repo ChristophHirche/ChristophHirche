@@ -42,17 +42,22 @@ end
 unique(talks.map { |t| t['anchor'] }, 'talk anchors', errors)
 talks.each do |talk|
   label = talk['title'] || '(missing title)'
-  %w[title anchor event provider url video].each do |field|
+  %w[title anchor event provider url].each do |field|
     errors << "#{label}: missing #{field}" if talk[field].to_s.strip.empty?
   end
   case talk['provider']
   when 'YouTube'
-    errors << "#{label}: invalid YouTube id" unless talk['video'].match?(/\A[\w-]{11}\z/)
-  when 'BIRS'
-    uri = URI.parse(talk['video'])
-    unless uri.scheme == 'https' && uri.host == 'videos.birs.ca' && uri.port == 443 && uri.userinfo.nil? && uri.path.end_with?('.mp4')
-      errors << "#{label}: unexpected BIRS video source"
+    errors << "#{label}: invalid YouTube id" unless talk['video'].to_s.match?(/\A[\w-]{11}\z/)
+  when 'YPetz'
+    unless talk['video'].to_s.match?(%r{\Ahttps://ypetz\.filippo\.info/talks/[a-z-]+/[a-z-]+\.mp4\z})
+      errors << "#{label}: unexpected YPetz recording source"
     end
+  when 'BIRS'
+    uri = URI.parse(talk['url'])
+    unless uri.scheme == 'https' && uri.host == 'www.birs.ca' && uri.path.include?('/videos/watch/')
+      errors << "#{label}: unexpected BIRS recording page"
+    end
+    errors << "#{label}: BIRS blocks third-party video playback; link to its recording page" if talk['video']
   else
     errors << "#{label}: unsupported player provider"
   end

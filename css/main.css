@@ -26,8 +26,10 @@ li + li { margin-top: .4rem; }
 .container { width: min(72rem, 100% - 3rem); margin-inline: auto; }
 .site-header { border-top: 4px solid var(--link); border-bottom: 1px solid var(--line); background: linear-gradient(110deg, #f2f6f7, #fff 55%); }
 .header-inner { display: flex; gap: 1rem 2rem; justify-content: space-between; align-items: center; padding-block: 1.25rem; }
-.site-name { font-size: 1.15rem; font-weight: 650; color: var(--ink); text-decoration: none; }
-.site-name::before { content: ''; display: inline-block; width: .65rem; height: .65rem; border: 2px solid var(--link); border-radius: 2px; transform: rotate(45deg); margin-right: .7rem; box-shadow: 4px -4px 0 -2px #d7e7e8; }
+.site-name { display: inline-flex; align-items: center; gap: .65rem; font-size: 1.15rem; font-weight: 650; color: var(--ink); text-decoration: none; }
+.brand-mark { display: inline-flex; flex-shrink: 0; align-items: center; gap: .08rem; color: var(--link); line-height: 1; }
+.brand-bracket { font: 1.9rem/1 Georgia, "Times New Roman", serif; font-weight: 400; }
+.brand-initials { font-size: .83rem; font-weight: 650; letter-spacing: -.04em; padding-top: .1rem; }
 .nav-list, .profile-links, .publication-links { display: flex; flex-wrap: wrap; gap: .25rem 1.3rem; list-style: none; padding: 0; margin: 0; }
 .nav-list li, .profile-links li, .publication-links li { margin: 0; }
 .nav-list a { display: block; padding: .55rem 0; color: var(--muted); text-decoration: none; }
@@ -68,6 +70,8 @@ li + li { margin-top: .4rem; }
 .talk-play, .recording-player { display: block; width: 100%; aspect-ratio: 16/9; min-height: 200px; border: 0; border-radius: .65rem; }
 .talk-play { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .45rem; color: #fff; cursor: pointer; background: radial-gradient(ellipse at 85% 15%, #ffffff16, transparent 55%), repeating-linear-gradient(145deg, transparent 0 34px, #ffffff08 35px 36px), #174758; }
 .talk-play:hover { background-color: #20566a; }
+.recording-card-link { text-decoration: none; }
+.recording-card-link:hover > span:nth-child(2) { text-decoration: underline; text-underline-offset: .2em; }
 .play-symbol { display: grid; place-items: center; width: 3.4rem; height: 3.4rem; border: 1px solid #ffffff80; border-radius: 50%; padding-left: .15rem; font-size: 1.1rem; }
 .player-provider { font-size: .75rem; color: #dbe9ed; }
 .recording-player { background: #122b35; }

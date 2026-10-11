@@ -9,6 +9,7 @@
       <a class="recording-link" href="{{ talk.url | escape }}">Watch on {{ talk.provider }}<span class="sr-only">: {{ talk.title | escape }}</span> <span aria-hidden="true">↗</span></a>
     </div>
     <div class="talk-media">
+      {% if talk.video %}
       <div class="talk-player" data-provider="{{ talk.provider | downcase }}" data-video="{{ talk.video | escape }}" data-title="{{ talk.title | escape }}">
         <button class="talk-play" type="button" hidden aria-label="Play here: {{ talk.title | escape }}">
           <span class="play-symbol" aria-hidden="true">▶</span>
@@ -17,6 +18,13 @@
         </button>
       </div>
       <p class="player-status small" aria-live="polite"></p>
+      {% else %}
+      <a class="talk-play recording-card-link" href="{{ talk.url | escape }}" aria-label="Watch on {{ talk.provider }}: {{ talk.title | escape }}">
+        <span class="play-symbol" aria-hidden="true">↗</span>
+        <span>Watch on {{ talk.provider }}</span>
+        <span class="player-provider">Open recording{% if talk.duration %} · {{ talk.duration }}{% endif %}</span>
+      </a>
+      {% endif %}
     </div>
   </section>
   {% endfor %}
