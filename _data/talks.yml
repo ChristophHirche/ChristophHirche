@@ -43,6 +43,7 @@
   duration: 26 min
   provider: YouTube
   video: x0TIUxX5rz4
+  embed: false
   url: https://www.youtube.com/watch?v=x0TIUxX5rz4
 - title: Bounding quantum capacities via partial orders and complementarity
   anchor: bounding-quantum-capacities-via-partial-orders-and-complementarity-online-at-the-foxconn-quantum-computing-center-2022

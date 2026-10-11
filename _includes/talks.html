@@ -9,7 +9,7 @@
       <a class="recording-link" href="{{ talk.url | escape }}">Watch on {{ talk.provider }}<span class="sr-only">: {{ talk.title | escape }}</span> <span aria-hidden="true">↗</span></a>
     </div>
     <div class="talk-media">
-      {% if talk.video %}
+      {% if talk.video and talk.embed != false %}
       <div class="talk-player" data-provider="{{ talk.provider | downcase }}" data-video="{{ talk.video | escape }}" data-title="{{ talk.title | escape }}">
         <button class="talk-play" type="button" hidden aria-label="Play here: {{ talk.title | escape }}">
           <span class="play-symbol" aria-hidden="true">▶</span>

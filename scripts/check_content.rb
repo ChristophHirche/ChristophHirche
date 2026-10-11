@@ -65,6 +65,10 @@ end
 if ARGV[0]
   bibliography = File.read(File.join(ARGV[0], 'publications/index.html'))
   recordings = File.read(File.join(ARGV[0], 'talks/index.html'))
+  expected_players = talks.count { |talk| talk['video'] && talk['embed'] != false }
+  unless recordings.scan('class="talk-player"').size == expected_players
+    errors << 'Rendered players do not respect recording embed settings'
+  end
   papers.each do |paper|
     errors << "#{paper['id']}: missing from rendered bibliography" unless bibliography.include?(%{id="publication-#{paper['id']}"})
     if paper['doi'] && !bibliography.include?(%{href="https://doi.org/#{paper['doi']}"})

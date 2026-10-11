@@ -86,6 +86,7 @@ Edit `_data/talks.yml`; keep existing `anchor` values when changing titles. `url
 is the permanent recording page. For `provider: YouTube`, `video` is the 11-character
 video ID. For `provider: BIRS`, omit `video` and link to the official recording page.
 For `provider: YPetz`, `video` is the MP4 linked from the workshop programme.
+Set `embed: false` when a YouTube owner disables embedding, as for QIP 2024.
 Dates are optional when only the event year has been verified.
 
 Talk cards use local styling rather than remote thumbnails. No video, iframe, or
@@ -93,7 +94,8 @@ third-party player request is made before the visitor chooses **Play here**. You
 uses its privacy-enhanced embed domain; YPetz uses the browser's native video controls.
 Once loaded, the host receives the playback request. BIRS prevents its video files
 from playing on other websites, so those cards
-offer **Watch on BIRS** instead. Recording-page links remain usable if scripting,
+offer **Watch on BIRS** instead. QIP 2024 opens on YouTube because its owner has disabled
+embedding. Recording-page links remain usable if scripting,
 playback, or embedding is unavailable. No third-party player library is needed.
 
 ## Analytics and social links

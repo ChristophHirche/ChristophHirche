@@ -168,6 +168,10 @@ links remain available for blocked/unsupported playback and visitors without
 JavaScript. Controls have labels, keyboard focus, responsive dimensions, and live
 status messages. Captions and third-party player behavior depend on the recordings
 provided by their hosts. No remote thumbnails, feed service, or player library was added.
+The QIP 2024 owner has disabled off-site embedding (confirmed in the actual player),
+so that card also opens its host directly. The new FFCS and YPetz recordings both
+played in the local preview. The data's `embed: false` switch supports this host policy
+without removing a recording or displaying a known broken player.
 
 The second visual pass adds subtle teal/copper accents, an owner-selected **|CH⟩** monogram,
 rounded cards and profile links, and clearer bibliography/talk metadata. System fonts
