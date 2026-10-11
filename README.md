@@ -44,15 +44,18 @@ bundle exec jekyll build --safe --strict_front_matter
 python scripts/check_site.py _site --baseurl /ChristophHirche
 bundle exec jekyll build --safe --strict_front_matter --baseurl ''
 python scripts/check_site.py _site --baseurl ''
+node scripts/check_analytics.js
 ```
 
-The `Verify website` workflow builds both URL configurations on pull requests and
+The `Verify website` workflow builds preview and production versions of both URL configurations on pull requests and
 saves a downloadable `website-preview` artifact. It has read-only repository
 permissions and **does not deploy**. The existing GitHub Pages deployment remains
 responsible for publishing `gh-pages` after a reviewed merge.
 
 The checker covers all 11 preserved page URLs, local links and assets, fragment
-targets, image alternatives, and basic document landmarks. Check keyboard focus,
+targets, image alternatives, basic document landmarks, accidentally escaped HTML,
+and analytics inclusion. Analytics host and privacy guards are tested without network calls.
+Node.js is only needed for that small check. Check keyboard focus,
 mobile layout, and content accuracy in a browser too; these checks are not a full
 accessibility audit.
 

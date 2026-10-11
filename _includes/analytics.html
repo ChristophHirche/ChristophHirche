@@ -1,5 +1,6 @@
-{% if jekyll.environment == 'production' and site.analytics.google_id %}
+{% assign measurement_id = site.analytics.google_id | default: '' | strip %}
+{% if jekyll.environment == 'production' and measurement_id != '' %}
 <script defer src="{{ '/assets/js/analytics.js' | relative_url }}"
-        data-measurement-id="{{ site.analytics.google_id | escape }}"
+        data-measurement-id="{{ measurement_id | escape }}"
         data-site-host="{{ site.analytics.host | escape }}"></script>
 {% endif %}

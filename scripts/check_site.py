@@ -16,6 +16,7 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.links, self.ids, self.errors = [], set(), []
         self.main = self.h1 = self.title = 0
+        self.analytics = []
         self.lang = None
         self.feed(text)
 
@@ -25,6 +26,8 @@ class Page(HTMLParser):
         if tag == 'main': self.main += 1
         if tag == 'h1': self.h1 += 1
         if tag == 'title': self.title += 1
+        if tag == 'script' and attrs.get('src', '').endswith('/assets/js/analytics.js'):
+            self.analytics.append(attrs)
         if attrs.get('id'):
             if attrs['id'] in self.ids: self.errors.append('Duplicate id: ' + attrs['id'])
             self.ids.add(attrs['id'])
@@ -36,7 +39,7 @@ class Page(HTMLParser):
                 if re.search(r'\s', attrs[attr]): self.errors.append('Whitespace in URL: ' + attrs[attr])
 
 
-def check(destination, baseurl, contract):
+def check(destination, baseurl, contract, analytics='absent'):
     root = destination.resolve()
     errors, pages = [], {}
     for path in root.rglob('*'):
@@ -49,6 +52,15 @@ def check(destination, baseurl, contract):
                              ('one h1', page.h1 == 1), ('one document title', page.title == 1)]:
             if not valid: page.errors.append('Expected ' + label)
         if '{{' in text or '{%' in text: page.errors.append('Unrendered Liquid markup')
+        if re.search(r'&lt;(?:div|section|article|h[1-6]|img|ul|p)(?:&gt;|\s)', text):
+            page.errors.append('HTML component was rendered as escaped text')
+        if analytics == 'absent' and page.analytics:
+            page.errors.append('Analytics must be absent from preview builds')
+        if analytics == 'production':
+            if len(page.analytics) > 1:
+                page.errors.append('Duplicate production analytics loaders')
+            elif page.analytics and not re.fullmatch(r'G-[A-Z0-9]+', page.analytics[0].get('data-measurement-id', '')):
+                page.errors.append('Invalid analytics measurement ID')
         errors.extend(f'{path.relative_to(root)}: {err}' for err in page.errors)
 
     def resolve(urlpath):
@@ -77,11 +89,13 @@ def check(destination, baseurl, contract):
     if errors:
         raise SystemExit('\n'.join(errors))
     print(f'PASS: {len(pages)} pages; preserved URLs, internal links/assets, anchors, and basic HTML semantics ({baseurl or "/"}).')
+    print(f'Analytics loaders: {sum(len(page.analytics) for page in pages.values())}; mode: {analytics}.')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('destination', type=Path)
     parser.add_argument('--baseurl', default='/ChristophHirche')
+    parser.add_argument('--analytics', choices=['absent', 'production'], default='absent')
     args = parser.parse_args()
-    check(args.destination, args.baseurl.rstrip('/'), Path(__file__).with_name('url-contract.json'))
+    check(args.destination, args.baseurl.rstrip('/'), Path(__file__).with_name('url-contract.json'), args.analytics)

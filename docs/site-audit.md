@@ -94,10 +94,9 @@ The information-bottleneck highlight linked to the unrelated arXiv:1808.01498. I
 correct record is [arXiv:1810.03644](https://arxiv.org/abs/1810.03644), matching the
 existing ISIT proceedings DOI. Whitespace in another DOI URL was removed.
 
-The pre-existing 10 January 2026 news item links to arXiv:2601.16845, whose submission
-date is 23 January 2026. Its intended announcement date needs confirmation; preserve
-the historical entry until then rather than inventing a date. Older publication
-descriptions are preserved, not re-audited as theorem claims.
+The owner confirmed changing the pre-existing 10 January 2026 news item to
+23 January 2026, matching the linked arXiv:2601.16845 submission date. Older
+publication descriptions are preserved, not re-audited as theorem claims.
 
 ## Social alternatives
 
