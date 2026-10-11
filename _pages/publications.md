@@ -1,64 +1,17 @@
 ---
-title: "Christoph Hirche - Publications"
-layout: gridlay
-excerpt: "CH -- Publications."
-sitemap: false
+title: "Publications — Christoph Hirche"
+description: "Selected publication highlights in quantum information theory."
 permalink: /publications/
 ---
 
-
 # Publications
+
+For a full list of publications, see [Google Scholar](https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en) and [arXiv](https://arxiv.org/a/hirche_c_1).
+
+## Recent and selected papers
+
+{% include selected-publications.html %}
 
 ## Highlights
 
-<!-- (For a full list of publications see [below](#full-list-of-publications) or go to [Google Scholar](https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en))  -->
-For a full list of publications see [Google Scholar](https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en)
-
-{% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
- <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link1.url }}">{{ publi.link1.display }}</a></strong></p>
-  <p><strong><a href="{{ publi.link2.url }}">{{ publi.link2.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
- </div>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<p> &nbsp; </p>
- 
-
-<!-- ## Full List of publications  -->
-
-<!-- {% for publi in site.data.publist %}  -->
-
-<!--  {{ publi.title }} <br />  -->
-<!--  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>  -->
-
-<!-- {% endfor %}  -->
+{% include publication-highlights.html %}

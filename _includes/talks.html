@@ -1,0 +1,9 @@
+<div class="talk-list">
+  {% for talk in site.data.talks %}
+  <section class="talk" aria-labelledby="{{ talk.anchor }}">
+    <h2 id="{{ talk.anchor }}">{{ talk.title | escape }}</h2>
+    {% if talk.description != '' %}<p>{{ talk.description | escape }}</p>{% endif %}
+    <a href="{{ talk.url | escape }}">{{ talk.link_text }}<span class="sr-only">: {{ talk.title | escape }}</span> <span aria-hidden="true">↗</span></a>
+  </section>
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+<ul class="paper-list">
+  {% assign papers = site.data.publications | where_exp: 'paper', 'paper.selected_order != nil' | sort: 'selected_order' %}
+  {% assign paper_limit = include.limit | default: papers.size %}
+  {% for paper in papers limit:paper_limit %}
+  <li>
+    <a href="{{ paper.link1.url | escape }}">{{ paper.title | escape }}</a>
+    {% if paper.coauthors %}<span class="paper-authors">{{ paper.coauthors | escape }}</span>{% endif %}
+    {% if paper.status %}<span class="paper-status">{{ paper.status | escape }}{% if paper.link2 %} · <a href="{{ paper.link2.url | escape }}">{{ paper.link2.display | escape }}</a>{% endif %}</span>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

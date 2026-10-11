@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="home-grid">
+  <article class="home-content">
+    <p class="eyebrow">Quantum information theory</p>
+    <h1>{{ site.title }}</h1>
+    {{ content }}
+    {% include social.html %}
+    <section class="selected-papers" aria-labelledby="latest-publications">
+      <h2 id="latest-publications">Selected papers</h2>
+      {% include selected-publications.html limit=6 %}
+      <p><a href="{{ '/publications/' | relative_url }}">Explore publication highlights <span aria-hidden="true">→</span></a></p>
+    </section>
+  </article>
+  <aside class="news-panel" aria-labelledby="news-heading">
+    <h2 id="news-heading">News</h2>
+    {% include news.html limit=5 %}
+    <a href="{{ '/allnews.html' | relative_url }}">All news <span aria-hidden="true">→</span></a>
+  </aside>
+</div>

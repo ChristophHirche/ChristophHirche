@@ -3,6 +3,7 @@ title: "Christoph and Jamies wedding"
 layout: wedding
 excerpt: "Christoph and Jamies wedding"
 sitemap: false
+image: /images/savethedate.png
 permalink: /CJwedding/
 ---
 
@@ -11,21 +12,21 @@ permalink: /CJwedding/
 
 
 <p style="margin-bottom:1cm;">
-<img style="text-align: center;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/savethedate.png"  width="100%"> 
+<img alt="Save the date for Christoph and Jamie’s wedding" style="text-align: center;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/savethedate.png"  width="100%">
 <br />
 </p>
 
 
 
-We are so excited to have you! Please RSVP at your earliest convenience:  
+We are so excited to have you! Please RSVP at your earliest convenience:
 ## [RSVP](https://forms.gle/NpjWY5iNtojtxxXS8)
 
 ### Agenda
 
-#### Morning session at [Glenmarie Hotel & Golf Resort](https://g.co/kgs/drnuFi8) 
+#### Morning session at [Glenmarie Hotel & Golf Resort](https://g.co/kgs/drnuFi8)
 Dress code: Smart Casual (Free parking)
 <p style="margin-bottom:1cm;">
-<b>09:30</b> Full Gospel Wedding  <br /> 
+<b>09:30</b> Full Gospel Wedding  <br />
 <b>11:00</b> Lunch <br />
 <b>12:00</b> Chinese Tea Ceremony <br />
 </p>
@@ -39,44 +40,4 @@ Dress code: Formal
 </p>
 
 #### Photo Gallery
-{% assign number_printed = 0 %}
-{% for pic in site.data.pictures_wedding %}
-
-{% assign even_odd = number_printed | modulo: 4 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-3 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/{{ pic.image }}" class="img-responsive" width="90%" style="float: left" />
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd > 2 %}
-</div>
-{% endif %}
-
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% if even_odd == 2 %}
-</div>
-{% endif %}
-
-{% if even_odd == 3 %}
-</div>
-{% endif %}
-
-<p> &nbsp; </p>
-
-
-
-
-
+{% include wedding-gallery.html %}

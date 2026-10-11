@@ -1,0 +1,7 @@
+<nav aria-label="Research profiles">
+  <ul class="profile-links">
+    {% for profile in site.data.social %}
+    <li><a href="{{ profile.url | escape }}">{{ profile.title | escape }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

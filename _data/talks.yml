@@ -1,0 +1,43 @@
+- title: 'Contraction coefficients: A toolbox (Banff, Fundamental Limitations to Quantum Computation,
+    2024)'
+  anchor: contraction-coefficients-a-toolbox-banff-fundamental-limitations-to-quantum-computation-2024
+  description: This talk collects several topics and publications and is meant as an overview talk.
+  url: http://www.birs.ca/events/2024/5-day-workshops/24w5259/videos/watch/202403071405-Hirche.html
+  link_text: Watch recording
+- title: Bounding quantum capacities via partial orders and complementarity (online at the Foxconn Quantum
+    Computing Center, 2022)
+  anchor: bounding-quantum-capacities-via-partial-orders-and-complementarity-online-at-the-foxconn-quantum-computing-center-2022
+  description: joint work with F. Leditzky
+  url: https://www.youtube.com/watch?v=THx61mXKlBQ
+  link_text: Watch recording
+- title: 'Quantum Differential Privacy: An Information Theory Perspective (CQT Computer Science Seminar,
+    2022)'
+  anchor: quantum-differential-privacy-an-information-theory-perspective-cqt-computer-science-seminar-2022
+  description: joint work with C. Rouze and D. S. Franca
+  url: https://www.youtube.com/watch?v=_jxQPPT2uo4
+  link_text: Watch recording
+- title: An Alphabet-Size Bound for the Information Bottleneck Function (online at ISIT 2020)
+  anchor: an-alphabet-size-bound-for-the-information-bottleneck-function-online-at-isit-2020
+  description: joint work with A. Winter
+  url: https://www.youtube.com/watch?v=CEZcoNMTeBk
+  link_text: Watch recording
+- title: Rényi Bounds on Information Combining (online ISIT 2020)
+  anchor: rényi-bounds-on-information-combining-online-isit-2020
+  description: ''
+  url: https://www.youtube.com/watch?v=serhHL5WdSQ
+  link_text: Watch recording
+- title: The Quantum Information Bottleneck Function (at TQC 2019)
+  anchor: the-quantum-information-bottleneck-function-at-tqc-2019
+  description: joint work with N. Datta and A. Winter
+  url: https://www.youtube.com/watch?v=LKvV9kGjzIk
+  link_text: Watch recording
+- title: Discrimination of Quantum Networks (online at NCTS Annual Theory Meeting 2021)
+  anchor: discrimination-of-quantum-networks-online-at-ncts-annual-theory-meeting-2021
+  description: ''
+  url: https://www.youtube.com/watch?v=gt8sYDp1IoE
+  link_text: Watch recording
+- title: Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination (at QTurn 2018)
+  anchor: amortized-channel-divergence-for-asymptotic-quantum-channel-discrimination-at-qturn-2018
+  description: joint work with M. M. Wilde, M. Berta and E. Kaur
+  url: https://www.youtube.com/watch?v=GmSrXhKC8fk
+  link_text: Watch recording

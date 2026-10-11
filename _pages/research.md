@@ -1,8 +1,7 @@
 ---
 title: "Christoph Hirche - Research"
-layout: textlay
+layout: page
 excerpt: "Christoph Hirche -- Research"
-sitemap: false
 permalink: /research/
 ---
 
@@ -13,18 +12,15 @@ Entropy is a fundamental concept when it comes to quantifying information, both 
 For more, check out my <a href="{{ site.url }}{{ site.baseurl }}/publications">publications</a> and some of my <a href="{{ site.url }}{{ site.baseurl }}/talks">talks</a>. <br />
 
 
-### Tracking information in quantum networks
+## Tracking information in quantum networks
 
-<img style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/EUflag.jpg"  width="90"> 
-This is the title of my <a href="https://cordis.europa.eu/project/id/101025848">Marie Skłodowska-Curie  project</a>. Thanks to a Global Fellowship I will work at [TU Munich](https://www.tum.de) and [CQT](https://www.quantumlah.org) [NUS](https://www.nus.edu.sg) with [Robert König](https://www.professoren.tum.de/en/koenig-robert-t) and [Marco Tomamichel](https://marcotom.info) to better understand how entropic quantities can be used to investigate quantum networks. <br />
-Results from this project will be presented here once available. <br />
+<img alt="European Union flag" style="float: left;margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/EUflag.jpg"  width="90">
+This is the title of my <a href="https://cordis.europa.eu/project/id/101025848">Marie Skłodowska-Curie  project</a>. Through this Global Fellowship, I worked at [TU Munich](https://www.tum.de) and [CQT](https://www.quantumlah.org) [NUS](https://www.nus.edu.sg) with [Robert König](https://www.professoren.tum.de/en/koenig-robert-t) and [Marco Tomamichel](https://marcotom.info) to better understand how entropic quantities can be used to investigate quantum networks. <br />
+See my [publications]({{ "/publications/" | relative_url }}) for related research. <br />
 <br />
 
-#### Other topics:
+## Other topics
 
 Here some keywords from my past research. Contact me if you would like to know more!
 
-![]({{ site.url }}{{ site.baseurl }}/images/cloud-christoph-hirche.png){: style="width: 500px"}
-
-
-
+![Word cloud of quantum information research topics]({{ site.url }}{{ site.baseurl }}/images/cloud-christoph-hirche.png){: style="width: 500px"}
