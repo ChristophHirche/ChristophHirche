@@ -1,43 +1,74 @@
-- title: 'Contraction coefficients: A toolbox (Banff, Fundamental Limitations to Quantum Computation,
-    2024)'
+- title: Conditional contraction coefficients and their applications to quantum networks
+  anchor: conditional-contraction-coefficients-and-their-applications-to-quantum-networks-birs-2026
+  description: ''
+  event: Additivity Problems in Quantum and Classical Information Theory · Banff
+  year: 2026
+  date: '2026-07-17'
+  duration: 40 min
+  provider: BIRS
+  url: https://www.birs.ca/events/2026/5-day-workshops/26w5621/videos/watch/202607171033-Hirche.html
+  video: https://videos.birs.ca/2026/26w5621/202607171033-Hirche.mp4
+- title: 'Contraction coefficients: A toolbox'
   anchor: contraction-coefficients-a-toolbox-banff-fundamental-limitations-to-quantum-computation-2024
   description: This talk collects several topics and publications and is meant as an overview talk.
-  url: http://www.birs.ca/events/2024/5-day-workshops/24w5259/videos/watch/202403071405-Hirche.html
-  link_text: Watch recording
-- title: Bounding quantum capacities via partial orders and complementarity (online at the Foxconn Quantum
-    Computing Center, 2022)
+  url: https://www.birs.ca/events/2024/5-day-workshops/24w5259/videos/watch/202403071405-Hirche.html
+  event: Fundamental Limitations to Quantum Computation · Banff
+  year: 2024
+  provider: BIRS
+  video: https://videos.birs.ca/2024/24w5259/202403071405-Hirche.mp4
+- title: Bounding quantum capacities via partial orders and complementarity
   anchor: bounding-quantum-capacities-via-partial-orders-and-complementarity-online-at-the-foxconn-quantum-computing-center-2022
   description: joint work with F. Leditzky
   url: https://www.youtube.com/watch?v=THx61mXKlBQ
-  link_text: Watch recording
-- title: 'Quantum Differential Privacy: An Information Theory Perspective (CQT Computer Science Seminar,
-    2022)'
+  event: Foxconn Quantum Computing Center · online
+  year: 2022
+  provider: YouTube
+  video: THx61mXKlBQ
+- title: 'Quantum Differential Privacy: An Information Theory Perspective'
   anchor: quantum-differential-privacy-an-information-theory-perspective-cqt-computer-science-seminar-2022
   description: joint work with C. Rouze and D. S. Franca
   url: https://www.youtube.com/watch?v=_jxQPPT2uo4
-  link_text: Watch recording
-- title: An Alphabet-Size Bound for the Information Bottleneck Function (online at ISIT 2020)
-  anchor: an-alphabet-size-bound-for-the-information-bottleneck-function-online-at-isit-2020
-  description: joint work with A. Winter
-  url: https://www.youtube.com/watch?v=CEZcoNMTeBk
-  link_text: Watch recording
-- title: Rényi Bounds on Information Combining (online ISIT 2020)
-  anchor: rényi-bounds-on-information-combining-online-isit-2020
-  description: ''
-  url: https://www.youtube.com/watch?v=serhHL5WdSQ
-  link_text: Watch recording
-- title: The Quantum Information Bottleneck Function (at TQC 2019)
-  anchor: the-quantum-information-bottleneck-function-at-tqc-2019
-  description: joint work with N. Datta and A. Winter
-  url: https://www.youtube.com/watch?v=LKvV9kGjzIk
-  link_text: Watch recording
-- title: Discrimination of Quantum Networks (online at NCTS Annual Theory Meeting 2021)
+  event: CQT Computer Science Seminar
+  year: 2022
+  provider: YouTube
+  video: _jxQPPT2uo4
+- title: Discrimination of Quantum Networks
   anchor: discrimination-of-quantum-networks-online-at-ncts-annual-theory-meeting-2021
   description: ''
   url: https://www.youtube.com/watch?v=gt8sYDp1IoE
-  link_text: Watch recording
-- title: Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination (at QTurn 2018)
+  event: NCTS Annual Theory Meeting · online
+  year: 2021
+  provider: YouTube
+  video: gt8sYDp1IoE
+- title: An Alphabet-Size Bound for the Information Bottleneck Function
+  anchor: an-alphabet-size-bound-for-the-information-bottleneck-function-online-at-isit-2020
+  description: joint work with A. Winter
+  url: https://www.youtube.com/watch?v=CEZcoNMTeBk
+  event: ISIT · online
+  year: 2020
+  provider: YouTube
+  video: CEZcoNMTeBk
+- title: Rényi Bounds on Information Combining
+  anchor: rényi-bounds-on-information-combining-online-isit-2020
+  description: ''
+  url: https://www.youtube.com/watch?v=serhHL5WdSQ
+  event: ISIT · online
+  year: 2020
+  provider: YouTube
+  video: serhHL5WdSQ
+- title: The Quantum Information Bottleneck Function
+  anchor: the-quantum-information-bottleneck-function-at-tqc-2019
+  description: joint work with N. Datta and A. Winter
+  url: https://www.youtube.com/watch?v=LKvV9kGjzIk
+  event: TQC
+  year: 2019
+  provider: YouTube
+  video: LKvV9kGjzIk
+- title: Amortized Channel Divergence for Asymptotic Quantum Channel Discrimination
   anchor: amortized-channel-divergence-for-asymptotic-quantum-channel-discrimination-at-qturn-2018
   description: joint work with M. M. Wilde, M. Berta and E. Kaur
   url: https://www.youtube.com/watch?v=GmSrXhKC8fk
-  link_text: Watch recording
+  event: QTurn
+  year: 2018
+  provider: YouTube
+  video: GmSrXhKC8fk

@@ -36,7 +36,7 @@ _data/              publications, talks, news, navigation, profile links, galler
 _layouts/           default, page, home, wedding
 _includes/          shared page components and rendering loops
 css/main.css        responsive styling
-assets/js/          optional production analytics
+assets/js/          optional production analytics and click-to-load recordings
 images/, downloads/ existing public asset URLs
 scripts/            URL contract and build checks (excluded from the site)
 docs/               maintenance notes (excluded from the site)
@@ -55,7 +55,8 @@ history. Large existing wedding photos dominate its byte size and remain intact.
 1. **Foundation and restrained refresh (this PR).** Remove unused/vendor files,
    separate content from templates, preserve all 11 page URLs, repair the build,
    modernize typography/navigation and basic accessibility, remove the Twitter widget,
-   retain configurable Google Analytics, and add verified recent publications.
+   retain configurable Google Analytics, reconcile the complete Scholar bibliography,
+   add the July 2026 BIRS recording and click-to-load players, and link thesis projects.
    Gate: both base-path builds, URL checks, browser inspection, and owner review.
 2. **Research content.** Expand the research page into three or four concise themes
    (information measures and testing; communication/channel capacities; privacy;
@@ -97,6 +98,65 @@ existing ISIT proceedings DOI. Whitespace in another DOI URL was removed.
 The owner confirmed changing the pre-existing 10 January 2026 news item to
 23 January 2026, matching the linked arXiv:2601.16845 submission date. Older
 publication descriptions are preserved, not re-audited as theorem claims.
+
+### Bibliography reconciliation, 11–12 October 2026
+
+Expanded all entries on the owner's [Google Scholar profile](https://scholar.google.de/citations?user=wHih5p4AAAAJ&hl=en):
+51 records. Matched titles and author identities against the [arXiv author list](https://arxiv.org/a/hirche_c_1.html),
+individual arXiv records, and publisher-deposited [Crossref work metadata](https://www.crossref.org/documentation/retrieve-metadata/rest-api/).
+DOIs and arXiv identifiers are retained in the data, together with each matched Scholar
+entry ID. The site renders a local bibliography; it does not scrape Scholar at build
+time or load a Scholar widget for visitors.
+
+All 51 Scholar entries are represented: 38 published journal/conference entries,
+11 preprints, and two theses. Every published entry has a DOI link. Two further
+verified conference DOIs are attached to the corresponding journal records, rather
+than listed twice: capacities/partial orders (ISIT 2022) and information combining
+with quantum side information (ISIT 2018). Separately titled conference entries,
+including the distributed-testing and Stein's-lemma papers, remain separate records
+with their own author order. No guessed arXiv links were attached to those entries.
+
+Corrections include the composite-testing journal year (2021), decoupling with
+diagonal unitaries (2017), capacities/partial orders journal year (2023), the
+amortized-channel paper's journal volume (110), the published pseudorandomness
+title, and the information-combining author order. Typeset title artifacts from
+Scholar/arXiv were normalized to plain Unicode. The incomplete Annales Henri
+Poincaré volume/page metadata is not filled in speculatively.
+
+Year convention: journal volume year; conference year; first arXiv posting year for
+preprints and theses. The [GSI chapter](https://doi.org/10.1007/978-3-032-03918-7_12)
+is grouped under GSI 2025: the ebook appeared in October 2025, while Springer lists
+copyright 2026. The [official proceedings](https://link.springer.com/book/10.1007/978-3-032-03918-7)
+confirm LNCS 16033 and pages 112–120. The master's thesis is grouped by its 2015
+arXiv posting, not an inferred degree-award date. Publication status is a checked
+snapshot, not a promise of an automatically current list.
+
+### Talks, supervision, and design
+
+The supplied [TNT student-projects page](https://www.tnt.uni-hannover.de/de/students/)
+is now linked under Bachelor and Master theses. The owner confirmed the existing
+vacancy wording; the link does not imply a newly advertised funded position.
+
+Added [Conditional contraction coefficients and their applications to quantum networks](https://www.birs.ca/events/2026/5-day-workshops/26w5621/videos/watch/202607171033-Hirche.html),
+17 July 2026, at the BIRS workshop *Additivity Problems in Quantum and Classical
+Information Theory*. Title, date, 40-minute slot, and MP4 source were checked on
+the official recording page. The existing 2024 BIRS MP4 was checked there as well.
+All eight existing recording links and fragment identifiers are preserved.
+
+The owner chose click-to-load players. Cards use local CSS previews, YouTube's
+[privacy-enhanced embed domain](https://support.google.com/youtube/answer/171780?hl=en),
+and native video for BIRS. Sources are attached only after a click. Original host
+links remain available for blocked/unsupported playback and visitors without
+JavaScript. Controls have labels, keyboard focus, responsive dimensions, and live
+status messages. Captions and third-party player behavior depend on the recordings
+provided by their hosts. No remote thumbnails, feed service, or player library was added.
+
+The second visual pass adds subtle teal/copper accents, a small geometric name mark,
+rounded cards and profile links, and clearer bibliography/talk metadata. System fonts
+and lightweight CSS remain. The research-page body is intentionally unchanged in
+this follow-up: the owner wants ideas first, aimed at researchers with an accessible
+introduction. Proposed themes are information measures/testing, noisy channels and
+networks, privacy, and learning/quantum algorithms; select and word these with the owner.
 
 ## Social alternatives
 

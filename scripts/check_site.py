@@ -17,11 +17,18 @@ class Page(HTMLParser):
         self.links, self.ids, self.errors = [], set(), []
         self.main = self.h1 = self.title = 0
         self.analytics = []
+        self.recordings = self.bibliography_entries = 0
+        self.media_sources = []
         self.lang = None
         self.feed(text)
 
     def handle_starttag(self, tag, pairs):
         attrs = dict(pairs)
+        classes = attrs.get('class', '').split()
+        if 'talk-player' in classes: self.recordings += 1
+        if 'bibliography-item' in classes: self.bibliography_entries += 1
+        if tag in ('iframe', 'video', 'audio', 'source') and attrs.get('src'):
+            self.media_sources.append(attrs['src'])
         if tag == 'html': self.lang = attrs.get('lang')
         if tag == 'main': self.main += 1
         if tag == 'h1': self.h1 += 1
@@ -52,6 +59,8 @@ def check(destination, baseurl, contract, analytics='absent'):
                              ('one h1', page.h1 == 1), ('one document title', page.title == 1)]:
             if not valid: page.errors.append('Expected ' + label)
         if '{{' in text or '{%' in text: page.errors.append('Unrendered Liquid markup')
+        if page.recordings and page.media_sources:
+            page.errors.append('Recordings must not have a media source before the visitor clicks')
         if re.search(r'&lt;(?:div|section|article|h[1-6]|img|ul|p)(?:&gt;|\s)', text):
             page.errors.append('HTML component was rendered as escaped text')
         if analytics == 'absent' and page.analytics:
@@ -90,6 +99,7 @@ def check(destination, baseurl, contract, analytics='absent'):
         raise SystemExit('\n'.join(errors))
     print(f'PASS: {len(pages)} pages; preserved URLs, internal links/assets, anchors, and basic HTML semantics ({baseurl or "/"}).')
     print(f'Analytics loaders: {sum(len(page.analytics) for page in pages.values())}; mode: {analytics}.')
+    print(f'Bibliography entries: {sum(page.bibliography_entries for page in pages.values())}; click-to-load recordings: {sum(page.recordings for page in pages.values())}.')
 
 
 if __name__ == '__main__':

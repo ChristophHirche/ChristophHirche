@@ -6,10 +6,8 @@
       <h3>{{ paper.title | escape }}</h3>
       <p class="paper-authors">{{ paper.authors | escape }}</p>
       <p>{{ paper.description | escape }}</p>
-      <ul class="publication-links">
-        {% if paper.link1.url %}<li><a href="{{ paper.link1.url | escape }}">{{ paper.link1.display | escape }}</a></li>{% endif %}
-        {% if paper.link2.url %}<li><a href="{{ paper.link2.url | escape }}">{{ paper.link2.display | escape }}</a></li>{% endif %}
-      </ul>
+      <p class="publication-citation">{{ paper.citation | escape }}</p>
+      {% include publication-links.html paper=paper %}
     </div>
     {% if paper.image %}<img src="{{ '/images/pubpic/' | append: paper.image | relative_url }}" alt="" loading="lazy">{% endif %}
   </article>

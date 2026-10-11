@@ -45,6 +45,8 @@ python scripts/check_site.py _site --baseurl /ChristophHirche
 bundle exec jekyll build --safe --strict_front_matter --baseurl ''
 python scripts/check_site.py _site --baseurl ''
 node scripts/check_analytics.js
+ruby scripts/check_content.rb _site
+node scripts/check_talks.js
 ```
 
 The `Verify website` workflow builds preview and production versions of both URL configurations on pull requests and
@@ -54,18 +56,42 @@ responsible for publishing `gh-pages` after a reviewed merge.
 
 The checker covers all 11 preserved page URLs, local links and assets, fragment
 targets, image alternatives, basic document landmarks, accidentally escaped HTML,
-and analytics inclusion. Analytics host and privacy guards are tested without network calls.
-Node.js is only needed for that small check. Check keyboard focus,
+and analytics inclusion. Content checks ensure every data record and published DOI
+reaches the rendered pages. Analytics guards and click-to-load players are tested
+without network calls. Node.js is only needed for those small checks. Check keyboard focus,
 mobile layout, and content accuracy in a browser too; these checks are not a full
 accessibility audit.
 
 ## Publications
 
-Each record has a stable `id` and its source links. `selected_order` controls the
-homepage and selected-papers list; the homepage shows the first six. `highlight: 1`
-adds the longer illustrated entry. New entries distinguish journal articles from
-arXiv preprints. Update publication status only after checking the publisher record;
-an arXiv identifier or DOI alone does not establish peer-reviewed publication.
+Each record has a stable `id`, `title`, `authors`, `year`, `date`, `type`, and
+`citation`. Store the DOI identifier in `doi` and the arXiv identifier in `arxiv`;
+templates construct their links. `scholar_id` records the matched Scholar entry for
+maintenance and is not displayed. `selected_order` controls the homepage selection
+(the first six); `highlight: 1`, `image`, and `description` retain an illustrated
+summary. `conference_version` can link an additional proceedings version without
+duplicating a journal record. Separately titled conference papers remain distinct.
+
+Keep records newest first within each year. Use the journal volume year, conference
+year, or first arXiv posting year for preprints/theses. `date` records the known
+publication or posting date, preserving partial precision when only a month is known.
+The full bibliography is grouped by `year`; titles and author order follow primary
+metadata. Update status only after checking a publisher record; an arXiv identifier
+or DOI alone does not establish peer-reviewed publication. See the audit for the
+Scholar reconciliation and citation corrections.
+
+## Talk recordings
+
+Edit `_data/talks.yml`; keep existing `anchor` values when changing titles. `url`
+is the permanent recording page. For `provider: YouTube`, `video` is the 11-character
+video ID; for `provider: BIRS`, it is the MP4 URL exposed by the official BIRS player.
+Dates are optional when only the event year has been verified.
+
+Talk cards use local styling rather than remote thumbnails. No video, iframe, or
+third-party player request is made before the visitor chooses **Play here**. YouTube
+uses its privacy-enhanced embed domain; BIRS uses a native video player. Once loaded,
+the provider receives the playback request. The recording-page link remains usable
+if scripting, playback, or embedding is unavailable. No third-party player library is needed.
 
 ## Analytics and social links
 
