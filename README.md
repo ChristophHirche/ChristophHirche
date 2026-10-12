@@ -12,6 +12,7 @@ The live branch is `gh-pages`. Review changes in a pull request before merging.
 | News | `_data/news.yml` (newest first) |
 | Talk recordings | `_data/talks.yml` |
 | Current and previous research funding | `_data/funding.yml` |
+| Group members and institute profile links | `_data/group.yml` |
 | Navigation | `_data/navigation.yml` |
 | Scholar, ORCID and social profiles | `_data/social.yml` |
 | Layout and reusable markup | `_layouts/`, `_includes/` |
@@ -115,6 +116,20 @@ and the original `image_width`/`image_height` in the funding record. The `logo`
 field selects a small display size; CSS preserves the artwork's aspect ratio.
 Logo sources and DFG's publication guidance are recorded in the audit. Keep the
 original artwork and its clear space when replacing these assets.
+
+## Group
+
+The **Group** navigation entry keeps the existing `/team/` address. Edit names,
+brief research interests or project labels, and institute profile links in
+`_data/group.yml`. `_pages/team.md` contains the introduction and student-project
+links; `_includes/group-members.html` renders the cards. Verify membership against
+the institute's **Professor Hirches Gruppe** section, not its full staff list.
+The public profiles do not establish doctoral/postdoctoral job titles, so those
+roles are not inferred. Keep contact details on the linked institute profiles.
+
+Member portraits are served locally from `images/group/`, with the existing
+homepage portrait reused for Christoph. Preserve their proportions and record
+new portrait sources in the audit when replacing them.
 
 ## Analytics and social links
 

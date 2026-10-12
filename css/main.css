@@ -109,6 +109,14 @@ li + li { margin-top: .4rem; }
 .funding-link { font-size: .9rem; }
 .funding-acknowledgement { margin-bottom: 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; }
 .funding-previous .funding-project { border-left-color: var(--accent); background: var(--soft); }
+.group-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-block: 2rem 3rem; }
+.group-member { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 1.4rem; align-items: start; padding: 1.5rem; border: 1px solid var(--line); border-radius: .9rem; background: linear-gradient(135deg, #f7fafb, #fff 70%); }
+.group-portrait { display: block; width: 7rem; height: auto; border-radius: .55rem; }
+.group-copy { min-width: 0; }
+.group-role { color: var(--accent); font-size: .75rem; font-weight: 650; margin-bottom: .5rem; }
+.group-copy h2 { font-size: 1.3rem; margin: 0 0 .75rem; }
+.group-focus { color: var(--muted); font-size: .9rem; margin-bottom: .9rem; }
+.group-profile { font-size: .88rem; }
 .site-footer { border-top: 1px solid var(--line); background: var(--soft); padding-block: 2.5rem; font-size: .88rem; }
 .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
 .footer-name { font-weight: 650; margin-bottom: .5rem; }
@@ -133,6 +141,7 @@ details[open] { background: var(--soft); padding: .8rem; }
   .footer-grid { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
   .talk { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
   .funding-project { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .group-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 35rem) {
   .container { width: calc(100% - 2rem); }
@@ -144,6 +153,8 @@ details[open] { background: var(--soft); padding: .8rem; }
   .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .talk { padding: 1rem; }
   .funding-project { padding: 1.2rem; }
+  .group-member { grid-template-columns: 5rem minmax(0, 1fr); gap: 1rem; padding: 1.1rem; }
+  .group-portrait { width: 5rem; }
   .publication-year { grid-template-columns: minmax(0, 1fr); gap: 0; }
   .publication-year > h2 { margin-bottom: 0; }
 }
@@ -153,7 +164,7 @@ details[open] { background: var(--soft); padding: .8rem; }
   .container { width: 100%; }
   .site-main { padding-block: 0; }
   .home-grid, .footer-grid { display: block; }
-  .publication, .talk, .funding-project { break-inside: avoid; }
+  .publication, .talk, .funding-project, .group-member { break-inside: avoid; }
   .news-panel, .site-footer { background: none; }
   .talk { display: block; box-shadow: none; }
 }

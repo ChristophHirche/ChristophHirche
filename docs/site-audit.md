@@ -222,6 +222,36 @@ covered or arrange that coordination. No press-office message has been sent.
 Logo rights remain with the respective organisations; these assets are not
 relicensed as original site artwork.
 
+### Group and news, 12 October 2026
+
+The Group tab preserves `/team/` and replaces its directory-only placeholder with
+four profile cards. The [official staff directory](https://www.tnt.uni-hannover.de/de/staff/)
+lists Muhammad Zain Ul Hassan, Janani Gomathi Rajagopal, and Oxana Shaya under
+**Professor Hirches Gruppe**. Other institute groups are not imported.
+
+Short research interests/project labels come from the individual profiles:
+[Hirche](https://www.tnt.uni-hannover.de/de/staff/hirche/),
+[Hassan](https://www.tnt.uni-hannover.de/de/staff/hassan/),
+[Rajagopal](https://www.tnt.uni-hannover.de/de/staff/rajagopa/), and
+[Shaya](https://www.tnt.uni-hannover.de/de/staff/shaya/).
+The latter three profiles do not specify doctoral/postdoctoral employment roles;
+the page uses the neutral label “Group member”. Telephone and office information
+remain on the institute profiles to avoid another copy to maintain.
+
+The existing homepage photograph is reused for Hirche. The other public portraits
+were downloaded unchanged on 12 October 2026 from
+`https://www.tnt.uni-hannover.de/staff/{hassan,rajagopa,shaya}/portrait.jpg`, as
+linked by their profiles. All three are 600 × 800 JPEGs and are served locally from
+`images/group/`. Photo rights remain with the original rights holders.
+
+The new private-capacity news item uses **12 October 2026 as its announcement
+date**, not a claimed submission date. It links two preprints already present
+in the bibliography: [Quantum estimation, channel orders, and private capacity](https://arxiv.org/abs/2610.03706),
+submitted 2 October 2026, and [The exact strong converse exponent for private
+communication over quantum channels](https://arxiv.org/abs/2609.38144), submitted
+29 September 2026 with Hao-Chung Cheng and Marco Tomamichel. Neither is labelled
+as a journal publication.
+
 ## Social alternatives
 
 [Bluesky supports individual post embeds](https://www.bsky.social/about/blog/post-embeds-guide).
