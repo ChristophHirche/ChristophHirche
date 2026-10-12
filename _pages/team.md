@@ -21,5 +21,3 @@ There are currently no open positions. Please [get in touch](https://www.tnt.uni
 Topics for Bachelor and Master theses are available. See the [institute's student projects](https://www.tnt.uni-hannover.de/de/students/) for current offers, or get in touch to discuss a quantum information project.
 
 For our research directions and current funding, see [Research]({{ "/research/" | relative_url }}).
-
-<p class="small">Membership and profile information follow the <a href="https://www.tnt.uni-hannover.de/de/staff/">institute's staff directory</a>, checked in October 2026. Institute profiles provide current contact details.</p>
