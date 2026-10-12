@@ -4,6 +4,11 @@ current:
   - id: information-flow-divergences
     programme: DFG Research Grant
     award: Project 550206990
+    image: /images/funding/dfg-funded-by-en.gif
+    image_alt: Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)
+    image_width: 800
+    image_height: 260
+    logo: dfg
     title: Tracking information flow in quantum networks via new divergence measures
     description: >-
       How does information change as it passes through a noisy quantum network?
@@ -21,6 +26,11 @@ current:
   - id: quics
     programme: BMFTR
     award: Grant 13N17418
+    image: /images/funding/quics.png
+    image_alt: QUICS
+    image_width: 3438
+    image_height: 1887
+    logo: quics
     title: QUICS
     subtitle: Quantum Innovation and Computing for SMEs
     description: >-
@@ -39,6 +49,11 @@ current:
   - id: quantumfrontiers
     programme: Germany’s Excellence Strategy
     award: EXC 2123/2 · Project 390837967
+    image: /images/funding/quantumfrontiers.png
+    image_alt: QuantumFrontiers
+    image_width: 907
+    image_height: 911
+    logo: quantumfrontiers
     title: QuantumFrontiers
     subtitle: Cluster of Excellence
     description: >-

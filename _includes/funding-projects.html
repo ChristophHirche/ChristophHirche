@@ -5,7 +5,11 @@
       <p class="funding-programme">{{ project.programme | escape }}</p>
       <p>{{ project.award | escape }}</p>
       {% if project.period %}<p>{{ project.period | escape }}</p>{% endif %}
-      {% if project.image %}<img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="90" loading="lazy">{% endif %}
+      {% if project.image %}
+      <div class="funding-image{% if project.logo %} funding-logo funding-logo-{{ project.logo }}{% endif %}">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="{{ project.image_width | default: 90 }}"{% if project.image_height %} height="{{ project.image_height }}"{% endif %} loading="lazy" decoding="async">
+      </div>
+      {% endif %}
     </div>
     <div class="funding-copy">
       <h3 id="{{ project.id }}">{{ project.title | escape }}</h3>

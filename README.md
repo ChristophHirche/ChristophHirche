@@ -110,6 +110,12 @@ record its actual end date when confirmed. Keep the footer's short funding summa
 in sync with current support. The former Marie Curie fellowship and EU acknowledgement
 remain in **Previous funding**. See the audit for source records and date conventions.
 
+Official logos are stored locally in `images/funding/`. Set `image`, `image_alt`,
+and the original `image_width`/`image_height` in the funding record. The `logo`
+field selects a small display size; CSS preserves the artwork's aspect ratio.
+Logo sources and DFG's publication guidance are recorded in the audit. Keep the
+original artwork and its clear space when replacing these assets.
+
 ## Analytics and social links
 
 The existing GA4 property `G-N71H8YPM4R` is configured in `_config.yml`. This public

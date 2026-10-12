@@ -201,6 +201,27 @@ research page and project fragment URLs are preserved, as is the word-cloud asse
 URL; the word cloud is no longer displayed. Project content is separate from its
 shared card template in `_data/funding.yml`.
 
+The three current-funding cards use original, locally served logos, downloaded
+on 12 October 2026. Their proportions and colours are unchanged; intrinsic image
+dimensions reserve space, and CSS controls the display size. No logo server is
+contacted when visiting the page. The existing EU flag remains on the previous
+fellowship card.
+
+| Local asset | Official source |
+| --- | --- |
+| `images/funding/dfg-funded-by-en.gif` | Blue English funding wordmark, extracted unchanged from the [DFG funding-logo package](https://www.dfg.de/resource/blob/173984/dfg-logo-foerderung-international.zip), linked on the [DFG logo page](https://www.dfg.de/de/service/logo-corporate-design). |
+| `images/funding/quics.png` | [QUICS logo](https://quics.gwdg.de/logos/quics_logo.png), used on the official project's homepage. |
+| `images/funding/quantumfrontiers.png` | [QuantumFrontiers logo](https://www.quantumfrontiers.de/fileadmin/site-templates/logos/qf/QF-Logo-2024.png), used in the official site's header. |
+
+DFG's [third-party logo guidance](https://www.dfg.de/resource/blob/172958/styleguide-dfg-logo-externe-websites.pdf)
+requires the full wordmark, a plain background, and clear space. The English
+“Funded by” variant is placed on white with extra padding. The guidance also says
+third-party use should be agreed with DFG's press office before publication.
+Before merging the draft, the owner should confirm that this use is already
+covered or arrange that coordination. No press-office message has been sent.
+Logo rights remain with the respective organisations; these assets are not
+relicensed as original site artwork.
+
 ## Social alternatives
 
 [Bluesky supports individual post embeds](https://www.bsky.social/about/blog/post-embeds-guide).
