@@ -1,0 +1,52 @@
+name: Verify website
+
+on:
+  pull_request:
+    branches: [gh-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        baseurl: ['/ChristophHirche', '']
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: ruby/setup-ruby@v1.328.0
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Build with GitHub Pages safe mode
+        env:
+          JEKYLL_ENV: preview
+        run: bundle exec jekyll build --safe --strict_front_matter --baseurl '${{ matrix.baseurl }}'
+      - name: Check bibliography and recording data
+        run: ruby scripts/check_content.rb _site
+      - name: Check URLs, local assets, and document structure
+        run: python scripts/check_site.py _site --baseurl '${{ matrix.baseurl }}'
+      - name: Check analytics host and privacy guards
+        run: node scripts/check_analytics.js
+      - name: Check click-to-load recording players
+        run: node scripts/check_talks.js
+      - name: Check publication filtering
+        run: node scripts/check_publications.js
+      - name: Save review preview
+        if: matrix.baseurl == '/ChristophHirche'
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: website-preview
+          path: _site/
+          retention-days: 14
+      - name: Check production build and analytics inclusion
+        env:
+          JEKYLL_ENV: production
+        run: |
+          bundle exec jekyll build --safe --strict_front_matter --baseurl '${{ matrix.baseurl }}' --destination _site-production
+          python scripts/check_site.py _site-production --baseurl '${{ matrix.baseurl }}' --analytics production

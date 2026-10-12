@@ -1,0 +1,31 @@
+- name: Christoph Hirche
+  role: Junior professor · Group lead
+  focus: Quantum information theory and quantum learning.
+  profile: https://www.tnt.uni-hannover.de/de/staff/hirche/
+  image: /images/group/christoph-hirche.jpg
+  image_width: 600
+  image_height: 800
+
+- name: Muhammad Zain Ul Hassan
+  role: Group member
+  focus: Machine learning for quantum computing.
+  profile: https://www.tnt.uni-hannover.de/de/staff/hassan/
+  image: /images/group/muhammad-zain-ul-hassan.jpg
+  image_width: 600
+  image_height: 800
+
+- name: Janani Gomathi Rajagopal
+  role: Group member
+  focus: Information measures.
+  profile: https://www.tnt.uni-hannover.de/de/staff/rajagopa/
+  image: /images/group/janani-gomathi-rajagopal.jpg
+  image_width: 600
+  image_height: 800
+
+- name: Oxana Shaya
+  role: Group member
+  focus: Information measures and quantum information theory.
+  profile: https://www.tnt.uni-hannover.de/de/staff/shaya/
+  image: /images/group/oxana-shaya.jpg
+  image_width: 600
+  image_height: 800

@@ -1,0 +1,23 @@
+<div class="funding-projects{% if include.previous %} funding-previous{% endif %}" markdown="0">
+  {% for project in include.projects %}
+  <section class="funding-project" aria-labelledby="{{ project.id }}">
+    <div class="funding-meta">
+      <p class="funding-programme">{{ project.programme | escape }}</p>
+      <p>{{ project.award | escape }}</p>
+      {% if project.period %}<p>{{ project.period | escape }}</p>{% endif %}
+      {% if project.image %}
+      <div class="funding-image{% if project.logo %} funding-logo funding-logo-{{ project.logo }}{% endif %}">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="{{ project.image_width | default: 90 }}"{% if project.image_height %} height="{{ project.image_height }}"{% endif %} loading="lazy" decoding="async">
+      </div>
+      {% endif %}
+    </div>
+    <div class="funding-copy">
+      <h3 id="{{ project.id }}">{{ project.title | escape }}</h3>
+      {% if project.subtitle %}<p class="funding-subtitle">{{ project.subtitle | escape }}</p>{% endif %}
+      {{ project.description | markdownify }}
+      <p class="funding-link"><a href="{{ project.url | escape }}">{{ project.link_text | escape }} <span aria-hidden="true">↗</span></a></p>
+      <p class="funding-acknowledgement">{{ project.acknowledgement | escape }}</p>
+    </div>
+  </section>
+  {% endfor %}
+</div>

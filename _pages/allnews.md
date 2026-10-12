@@ -1,14 +1,9 @@
 ---
-title: "News"
-layout: textlay
-excerpt: "Christoph Hirche."
-sitemap: false
+title: "News — Christoph Hirche"
+description: "Research news, talks, and events."
 permalink: /allnews.html
 ---
 
 # News
 
-{% for article in site.data.news %}
-<p>{{ article.date }} <br>
-<em>{{ article.headline }}</em></p>
-{% endfor %}
+{% include news.html %}

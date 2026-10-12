@@ -1,0 +1,11 @@
+<ul class="paper-list" markdown="0">
+  {% assign papers = site.data.publications | where_exp: 'paper', 'paper.selected_order != nil' | sort: 'selected_order' %}
+  {% assign paper_limit = include.limit | default: papers.size %}
+  {% for paper in papers limit:paper_limit %}
+  <li>
+    <a href="{{ '/publications/' | relative_url }}#publication-{{ paper.id }}">{{ paper.title | escape }}</a>
+    <span class="paper-authors">{{ paper.authors | escape }}</span>
+    <span class="paper-status">{{ paper.citation | escape }}</span>
+  </li>
+  {% endfor %}
+</ul>

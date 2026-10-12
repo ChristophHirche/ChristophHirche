@@ -1,0 +1,7 @@
+<div class="photo-grid">
+  {% for pic in site.data.pictures_wedding %}
+  <a href="{{ '/images/picpic/Gallery/' | append: pic.image | relative_url }}">
+    <img src="{{ '/images/picpic/Gallery/' | append: pic.image | relative_url }}" alt="Wedding gallery photograph {{ forloop.index }}" loading="lazy">
+  </a>
+  {% endfor %}
+</div>

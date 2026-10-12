@@ -1,94 +1,17 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/savethedate.png">
-<meta property="og:image" content="https://christophhirche.github.io/ChristophHirche/images/savethedate.png" />
-<meta property="og:type" content="website" />
-<meta property="og:updated_time"  content="2024-01-23T00:19:06Z+01:00" />
-<meta property="og:url" content="https://christophhirche.github.io/ChristophHirche/CJwedding/">
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N71H8YPM4R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N71H8YPM4R');
-</script> 
-
-
-<!-- Twitter cards -->
-<meta name="twitter:site"    content="@{{ site.twitter_username }}">
-<meta name="twitter:creator" content="@{{ page.author }}">
-<meta name="twitter:title"   content="{{ page.title }}">
-
-{% if page.summary %}
-<meta name="twitter:description" content="{{ page.summary }}">
-{% else %}
-<meta name="twitter:description" content="My personal website.">
-{% endif %}
-
-{% if page.image %}
-<meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-{% else %}
-<meta name="twitter:card"  content="summary">
-<meta name="twitter:image" content="https://christophhirche.github.io/ChristophHirche/images/savethedate.png">
-{% endif %}
-<!-- end of Twitter cards -->
-
-  
-
-</head>
-
-  <body>
-
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">Christoph & Jamie's wedding</a>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>  
-<!--		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>    -->
-<!--		<li><a href="{{ site.url }}{{ site.baseurl }}/vacancies">Vacancies</a></li>    -->
-<!--		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>    -->
-<!--		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>    -->
-<!--		<li><a href="{{ site.url }}{{ site.baseurl }}/talks">Talks</a></li>       --> 
-	  </ul>
-	</div>
-  </div>
-</div>
-
-
-    <div class="container-fluid">
-      <div class="row">
-        {{ content }}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  {% include head.html %}
+  <body class="event-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="site-name" href="{{ page.url | relative_url }}">Christoph &amp; Jamie's wedding</a>
+        <a href="{{ '/' | relative_url }}">Academic homepage</a>
       </div>
-    </div>
-
-
-
- <!--      {% include footer.html %}  -->
-
+    </header>
+    <main id="main-content" class="site-main container page-content" tabindex="-1">
+      <h1>Christoph &amp; Jamie's wedding</h1>
+      {{ content }}
+    </main>
   </body>
-
 </html>

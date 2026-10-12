@@ -1,0 +1,31 @@
+<div class="talk-list" markdown="0">
+  {% for talk in site.data.talks %}
+  <section class="talk" aria-labelledby="{{ talk.anchor }}">
+    <div class="talk-copy">
+      <p class="talk-meta">{% if talk.date %}<time datetime="{{ talk.date }}">{{ talk.date | date: '%-d %B %Y' }}</time>{% else %}{{ talk.year }}{% endif %} <span aria-hidden="true">·</span> {{ talk.provider }}</p>
+      <h2 id="{{ talk.anchor }}">{{ talk.title | escape }}</h2>
+      <p class="talk-event">{{ talk.event | escape }}</p>
+      {% if talk.description != '' %}<p>{{ talk.description | escape }}</p>{% endif %}
+      <a class="recording-link" href="{{ talk.url | escape }}">Watch on {{ talk.provider }}<span class="sr-only">: {{ talk.title | escape }}</span> <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="talk-media">
+      {% if talk.video and talk.embed != false %}
+      <div class="talk-player" data-provider="{{ talk.provider | downcase }}" data-video="{{ talk.video | escape }}" data-title="{{ talk.title | escape }}">
+        <button class="talk-play" type="button" hidden aria-label="Play here: {{ talk.title | escape }}">
+          <span class="play-symbol" aria-hidden="true">▶</span>
+          <span>Play here</span>
+          <span class="player-provider">{{ talk.provider }}{% if talk.duration %} · {{ talk.duration }}{% endif %}</span>
+        </button>
+      </div>
+      <p class="player-status small" aria-live="polite"></p>
+      {% else %}
+      <a class="talk-play recording-card-link" href="{{ talk.url | escape }}" aria-label="Watch on {{ talk.provider }}: {{ talk.title | escape }}">
+        <span class="play-symbol" aria-hidden="true">↗</span>
+        <span>Watch on {{ talk.provider }}</span>
+        <span class="player-provider">Open recording{% if talk.duration %} · {{ talk.duration }}{% endif %}</span>
+      </a>
+      {% endif %}
+    </div>
+  </section>
+  {% endfor %}
+</div>

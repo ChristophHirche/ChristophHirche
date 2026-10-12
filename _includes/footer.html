@@ -1,29 +1,16 @@
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
-			
-		  <p>&copy 2021 Christoph Hirche. Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="https://allanlab.org/aboutwebsite.html">template by Allan Lab.</a></p>
-          
-            
-
-		   <p>  </p><p>
-            		  
-            
-		</div>
-		<div class="col-sm-4">
-		  <a href="https://ec.europa.eu/research/mariecurieactions/"> This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No H2020-MSCA-IF-2020-101025848 </a><br />
-		</div>
-		<div class="col-sm-4">
-		<img style="margin:0 10px 10px 0" src="{{ site.url }}{{ site.baseurl }}/images/EUflag.jpg"  width="90"> <br />
-		  Contact:<br />
-		  firstname.lastname@gmail.com
-		</div>
-	  </div>
-	</div>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-name">{{ site.title }}</p>
+      <p>Contact: {{ site.contact_text | escape }}</p>
+      <p class="small">&copy; {{ site.time | date: '%Y' }} {{ site.title }}.<br>
+        Built with <a href="https://jekyllrb.com">Jekyll</a>.
+        Original template by <a href="https://allanlab.org/aboutwebsite.html">Allan Lab</a>.</p>
+    </div>
+    <div>
+      <p class="footer-name">Research support</p>
+      <p class="small">My group is supported by the DFG, BMFTR through QUICS, and QuantumFrontiers under Germany’s Excellence Strategy.</p>
+      <p class="small"><a href="{{ '/research/' | relative_url }}#current-funding">Current funding</a> <span aria-hidden="true">·</span> <a href="{{ '/research/' | relative_url }}#previous-funding">Previous funding</a></p>
+    </div>
   </div>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+</footer>

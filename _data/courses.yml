@@ -1,0 +1,27 @@
+- id: quantum-information-processing
+  title: Quantum Information Processing
+  semester: Summer semester
+  format: Lectures and exercises · 5 ECTS · English
+  description: >-
+    An introduction to quantum states, channels, and measurements, leading to
+    quantum algorithms, communication, error correction, and quantum machine
+    learning. We explore what quantum devices can do and how their capabilities
+    differ from classical information processing.
+  audience: Students getting started in quantum information and quantum computing.
+  preparation: >-
+    Basic linear algebra is recommended. Prior knowledge of quantum mechanics
+    or information theory is helpful but optional.
+  url: https://www.tnt.uni-hannover.de/en/edu/vorlesungen/QuantInf/
+
+- id: seminar-quantum-information
+  title: Seminar Quantum Information
+  semester: Winter semester
+  format: Research seminar · English
+  description: >-
+    Explore current research by studying and presenting scientific papers.
+    Topics span quantum information theory, computing, communication, machine
+    learning, and error correction. An introduction to the subject and available
+    topics is followed by independent preparation and discussion.
+  audience: Computer science students interested in working with current research papers.
+  preparation: Quantum Information Processing is recommended but not required.
+  url: https://www.tnt.uni-hannover.de/en/edu/vorlesungen/SeminarQuantInf/

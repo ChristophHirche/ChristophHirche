@@ -1,0 +1,5 @@
+<ul class="publication-links">
+  {% if include.paper.doi %}<li><a href="https://doi.org/{{ include.paper.doi | escape }}">Publisher / DOI<span class="sr-only">: {{ include.paper.title | escape }}</span></a></li>{% endif %}
+  {% if include.paper.arxiv %}<li><a href="https://arxiv.org/abs/{{ include.paper.arxiv | escape }}">arXiv:{{ include.paper.arxiv }}</a></li>{% endif %}
+  {% if include.paper.conference_version %}<li><a href="https://doi.org/{{ include.paper.conference_version.doi | escape }}">Conference version (DOI)<span class="sr-only">: {{ include.paper.conference_version.citation | escape }}</span></a></li>{% endif %}
+</ul>

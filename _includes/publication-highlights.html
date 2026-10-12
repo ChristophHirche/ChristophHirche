@@ -1,0 +1,16 @@
+<div class="publication-list" markdown="0">
+  {% for paper in site.data.publications %}
+  {% if paper.highlight == 1 %}
+  <article class="publication" id="paper-{{ paper.id }}">
+    <div>
+      <h3>{{ paper.title | escape }}</h3>
+      <p class="paper-authors">{{ paper.authors | escape }}</p>
+      <p>{{ paper.description | escape }}</p>
+      <p class="publication-citation">{{ paper.citation | escape }}</p>
+      {% include publication-links.html paper=paper %}
+    </div>
+    {% if paper.image %}<img src="{{ '/images/pubpic/' | append: paper.image | relative_url }}" alt="" loading="lazy">{% endif %}
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>

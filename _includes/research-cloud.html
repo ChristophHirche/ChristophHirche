@@ -1,0 +1,7 @@
+<aside class="research-cloud" aria-label="Research topics" markdown="0">
+  <ul class="research-topics" role="list">
+    {% for topic in site.data.research_topics %}
+    <li class="topic-{{ topic.size | escape }}">{{ topic.label | escape }}</li>
+    {% endfor %}
+  </ul>
+</aside>

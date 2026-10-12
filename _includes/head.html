@@ -1,44 +1,23 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico">
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N71H8YPM4R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N71H8YPM4R');
-</script> 
-
-
-<!-- Twitter cards -->
-<meta name="twitter:site"    content="@{{ site.twitter_username }}">
-<meta name="twitter:creator" content="@{{ page.author }}">
-<meta name="twitter:title"   content="{{ page.title }}">
-
-{% if page.summary %}
-<meta name="twitter:description" content="{{ page.summary }}">
-{% else %}
-<meta name="twitter:description" content="My personal website.">
-{% endif %}
-
-{% if page.image %}
-<meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
-{% else %}
-<meta name="twitter:card"  content="summary">
-<meta name="twitter:image" content="https://christophhirche.github.io/ChristophHirche/images/Auswahl_6356.jpg">
-{% endif %}
-<!-- end of Twitter cards -->
-  
-
+  {% assign document_title = page.title | default: site.title %}
+  {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines %}
+  {% assign canonical_path = page.redirect_to | default: page.url | split: '#' | first | replace: 'index.html', '' %}
+  <title>{{ document_title | escape }}</title>
+  <meta name="description" content="{{ description | escape }}">
+  {% if page.redirect_to %}<meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url | escape }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+  <link rel="canonical" href="{{ canonical_path | absolute_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ document_title | escape }}">
+  <meta property="og:description" content="{{ description | escape }}">
+  <meta property="og:url" content="{{ canonical_path | absolute_url }}">
+  <meta property="og:image" content="{{ page.image | default: '/images/Auswahl_6356.jpg' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  {% unless page.redirect_to %}{% include analytics.html %}{% endunless %}
+  {% if page.talk_players %}<script defer src="{{ '/assets/js/talks.js' | relative_url }}"></script>{% endif %}
+  {% if page.publication_filters %}<script defer src="{{ '/assets/js/publications.js' | relative_url }}"></script>{% endif %}
 </head>

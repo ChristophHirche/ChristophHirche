@@ -1,0 +1,29 @@
+# Curated research themes, not a word-frequency analysis. Keep labels plain text.
+- label: quantum networks
+  size: small
+- label: entropy
+  size: large
+- label: information measures
+  size: medium
+- label: quantum information theory
+  size: core
+- label: communication
+  size: medium
+- label: private capacity
+  size: large
+- label: hypothesis testing
+  size: small
+- label: quantum learning
+  size: medium
+- label: divergences
+  size: large
+- label: privacy
+  size: medium
+- label: contraction coefficients
+  size: small
+- label: quantum channels
+  size: medium
+- label: entanglement
+  size: small
+- label: Shannon theory
+  size: small
