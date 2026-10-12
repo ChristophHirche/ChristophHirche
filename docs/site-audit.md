@@ -32,11 +32,11 @@ access and deployment; verification uses the temporary Actions token with `conte
 
 ```text
 _pages/             page text and stable permalinks
-_data/              publications, talks, funding, news, navigation, profile links, gallery list
+_data/              publications, talks, funding, group, news, navigation, profile links, gallery list
 _layouts/           default, page, home, wedding
 _includes/          shared page components and rendering loops
 css/main.css        responsive styling
-assets/js/          optional production analytics and click-to-load recordings
+assets/js/          optional analytics, recording players, and publication filters
 images/, downloads/ existing public asset URLs
 scripts/            URL contract and build checks (excluded from the site)
 docs/               maintenance notes (excluded from the site)
@@ -64,8 +64,8 @@ history. Large existing wedding photos dominate its byte size and remain intact.
    connections. Add teaching/supervision and a dated CV if supplied. Confirm claims
    and appointments before publication. Keep preprints, journal articles, and
    proceedings distinct.
-3. **Useful researcher features.** Add curated topic/year filters and BibTeX downloads
-   once the bibliography has consistent dates and statuses. Add a news RSS feed and
+3. **Useful researcher features.** Search, type, and year filters are implemented.
+   Consider curated topic tags and BibTeX downloads next. Add a news RSS feed and
    optional selected Bluesky/LinkedIn posts if wanted. Add code/slides links per paper
    when the correct public repositories/assets are identified.
 4. **Asset and release review.** Confirm whether old downloadable recruitment PDFs
@@ -272,6 +272,30 @@ papers, DOI/arXiv links, and year navigation. No new package, remote search serv
 search-query tracking, or topic tags are introduced. A dependency-free behavior
 check covers combined filtering, accented names, empty results, reset, and form
 submission prevention; the rendered page is also checked in the browser.
+
+### News milestones and opportunities, 12 October 2026
+
+The owner approved two additional news items to fill the January–October gap.
+They are dated by the underlying publication/talk milestone, not the day these
+website entries were added:
+
+- **22 May 2026:** [Quantum Doeblin Coefficients: Interpretations and Applications](https://doi.org/10.22331/q-2026-05-22-2115),
+  published in *Quantum* 10, 2115, with Ian George, Theshani Nuradha, and Mark M. Wilde.
+  The short description summarizes its computable tools for information loss in
+  noisy quantum systems without claiming every coefficient in the paper is computable.
+- **17 July 2026:** [BIRS recording](https://www.birs.ca/events/2026/5-day-workshops/26w5621/videos/watch/202607171033-Hirche.html)
+  of “Conditional contraction coefficients and their applications to quantum networks”.
+  The official recording page gives 17 July, 10:33–11:13. The news link opens the
+  existing recording card on the site's Talks page.
+
+Position availability, the invitation to collaborate, and Bachelor/Master thesis
+opportunities now live under **Working with us** on Group. The confirmed “no open
+positions” statement and TNT student-project link are retained. Vacancies is removed
+from navigation, while `/vacancies` remains a compatibility page with an immediate
+HTML refresh to `/team/#working-with-us` and a visible fallback link. The redirect
+works without JavaScript and respects both supported base paths. Canonical metadata
+points to `/team/`; no analytics loader runs on the forwarding page. The existing
+URL checker now validates refresh destinations and their target fragments.
 
 ## Social alternatives
 

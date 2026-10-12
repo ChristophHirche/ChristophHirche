@@ -3,19 +3,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% assign document_title = page.title | default: site.title %}
   {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines %}
+  {% assign canonical_path = page.redirect_to | default: page.url | split: '#' | first | replace: 'index.html', '' %}
   <title>{{ document_title | escape }}</title>
   <meta name="description" content="{{ description | escape }}">
+  {% if page.redirect_to %}<meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url | escape }}">{% endif %}
   <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+  <link rel="canonical" href="{{ canonical_path | absolute_url }}">
   <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ site.title | escape }}">
   <meta property="og:title" content="{{ document_title | escape }}">
   <meta property="og:description" content="{{ description | escape }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ canonical_path | absolute_url }}">
   <meta property="og:image" content="{{ page.image | default: '/images/Auswahl_6356.jpg' | absolute_url }}">
   <meta name="twitter:card" content="summary">
-  {% include analytics.html %}
+  {% unless page.redirect_to %}{% include analytics.html %}{% endunless %}
   {% if page.talk_players %}<script defer src="{{ '/assets/js/talks.js' | relative_url }}"></script>{% endif %}
   {% if page.publication_filters %}<script defer src="{{ '/assets/js/publications.js' | relative_url }}"></script>{% endif %}
 </head>

@@ -7,7 +7,7 @@ The live branch is `gh-pages`. Review changes in a pull request before merging.
 
 | Content | Edit here |
 | --- | --- |
-| Biography, research, vacancies, event pages | `_pages/` |
+| Biography, research, group opportunities, event pages | `_pages/` |
 | Publications and homepage selection | `_data/publications.yml` |
 | News | `_data/news.yml` (newest first) |
 | Talk recordings | `_data/talks.yml` |
@@ -136,6 +136,14 @@ the institute's **Professor Hirches Gruppe** section, not its full staff list.
 The public profiles do not establish doctoral/postdoctoral job titles, so those
 roles are not inferred. Keep contact details on the linked institute profiles.
 
+Maintain position availability, collaboration invitations, and Bachelor/Master
+thesis opportunities in **Working with us** in `_pages/team.md`. The former
+Vacancies tab is removed. `_pages/openings.md` preserves `/vacancies` and forwards
+immediately to `/team/#working-with-us`, with a normal fallback link for visitors
+whose browser does not redirect. The shared head handles its `redirect_to` field
+without an extra plugin, points canonical metadata to the Group page, and omits
+analytics on the forwarding page to avoid counting an additional page view.
+
 Member portraits are served locally from `images/group/`. All four Group cards
 use institute portraits; Christoph's homepage portrait is unchanged. Each card
 uses the same research-interest label. Preserve image proportions and record
@@ -148,6 +156,7 @@ measurement ID is not a password. Set `analytics.google_id` to an empty string t
 disable analytics. The script only loads on a production build on the configured
 host, respects Do Not Track and Global Privacy Control, and disables advertising
 personalization signals. Review previews and localhost never send analytics.
+Compatibility forwarding pages also omit the analytics loader.
 
 The Twitter widget and external icon fonts have been removed. Social profiles are
 ordinary labelled links, including the supplied LinkedIn profile. Add a Bluesky

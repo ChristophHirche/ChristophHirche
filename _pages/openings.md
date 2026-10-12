@@ -1,18 +1,13 @@
 ---
-title: "Vacancies"
+title: "Working with us — Christoph Hirche"
 layout: page
-excerpt: "Openings"
+description: "Open positions, thesis projects and collaboration opportunities are now on the Group page."
 permalink: /vacancies
+redirect_to: /team/#working-with-us
 ---
 
-# Open positions
+# Working with us
 
-There are currently no open positions.
+Open positions, thesis projects and collaboration opportunities are now listed on the Group page.
 
-Please do however get in touch if you're interested in joining the group or simply working on a common research project.
-
-## Bachelor and Master theses
-
-Topics for Bachelor and Master theses are available. See the
-[TNT student projects page](https://www.tnt.uni-hannover.de/de/students/) for current
-offers, and get in touch if you would like to discuss a quantum information project.
+[Continue to Working with us]({{ page.redirect_to | relative_url }}).

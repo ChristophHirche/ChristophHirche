@@ -4,6 +4,18 @@
     <a href="https://arxiv.org/abs/2610.03706">Quantum estimation, channel orders, and private capacity</a>,
     and <a href="https://arxiv.org/abs/2609.38144">The exact strong converse exponent for private communication over quantum channels</a>
     with Hao-Chung Cheng and Marco Tomamichel.
+- date: 17. July 2026
+  headline: >-
+    I gave a talk on “Conditional contraction coefficients and their applications to quantum networks”
+    at BIRS in Banff. The recording is now available.
+  url: /talks/#conditional-contraction-coefficients-and-their-applications-to-quantum-networks-birs-2026
+  link_text: Watch the recording
+- date: 22. May 2026
+  headline: >-
+    Our paper <a href="https://doi.org/10.22331/q-2026-05-22-2115">Quantum Doeblin Coefficients:
+    Interpretations and Applications</a>, with Ian George, Theshani Nuradha and Mark M. Wilde,
+    is published in <em>Quantum</em>. We develop computable tools for studying information loss
+    in noisy quantum systems.
 - date: 24. January 2026
   headline: Long plenary talk at <a href="https://qip2026.lu.lv/programme/accepted-papers/">QIP 2026</a>
     about quantum f-divergences.

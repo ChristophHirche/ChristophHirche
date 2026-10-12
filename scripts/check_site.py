@@ -34,6 +34,10 @@ class Page(HTMLParser):
         if tag == 'main': self.main += 1
         if tag == 'h1': self.h1 += 1
         if tag == 'title': self.title += 1
+        if tag == 'meta' and attrs.get('http-equiv', '').lower() == 'refresh':
+            redirect = re.fullmatch(r'0;\s*url=(\S+)', attrs.get('content', ''), re.I)
+            if redirect: self.links.append(redirect.group(1))
+            else: self.errors.append('Redirect must be immediate and specify a destination URL')
         if tag == 'script' and attrs.get('src', '').endswith('/assets/js/analytics.js'):
             self.analytics.append(attrs)
         if attrs.get('id'):

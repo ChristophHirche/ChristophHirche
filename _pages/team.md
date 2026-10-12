@@ -12,7 +12,13 @@ We study how information is processed in quantum systems. Our group is based at 
 
 ## Working with us
 
-Interested in a Bachelor or Master thesis in quantum information? Explore the [institute's student projects](https://www.tnt.uni-hannover.de/de/students/) and our [vacancies page]({{ "/vacancies" | relative_url }}).
+### Open positions
+
+There are currently no open positions. Please [get in touch](https://www.tnt.uni-hannover.de/de/staff/hirche/) if you're interested in joining the group or discussing a joint research project.
+
+### Bachelor and Master theses
+
+Topics for Bachelor and Master theses are available. See the [institute's student projects](https://www.tnt.uni-hannover.de/de/students/) for current offers, or get in touch to discuss a quantum information project.
 
 For our research directions and current funding, see [Research]({{ "/research/" | relative_url }}).
 
