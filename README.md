@@ -49,6 +49,7 @@ python scripts/check_site.py _site --baseurl ''
 node scripts/check_analytics.js
 ruby scripts/check_content.rb _site
 node scripts/check_talks.js
+node scripts/check_publications.js
 ```
 
 The `Verify website` workflow builds preview and production versions of both URL configurations on pull requests and
@@ -59,7 +60,7 @@ responsible for publishing `gh-pages` after a reviewed merge.
 The checker covers all 11 preserved page URLs, local links and assets, fragment
 targets, image alternatives, basic document landmarks, accidentally escaped HTML,
 and analytics inclusion. Content checks ensure every data record and published DOI
-reaches the rendered pages. Analytics guards and click-to-load players are tested
+reaches the rendered pages. Analytics guards, click-to-load players, and publication filters are tested
 without network calls. Node.js is only needed for those small checks. Check keyboard focus,
 mobile layout, and content accuracy in a browser too; these checks are not a full
 accessibility audit.
@@ -81,6 +82,14 @@ The full bibliography is grouped by `year`; titles and author order follow prima
 metadata. Update status only after checking a publisher record; an arXiv identifier
 or DOI alone does not establish peer-reviewed publication. See the audit for the
 Scholar reconciliation and citation corrections.
+
+Publication search matches words in titles and author names, ignoring case and
+accents. Type and year filters combine with the search and use existing record
+metadata; no extra tagging is needed. Controls are in
+`_includes/publication-filters.html`, and `assets/js/publications.js` filters the
+rendered bibliography locally. It makes no search-service requests and uses no
+library. Without JavaScript, the complete bibliography and year links remain
+available. The search example uses a topic rather than a named coauthor.
 
 ## Talk recordings
 
@@ -127,8 +136,9 @@ the institute's **Professor Hirches Gruppe** section, not its full staff list.
 The public profiles do not establish doctoral/postdoctoral job titles, so those
 roles are not inferred. Keep contact details on the linked institute profiles.
 
-Member portraits are served locally from `images/group/`, with the existing
-homepage portrait reused for Christoph. Preserve their proportions and record
+Member portraits are served locally from `images/group/`. All four Group cards
+use institute portraits; Christoph's homepage portrait is unchanged. Each card
+uses the same research-interest label. Preserve image proportions and record
 new portrait sources in the audit when replacing them.
 
 ## Analytics and social links

@@ -1,4 +1,4 @@
-<div class="bibliography" markdown="0">
+<div class="bibliography" id="publication-results" markdown="0">
   {% assign years = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
   <nav class="year-nav" aria-label="Publication years">
     {% for year in years %}<a href="#year-{{ year.name }}">{{ year.name }}</a>{% endfor %}
@@ -8,7 +8,7 @@
     <h2 id="year-{{ year.name }}">{{ year.name }}</h2>
     <ul class="year-entries">
       {% for paper in year.items %}
-      <li class="bibliography-item" id="publication-{{ paper.id }}">
+      <li class="bibliography-item" id="publication-{{ paper.id }}" data-type="{{ paper.type | escape }}" data-year="{{ paper.year }}">
         <h3>{{ paper.title | escape }}</h3>
         <p class="paper-authors">{{ paper.authors | escape }}</p>
         <span class="publication-type">{{ paper.type | escape }}</span>

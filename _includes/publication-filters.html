@@ -1,0 +1,27 @@
+<div class="publication-discovery" markdown="0">
+  <form class="publication-filters" aria-label="Filter publications" aria-controls="publication-results" hidden>
+    <div class="filter-field">
+      <label for="publication-query">Search titles and authors</label>
+      <input id="publication-query" name="query" type="search" placeholder="e.g. quantum channels" autocomplete="off" spellcheck="false">
+    </div>
+    <div class="filter-field">
+      <label for="publication-type">Publication type</label>
+      <select id="publication-type" name="type">
+        <option value="">All types</option>
+        {% assign types = site.data.publications | map: 'type' | uniq | sort %}
+        {% for type in types %}<option value="{{ type | escape }}">{{ type | escape }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="filter-field">
+      <label for="publication-year">Year</label>
+      <select id="publication-year" name="year">
+        <option value="">All years</option>
+        {% assign years = site.data.publications | map: 'year' | uniq | sort | reverse %}
+        {% for year in years %}<option value="{{ year }}">{{ year }}</option>{% endfor %}
+      </select>
+    </div>
+    <button type="button" class="filter-clear">Clear filters</button>
+  </form>
+  <p id="publication-status" class="filter-status" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+  <p id="publication-empty" class="filter-empty" hidden>No matching publications. Try fewer words or clear the filters.</p>
+</div>

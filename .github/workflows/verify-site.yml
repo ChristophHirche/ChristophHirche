@@ -35,6 +35,8 @@ jobs:
         run: node scripts/check_analytics.js
       - name: Check click-to-load recording players
         run: node scripts/check_talks.js
+      - name: Check publication filtering
+        run: node scripts/check_publications.js
       - name: Save review preview
         if: matrix.baseurl == '/ChristophHirche'
         uses: actions/upload-artifact@v7.0.2

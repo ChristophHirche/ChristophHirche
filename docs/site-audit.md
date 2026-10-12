@@ -238,11 +238,15 @@ The latter three profiles do not specify doctoral/postdoctoral employment roles;
 the page uses the neutral label “Group member”. Telephone and office information
 remain on the institute profiles to avoid another copy to maintain.
 
-The existing homepage photograph is reused for Hirche. The other public portraits
-were downloaded unchanged on 12 October 2026 from
-`https://www.tnt.uni-hannover.de/staff/{hassan,rajagopa,shaya}/portrait.jpg`, as
-linked by their profiles. All three are 600 × 800 JPEGs and are served locally from
+The owner chose the institute portrait for Hirche on the Group page only; the
+homepage keeps its existing photograph. All four public portraits were downloaded
+unchanged on 12 October 2026 from
+`https://www.tnt.uni-hannover.de/staff/{hirche,hassan,rajagopa,shaya}/portrait.jpg`, as
+linked by their profiles. All four are 600 × 800 JPEGs and are served locally from
 `images/group/`. Photo rights remain with the original rights holders.
+All cards use the same “Research interests” label and short noun phrases. Rajagopal's
+entry reads “Information measures”, based on her listed project; no extra research
+specialism or job title is inferred.
 
 The new private-capacity news item uses **12 October 2026 as its announcement
 date**, not a claimed submission date. It links two preprints already present
@@ -251,6 +255,23 @@ submitted 2 October 2026, and [The exact strong converse exponent for private
 communication over quantum channels](https://arxiv.org/abs/2609.38144), submitted
 29 September 2026 with Hao-Chung Cheng and Marco Tomamichel. Neither is labelled
 as a journal publication.
+
+### Publication filters, 12 October 2026
+
+After trying a separate local demo, the owner requested its search feature on the
+publications page. The implementation combines title/author search, publication
+type, and year, using the existing 51 records. The neutral example is “quantum
+channels”. Case and accents are normalized for matching; every query word must
+occur in the title or author text. Empty years and their navigation links hide
+together, and a labelled status reports the result count. Clear restores the full
+list and returns focus to search.
+
+The complete bibliography remains in the HTML. Controls are revealed only after
+the small local script initializes, so visitors without JavaScript retain all
+papers, DOI/arXiv links, and year navigation. No new package, remote search service,
+search-query tracking, or topic tags are introduced. A dependency-free behavior
+check covers combined filtering, accented names, empty results, reset, and form
+submission prevention; the rendered page is also checked in the browser.
 
 ## Social alternatives
 

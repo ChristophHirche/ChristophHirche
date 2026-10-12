@@ -2,9 +2,9 @@
   role: Junior professor · Group lead
   focus: Quantum information theory and quantum learning.
   profile: https://www.tnt.uni-hannover.de/de/staff/hirche/
-  image: /images/Auswahl_6356.jpg
-  image_width: 413
-  image_height: 531
+  image: /images/group/christoph-hirche.jpg
+  image_width: 600
+  image_height: 800
 
 - name: Muhammad Zain Ul Hassan
   role: Group member
@@ -16,7 +16,7 @@
 
 - name: Janani Gomathi Rajagopal
   role: Group member
-  focus: "Project: Information Measures."
+  focus: Information measures.
   profile: https://www.tnt.uni-hannover.de/de/staff/rajagopa/
   image: /images/group/janani-gomathi-rajagopal.jpg
   image_width: 600

@@ -2,6 +2,7 @@
 title: "Publications — Christoph Hirche"
 description: "Publications, preprints and theses by Christoph Hirche, with DOI and arXiv links."
 permalink: /publications/
+publication_filters: true
 ---
 
 # Publications
@@ -13,4 +14,5 @@ Journal articles, conference papers, preprints and theses, grouped by year. You 
   {% include publication-highlights.html %}
 </details>
 
+{% include publication-filters.html %}
 {% include bibliography.html %}

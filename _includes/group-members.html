@@ -5,7 +5,7 @@
     <div class="group-copy">
       <p class="group-role">{{ member.role | escape }}</p>
       <h2>{{ member.name | escape }}</h2>
-      <p class="group-focus">{{ member.focus | escape }}</p>
+      <p class="group-focus"><span class="group-focus-label">Research interests</span>{{ member.focus | escape }}</p>
       <a class="group-profile" href="{{ member.profile | escape }}">Institute profile<span class="sr-only"> for {{ member.name | escape }}</span> <span aria-hidden="true">↗</span></a>
     </div>
   </article>
