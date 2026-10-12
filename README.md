@@ -13,6 +13,8 @@ The live branch is `gh-pages`. Review changes in a pull request before merging.
 | Talk recordings | `_data/talks.yml` |
 | Current and previous research funding | `_data/funding.yml` |
 | Group members and institute profile links | `_data/group.yml` |
+| Teaching course cards | `_data/courses.yml` |
+| Research word cloud | `_data/research_topics.yml` |
 | Navigation | `_data/navigation.yml` |
 | Scholar, ORCID and social profiles | `_data/social.yml` |
 | Layout and reusable markup | `_layouts/`, `_includes/` |
@@ -120,6 +122,12 @@ record its actual end date when confirmed. Keep the footer's short funding summa
 in sync with current support. The former Marie Curie fellowship and EU acknowledgement
 remain in **Previous funding**. See the audit for source records and date conventions.
 
+The introduction's word cloud uses live text from `_data/research_topics.yml`,
+rendered by `_includes/research-cloud.html`. The `size` field accepts `core`,
+`large`, `medium`, or `small`; these are visual emphasis levels, not frequency
+statistics. The cloud sits to the right on wide screens and below the introduction
+on narrow ones. Keep the original image URL available for older links.
+
 Official logos are stored locally in `images/funding/`. Set `image`, `image_alt`,
 and the original `image_width`/`image_height` in the funding record. The `logo`
 field selects a small display size; CSS preserves the artwork's aspect ratio.
@@ -148,6 +156,19 @@ Member portraits are served locally from `images/group/`. All four Group cards
 use institute portraits; Christoph's homepage portrait is unchanged. Each card
 uses the same research-interest label. Preserve image proportions and record
 new portrait sources in the audit when replacing them.
+
+## Teaching
+
+Edit the two course cards in `_data/courses.yml`; `_includes/courses.html` renders
+them at `/teaching/`. Keep each `id` stable for direct links. All card fields are
+plain text. The introduction, open reading links, and link to thesis opportunities
+live in `_pages/teaching.md`.
+
+The page describes the institute's recurring summer/winter courses. Timetables,
+registration, semester topics, and course materials stay on the official course
+pages and Stud.IP. Confirm a specific offering before labelling it with a current
+semester or adding it to a past-seminar archive; do not infer themes or rehost
+restricted teaching materials.
 
 ## Analytics and social links
 

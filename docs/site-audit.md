@@ -32,7 +32,7 @@ access and deployment; verification uses the temporary Actions token with `conte
 
 ```text
 _pages/             page text and stable permalinks
-_data/              publications, talks, funding, group, news, navigation, profile links, gallery list
+_data/              publications, talks, funding, group, courses, research topics, news, navigation, profile links, gallery list
 _layouts/           default, page, home, wedding
 _includes/          shared page components and rendering loops
 css/main.css        responsive styling
@@ -57,11 +57,11 @@ history. Large existing wedding photos dominate its byte size and remain intact.
    modernize typography/navigation and basic accessibility, remove the Twitter widget,
    retain configurable Google Analytics, reconcile the complete Scholar bibliography,
    add the July 2026 BIRS recording and click-to-load players, link thesis projects,
-   and organize research around current and previous funding.
+   organize research around current and previous funding, and add a Teaching page.
    Gate: both base-path builds, URL checks, browser inspection, and owner review.
 2. **Research detail.** Add group-specific contributions, selected papers, and open
    questions to the funded-project descriptions once the owner confirms those
-   connections. Add teaching/supervision and a dated CV if supplied. Confirm claims
+   connections. Expand the teaching archive and add a dated CV if supplied. Confirm claims
    and appointments before publication. Keep preprints, journal articles, and
    proceedings distinct.
 3. **Useful researcher features.** Search, type, and year filters are implemented.
@@ -198,7 +198,7 @@ programme periods. TITAN's collaborators, EU flag, and acknowledgement are retai
 under **Previous funding**. The sitewide footer now points to current and previous
 support instead of presenting the historical EU fellowship as current. The old
 research page and project fragment URLs are preserved, as is the word-cloud asset
-URL; the word cloud is no longer displayed. Project content is separate from its
+URL; an updated text-based word cloud now accompanies the introduction. Project content is separate from its
 shared card template in `_data/funding.yml`.
 
 The three current-funding cards use original, locally served logos, downloaded
@@ -296,6 +296,36 @@ HTML refresh to `/team/#working-with-us` and a visible fallback link. The redire
 works without JavaScript and respects both supported base paths. Canonical metadata
 points to `/team/`; no analytics loader runs on the forwarding page. The existing
 URL checker now validates refresh destinations and their target fragments.
+
+### Teaching and research word cloud, 12 October 2026
+
+The owner approved the Teaching page at the new `/teaching/` address. The page
+adds two course cards with audience and preparation guidance from the official
+[Quantum Information Processing](https://www.tnt.uni-hannover.de/en/edu/vorlesungen/QuantInf/)
+and [Seminar Quantum Information](https://www.tnt.uni-hannover.de/en/edu/vorlesungen/SeminarQuantInf/)
+pages, checked on 12 October 2026. The summer course is listed as lectures and
+exercises worth 5 ECTS; both courses are in English. The seminar recommends, but
+does not require, the introductory course. Neither card claims a confirmed
+2026/27 offering, specific timetable, or current seminar theme.
+
+The shared Stud.IP link uses the entry point linked from the lecture page, so
+visitors can find the appropriate semester by course title. The seminar's
+existing direct Stud.IP link has a course-instance identifier and is not copied
+as a claim about the current semester. Public further reading links use the
+verified arXiv pages for Ronald de Wolf's *Quantum Computing: Lecture Notes*
+and Mark M. Wilde's *From Classical to Quantum Shannon Theory*, both listed in
+the lecture's bibliography. No restricted materials are copied. A past-seminar
+archive can be added when its term/theme entries are confirmed. Thesis enquiries
+link to Group rather than duplicating position-availability text.
+
+The owner also requested a revised word cloud to the right of the research
+introduction. It uses live HTML text in the site's teal/copper palette, with a
+readable list of research themes and no image-generation or cloud library.
+Terms reflect the existing introduction, publication record, and project scopes.
+The emphasis is editorial, not a bibliometric frequency claim. Content lives in
+`_data/research_topics.yml` and rendering in `_includes/research-cloud.html`;
+CSS places it below the introduction on smaller screens. The original PNG stays
+at its public URL for compatibility.
 
 ## Social alternatives
 

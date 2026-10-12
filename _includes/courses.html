@@ -1,0 +1,17 @@
+<div class="course-grid" markdown="0">
+  {% for course in site.data.courses %}
+  <article class="course-card" id="{{ course.id | escape }}">
+    <p class="course-term">{{ course.semester | escape }}</p>
+    <h2>{{ course.title | escape }}</h2>
+    <p class="course-format">{{ course.format | escape }}</p>
+    <p>{{ course.description | escape }}</p>
+    <dl class="course-details">
+      <dt>Who it's for</dt>
+      <dd>{{ course.audience | escape }}</dd>
+      <dt>Preparation</dt>
+      <dd>{{ course.preparation | escape }}</dd>
+    </dl>
+    <p class="course-link"><a href="{{ course.url | escape }}">Course details<span class="sr-only"> for {{ course.title | escape }}</span> <span aria-hidden="true">↗</span></a></p>
+  </article>
+  {% endfor %}
+</div>
