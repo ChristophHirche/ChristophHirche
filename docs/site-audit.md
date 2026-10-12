@@ -32,7 +32,7 @@ access and deployment; verification uses the temporary Actions token with `conte
 
 ```text
 _pages/             page text and stable permalinks
-_data/              publications, talks, news, navigation, profile links, gallery list
+_data/              publications, talks, funding, news, navigation, profile links, gallery list
 _layouts/           default, page, home, wedding
 _includes/          shared page components and rendering loops
 css/main.css        responsive styling
@@ -56,13 +56,14 @@ history. Large existing wedding photos dominate its byte size and remain intact.
    separate content from templates, preserve all 11 page URLs, repair the build,
    modernize typography/navigation and basic accessibility, remove the Twitter widget,
    retain configurable Google Analytics, reconcile the complete Scholar bibliography,
-   add the July 2026 BIRS recording and click-to-load players, and link thesis projects.
+   add the July 2026 BIRS recording and click-to-load players, link thesis projects,
+   and organize research around current and previous funding.
    Gate: both base-path builds, URL checks, browser inspection, and owner review.
-2. **Research content.** Expand the research page into three or four concise themes
-   (information measures and testing; communication/channel capacities; privacy;
-   learning and noisy quantum processing), each with selected papers and open questions.
-   Add teaching/supervision and a dated CV if supplied. Confirm claims and appointments
-   before publication. Keep preprints, journal articles, and proceedings distinct.
+2. **Research detail.** Add group-specific contributions, selected papers, and open
+   questions to the funded-project descriptions once the owner confirms those
+   connections. Add teaching/supervision and a dated CV if supplied. Confirm claims
+   and appointments before publication. Keep preprints, journal articles, and
+   proceedings distinct.
 3. **Useful researcher features.** Add curated topic/year filters and BibTeX downloads
    once the bibliography has consistent dates and statuses. Add a news RSS feed and
    optional selected Bluesky/LinkedIn posts if wanted. Add code/slides links per paper
@@ -175,10 +176,30 @@ without removing a recording or displaying a known broken player.
 
 The second visual pass adds subtle teal/copper accents, an owner-selected **|CH⟩** monogram,
 rounded cards and profile links, and clearer bibliography/talk metadata. System fonts
-and lightweight CSS remain. The research-page body is intentionally unchanged in
-this follow-up: the owner wants ideas first, aimed at researchers with an accessible
-introduction. Proposed themes are information measures/testing, noisy channels and
-networks, privacy, and learning/quantum algorithms; select and word these with the owner.
+and lightweight CSS remain.
+
+### Research funding, 12 October 2026
+
+The research page is aimed at researchers, with an accessible introduction close to
+the original text. The owner requested a structure based on the grants supporting
+the group and supplied all three current award identifiers. Descriptions summarize
+the public project scopes; they do not assign unconfirmed work packages or papers
+to the group.
+
+| Funding | Primary source and scope |
+| --- | --- |
+| DFG 550206990 | [GEPRIS project record](https://gepris.dfg.de/project/550206990?lang=en): *Tracking information flow in quantum networks via new divergence measures*. Information contraction, entanglement/coherence, noisy circuits, communication, and learning. |
+| BMFTR / QUICS, 13N17418 | [Official QUICS website](https://quics.gwdg.de/en/) and [GWDG project record](https://gwdg.de/en/projects/quics/quics/): quantum-computing service centre for SMEs, algorithms, realistic simulation, advice, and training. Award number supplied by the owner; use the current BMFTR name. |
+| EXC 2123/2 QuantumFrontiers, 390837967 | [Official research overview](https://www.quantumfrontiers.de/en/research) and [funding acknowledgement](https://www.quantumfrontiers.de/en/research/publications): fundamental quantum physics, scalable systems, and precision measurement. |
+| Previous MSCA / TITAN, 101025848 | [CORDIS](https://cordis.europa.eu/project/id/101025848): started 1 August 2021 and actually ended 31 January 2024. The separate 31 July 2024 end date is the original schedule; do not use it as the actual end. The owner confirmed the fellowship ended with the move to Hannover. |
+
+Current project end dates and group-specific roles are not inferred from wider
+programme periods. TITAN's collaborators, EU flag, and acknowledgement are retained
+under **Previous funding**. The sitewide footer now points to current and previous
+support instead of presenting the historical EU fellowship as current. The old
+research page and project fragment URLs are preserved, as is the word-cloud asset
+URL; the word cloud is no longer displayed. Project content is separate from its
+shared card template in `_data/funding.yml`.
 
 ## Social alternatives
 

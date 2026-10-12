@@ -11,6 +11,7 @@ The live branch is `gh-pages`. Review changes in a pull request before merging.
 | Publications and homepage selection | `_data/publications.yml` |
 | News | `_data/news.yml` (newest first) |
 | Talk recordings | `_data/talks.yml` |
+| Current and previous research funding | `_data/funding.yml` |
 | Navigation | `_data/navigation.yml` |
 | Scholar, ORCID and social profiles | `_data/social.yml` |
 | Layout and reusable markup | `_layouts/`, `_includes/` |
@@ -98,6 +99,17 @@ offer **Watch on BIRS** instead. QIP 2024 opens on YouTube because its owner has
 embedding. Recording-page links remain usable if scripting,
 playback, or embedding is unavailable. No third-party player library is needed.
 
+## Research and funding
+
+The introduction lives in `_pages/research.md`. Edit project descriptions, award
+identifiers, acknowledgements, and official links in `_data/funding.yml`;
+`_includes/funding-projects.html` renders the cards. Keep project `id` values stable
+to preserve links to individual projects. Descriptions support Markdown; the other
+fields are plain text. Move a completed project from `current` to `previous` and
+record its actual end date when confirmed. Keep the footer's short funding summary
+in sync with current support. The former Marie Curie fellowship and EU acknowledgement
+remain in **Previous funding**. See the audit for source records and date conventions.
+
 ## Analytics and social links
 
 The existing GA4 property `G-N71H8YPM4R` is configured in `_config.yml`. This public
@@ -113,7 +125,7 @@ posts can be embedded if needed; avoid adding a feed service just to display a l
 
 ## Attribution and next phases
 
-Original layout by [Allan Lab](https://allanlab.org/aboutwebsite.html). The funding
-acknowledgement is retained. See [the audit and phased plan](docs/site-audit.md)
+Original layout by [Allan Lab](https://allanlab.org/aboutwebsite.html). Current and
+previous funding acknowledgements appear on the research page. See [the audit and phased plan](docs/site-audit.md)
 for the cleanup rationale, content sources, and remaining work.
 

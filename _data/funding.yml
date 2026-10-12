@@ -1,0 +1,79 @@
+# Project descriptions summarize the official records linked below.
+# Current support and award identifiers were confirmed by Christoph in October 2026.
+current:
+  - id: information-flow-divergences
+    programme: DFG Research Grant
+    award: Project 550206990
+    title: Tracking information flow in quantum networks via new divergence measures
+    description: >-
+      How does information change as it passes through a noisy quantum network?
+      This project develops quantum divergence measures to study information loss
+      and its limits. It investigates contraction under noise, including effects
+      on entanglement and coherence, with applications to quantum circuits,
+      network communication, and learning. The aim is to connect mathematical
+      bounds with ways to assess the capabilities of noisy quantum systems.
+    acknowledgement: >-
+      Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research
+      Foundation), project 550206990.
+    url: https://gepris.dfg.de/project/550206990?lang=en
+    link_text: DFG project details
+
+  - id: quics
+    programme: BMFTR
+    award: Grant 13N17418
+    title: QUICS
+    subtitle: Quantum Innovation and Computing for SMEs
+    description: >-
+      QUICS is a quantum-computing service centre for small and medium-sized
+      enterprises. It helps assess potential applications through algorithm
+      development, simulation, and access to quantum hardware and software.
+      Simulations that account for realistic noise connect the study of quantum
+      algorithms with the conditions in which devices operate. The centre also
+      provides advice and training.
+    acknowledgement: >-
+      Supported by Germany’s Federal Ministry of Research, Technology and Space
+      (BMFTR) through the QC service centre QUICS, grant 13N17418.
+    url: https://quics.gwdg.de/en/
+    link_text: Explore QUICS
+
+  - id: quantumfrontiers
+    programme: Germany’s Excellence Strategy
+    award: EXC 2123/2 · Project 390837967
+    title: QuantumFrontiers
+    subtitle: Cluster of Excellence
+    description: >-
+      QuantumFrontiers brings together fundamental quantum physics and precision
+      measurement. Its research spans the control of light and matter, the
+      development of scalable quantum systems, and new sensors and measurement
+      protocols. The cluster connects theoretical foundations with experimental
+      methods for understanding and using quantum effects.
+    acknowledgement: >-
+      Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research
+      Foundation) under Germany’s Excellence Strategy – EXC 2123/2
+      QuantumFrontiers – project 390837967.
+    url: https://www.quantumfrontiers.de/en/research
+    link_text: QuantumFrontiers research
+
+previous:
+  - id: tracking-information-in-quantum-networks
+    programme: Marie Skłodowska-Curie Global Fellowship
+    award: Grant agreement 101025848
+    period: August 2021–January 2024
+    title: Tracking Information in Quantum Networks
+    subtitle: TITAN
+    description: >-
+      Through this fellowship, I worked at [TU Munich](https://www.tum.de) with
+      [Robert König](https://www.professoren.tum.de/en/koenig-robert-t) and at the
+      [Centre for Quantum Technologies](https://www.quantumlah.org),
+      [National University of Singapore](https://www.nus.edu.sg), with
+      [Marco Tomamichel](https://marcotom.info). The project studied how entropic
+      quantities can be used to understand information flow in quantum networks.
+      The fellowship ended when I moved to Hannover.
+    acknowledgement: >-
+      This project received funding from the European Union’s Horizon 2020
+      research and innovation programme under the Marie Skłodowska-Curie grant
+      agreement No. 101025848.
+    image: /images/EUflag.jpg
+    image_alt: European Union flag
+    url: https://cordis.europa.eu/project/id/101025848
+    link_text: TITAN project archive
