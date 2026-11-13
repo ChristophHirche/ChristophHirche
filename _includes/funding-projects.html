@@ -6,12 +6,9 @@
       <p>{{ project.award | escape }}</p>
       {% if project.period %}<p>{{ project.period | escape }}</p>{% endif %}
       {% if project.image %}
-      <figure class="funding-image{% if project.logo %} funding-logo funding-logo-{{ project.logo }}{% endif %}{% if project.image_caption %} funding-photo{% endif %}">
-        {% if project.image_source %}<a href="{{ project.image_source | escape }}">{% endif %}
+      <div class="funding-image{% if project.logo %} funding-logo funding-logo-{{ project.logo }}{% endif %}">
         <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" width="{{ project.image_width | default: 90 }}"{% if project.image_height %} height="{{ project.image_height }}"{% endif %} loading="lazy" decoding="async">
-        {% if project.image_source %}</a>{% endif %}
-        {% if project.image_caption %}<figcaption>{{ project.image_caption | escape }}</figcaption>{% endif %}
-      </figure>
+      </div>
       {% endif %}
     </div>
     <div class="funding-copy">

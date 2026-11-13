@@ -349,15 +349,8 @@ The card separates that consortium scope from the owner-supplied subproject scop
 It does not claim a demonstrated quantum advantage, precise project dates, a
 funding amount, or Piet's assignment to this grant.
 
-No dedicated QUANDA logo was found in the checked public project announcements.
-The funding card uses the [official THD project-team photograph](https://idw-online.de/de/image?id=429867&size=screen)
-from the funding-certificate presentation, with the visible credit “© THD” and a
-link to its source. The source permits reuse with attribution in connection with
-the announcement. The supplied 799 × 533 screen JPEG was downloaded unchanged
-from `https://idw-online.de/de/newsimage429867?size=screen` to
-`images/funding/quanda-team.jpg`. It is displayed at a compact size without cropping.
-The funding template supports optional photo captions and source links; the
-existing logos retain their sizes and spacing.
+The QUANDA funding card is text-only. No dedicated project logo was found in the
+checked public announcements.
 
 The footer includes QUANDA alongside the other current support. The owner
 confirmed Piet's start date as 1 November 2026, which dates his welcome news.
