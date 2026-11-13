@@ -1,5 +1,5 @@
 # Project descriptions summarize the official records linked below.
-# Current support and award identifiers were confirmed by Christoph in October 2026.
+# Current support and award identifiers were confirmed by Christoph in October/November 2026.
 current:
   - id: information-flow-divergences
     programme: DFG Research Grant
@@ -45,6 +45,22 @@ current:
       (BMFTR) through the QC service centre QUICS, grant 13N17418.
     url: https://quics.gwdg.de/en/
     link_text: Explore QUICS
+
+  - id: quanda
+    programme: BMFTR · QC Next
+    award: Grant 01MQ26002B
+    title: QUANDA
+    subtitle: Quantum Anomaly Detection & Analysis
+    description: >-
+      QUANDA investigates quantum machine learning and hybrid quantum–classical
+      computing for detecting unusual patterns in complex data, with applications
+      in the energy sector. Our subproject focuses on quantum data representations
+      for anomaly detection in time series.
+    acknowledgement: >-
+      Supported by Germany’s Federal Ministry of Research, Technology and Space
+      (BMFTR) through QUANDA, grant 01MQ26002B.
+    url: https://idw-online.de/de/news880716
+    link_text: QUANDA project announcement
 
   - id: quantumfrontiers
     programme: Germany’s Excellence Strategy
