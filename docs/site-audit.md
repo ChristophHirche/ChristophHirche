@@ -153,11 +153,17 @@ The follow-up recording search added three more talks:
 | 11 June 2026 | [New Frontiers for Contraction Coefficients](https://ypetz.filippo.info/schedule.php#hirche) | The official YPetz programme links the MP4 and confirms the title, speaker, and date; [workshop homepage](https://ypetz.filippo.info/) confirms Pisa, 2026. |
 
 The [official QIP 2026 programme](https://app.onlineexpo.com/events/qip-2026/en/schedules/9f9349c5-a18a-45be-a1cd-aa3e1f890414)
-confirms *Representations of f-Divergences and their role in Quantum Hypothesis
-Testing*, 29 January 2026, in a merged 11:00–12:00 plenary slot. No public recording
-was located on the programme, IAQI archive, or the video searches checked on
-12 October 2026. This is not evidence that no recording exists. Do not add a guessed
-video URL or present the programme link as a recording.
+confirms the joint plenary on 29 January 2026, 11:00–12:00. The
+[official conference homepage](https://qip2026.lu.lv/) now links to its recordings
+channel. On 13 November 2026, the [full recording](https://www.youtube.com/watch?v=7T6tkDOVrEg)
+was verified on that channel: it lasts 1:00:14 and was uploaded on 25 October 2026,
+after the earlier 12 October search. Its description credits Hao-Chung Cheng with
+*Quantum channel coding with a few code lengths* and Christoph Hirche with
+*Representations of f-Divergences and their role in Quantum Hypothesis Testing*.
+The owner requested presenting the complete recording as a joint talk with
+Hao-Chung Cheng. The card uses a concise combined title and names both contributions
+in its description. Both the watch link and the click-to-load player start at the
+beginning, preserving the context of the joint presentation.
 
 The owner chose click-to-load players. Cards use local CSS previews, YouTube's
 [privacy-enhanced embed domain](https://support.google.com/youtube/answer/171780?hl=en),
