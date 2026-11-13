@@ -240,8 +240,8 @@ Short research interests/project labels come from the individual profiles:
 [Hassan](https://www.tnt.uni-hannover.de/de/staff/hassan/),
 [Rajagopal](https://www.tnt.uni-hannover.de/de/staff/rajagopa/), and
 [Shaya](https://www.tnt.uni-hannover.de/de/staff/shaya/).
-The latter three profiles do not specify doctoral/postdoctoral employment roles;
-the page uses the neutral label “Group member”. Telephone and office information
+The owner confirmed on 13 November 2026 that Hassan, Rajagopal, and Shaya are
+PhD students; their cards now use the same label as Piet Wolter's. Telephone and office information
 remain on the institute profiles to avoid another copy to maintain.
 
 The owner chose the institute portrait for Hirche on the Group page only; the
