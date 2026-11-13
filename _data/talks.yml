@@ -26,6 +26,18 @@
   provider: YouTube
   video: py121nXbkzw
   url: https://www.youtube.com/watch?v=py121nXbkzw
+- title: Quantum channel coding and f-divergences — joint talk with Hao-Chung Cheng
+  anchor: quantum-channel-coding-and-f-divergences-qip-2026
+  description: >-
+    Full plenary recording covering “Quantum channel coding with a few code lengths”
+    and “Representations of f-Divergences and their role in Quantum Hypothesis Testing”.
+  event: QIP 2026 · Riga
+  year: 2026
+  date: '2026-01-29'
+  duration: 60 min
+  provider: YouTube
+  video: 7T6tkDOVrEg
+  url: https://www.youtube.com/watch?v=7T6tkDOVrEg
 - title: 'Contraction coefficients: A toolbox'
   anchor: contraction-coefficients-a-toolbox-banff-fundamental-limitations-to-quantum-computation-2024
   description: This talk collects several topics and publications and is meant as an overview talk.
