@@ -29,3 +29,11 @@
   image: /images/group/oxana-shaya.jpg
   image_width: 600
   image_height: 800
+
+- name: Piet Wolter
+  role: PhD student
+  focus: Information theory.
+  profile: https://www.tnt.uni-hannover.de/de/staff/wolterpi/
+  image: /images/group/piet-wolter.jpg
+  image_width: 600
+  image_height: 800

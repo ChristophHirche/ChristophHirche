@@ -327,6 +327,33 @@ The emphasis is editorial, not a bibliometric frequency claim. Content lives in
 CSS places it below the introduction on smaller screens. The original PNG stays
 at its public URL for compatibility.
 
+### Piet Wolter and QUANDA, 13 November 2026
+
+The owner requested adding the new PhD student Piet Wolter and confirmed
+“Information theory” as his research interest. The [institute staff directory](https://www.tnt.uni-hannover.de/de/staff/)
+lists him in Professor Hirche's group. His [institute profile](https://www.tnt.uni-hannover.de/de/staff/wolterpi/)
+provides the name, portrait, and contact information; the role and research-interest
+wording come from the owner. The original 600 × 800 JPEG was copied unchanged from
+`https://www.tnt.uni-hannover.de/staff/wolterpi/portrait.jpg` to
+`images/group/piet-wolter.jpg` on 13 November 2026. Photo rights remain with the
+original rights holders. Contact details stay on the linked institute profile.
+
+The owner supplied QUANDA's award **01MQ26002B** and the formal subproject title
+“Quantendatenrepräsentation für Anomalie-Detektion in Zeitreihen”, translated on the
+site as quantum data representations for anomaly detection in time series.
+The [12 November 2026 announcement by Technische Hochschule Deggendorf](https://idw-online.de/de/news880716)
+confirms the expansion *Quantum Anomaly Detection & Analysis*, BMFTR/QC Next funding,
+Leibniz University Hannover's participation, and the consortium's quantum machine
+learning/hybrid-computing work on anomaly detection for energy-sector applications.
+The card separates that consortium scope from the owner-supplied subproject scope.
+It does not claim a demonstrated quantum advantage, precise project dates, a
+funding amount, or Piet's assignment to this grant. No unverified logo is added.
+
+The footer includes QUANDA alongside the other current support. The two news
+entries use 13 November 2026 as the website announcement date, not as a claim about
+Piet's employment start or the grant's start date. The update preserves all routes
+and the existing content/template structure.
+
 ## Social alternatives
 
 [Bluesky supports individual post embeds](https://www.bsky.social/about/blog/post-embeds-guide).

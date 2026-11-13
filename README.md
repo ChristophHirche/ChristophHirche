@@ -141,8 +141,8 @@ brief research interests or project labels, and institute profile links in
 `_data/group.yml`. `_pages/team.md` contains the introduction and student-project
 links; `_includes/group-members.html` renders the cards. Verify membership against
 the institute's **Professor Hirches Gruppe** section, not its full staff list.
-The public profiles do not establish doctoral/postdoctoral job titles, so those
-roles are not inferred. Keep contact details on the linked institute profiles.
+Use specific employment roles only when published or confirmed by the owner;
+otherwise keep neutral member labels. Keep contact details on the linked institute profiles.
 
 Maintain position availability, collaboration invitations, and Bachelor/Master
 thesis opportunities in **Working with us** in `_pages/team.md`. The former
@@ -152,7 +152,7 @@ whose browser does not redirect. The shared head handles its `redirect_to` field
 without an extra plugin, points canonical metadata to the Group page, and omits
 analytics on the forwarding page to avoid counting an additional page view.
 
-Member portraits are served locally from `images/group/`. All four Group cards
+Member portraits are served locally from `images/group/`. All Group cards
 use institute portraits; Christoph's homepage portrait is unchanged. Each card
 uses the same research-interest label. Preserve image proportions and record
 new portrait sources in the audit when replacing them.
