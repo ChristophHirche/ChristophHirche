@@ -347,11 +347,23 @@ Leibniz University Hannover's participation, and the consortium's quantum machin
 learning/hybrid-computing work on anomaly detection for energy-sector applications.
 The card separates that consortium scope from the owner-supplied subproject scope.
 It does not claim a demonstrated quantum advantage, precise project dates, a
-funding amount, or Piet's assignment to this grant. No unverified logo is added.
+funding amount, or Piet's assignment to this grant.
 
-The footer includes QUANDA alongside the other current support. The two news
-entries use 13 November 2026 as the website announcement date, not as a claim about
-Piet's employment start or the grant's start date. The update preserves all routes
+No dedicated QUANDA logo was found in the checked public project announcements.
+The funding card uses the [official THD project-team photograph](https://idw-online.de/de/image?id=429867&size=screen)
+from the funding-certificate presentation, with the visible credit “© THD” and a
+link to its source. The source permits reuse with attribution in connection with
+the announcement. The supplied 799 × 533 screen JPEG was downloaded unchanged
+from `https://idw-online.de/de/newsimage429867?size=screen` to
+`images/funding/quanda-team.jpg`. It is displayed at a compact size without cropping.
+The funding template supports optional photo captions and source links; the
+existing logos retain their sizes and spacing.
+
+The footer includes QUANDA alongside the other current support. The owner
+confirmed Piet's start date as 1 November 2026, which dates his welcome news.
+The QUANDA news is dated 9 November 2026, the funding-certificate presentation
+reported in THD's announcement, not an inferred formal project start date.
+News remains in reverse chronological order. The update preserves all routes
 and the existing content/template structure.
 
 ## Social alternatives

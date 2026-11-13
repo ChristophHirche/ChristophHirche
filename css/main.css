@@ -105,8 +105,11 @@ li + li { margin-top: .4rem; }
 .funding-meta { color: var(--muted); font-size: .8rem; }
 .funding-meta p { margin-bottom: .65rem; }
 .funding-programme { color: var(--link); font-size: .9rem; font-weight: 650; }
-.funding-image { margin-top: 1.2rem; }
+.funding-image { margin: 1.2rem 0 0; }
 .funding-image img { display: block; max-width: 100%; height: auto; }
+.funding-photo { width: 12rem; max-width: 100%; }
+.funding-photo a { display: block; }
+.funding-photo figcaption { margin-top: .45rem; font-size: .75rem; }
 .funding-logo { width: 10rem; max-width: 100%; }
 .funding-logo-dfg { width: 12rem; padding: .75rem; background: #fff; }
 .funding-logo-quantumfrontiers { width: 6rem; }

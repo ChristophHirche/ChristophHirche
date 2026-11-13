@@ -1,16 +1,16 @@
-- date: 13. November 2026
-  headline: >-
-    Welcome to Piet Wolter, who joins our group as a PhD student working on
-    information theory.
-  url: /team/
-  link_text: Meet the group
-- date: 13. November 2026
+- date: 9. November 2026
   headline: >-
     New funding through QUANDA — Quantum Anomaly Detection &amp; Analysis.
     Our subproject focuses on quantum data representations for anomaly detection
     in time series.
   url: /research/#quanda
   link_text: About the project
+- date: 1. November 2026
+  headline: >-
+    Welcome to Piet Wolter, who joins our group as a PhD student working on
+    information theory.
+  url: /team/
+  link_text: Meet the group
 - date: 12. October 2026
   headline: >-
     Two new preprints on private capacity:
